@@ -53,7 +53,7 @@ Tests on generated data: `python analysis/snuh_cdm/tests/run_tests.py` (no restr
 
 ## Citation
 
-[Zenodo DOI and the paper's citation will be added here.]
+Yu H. duckcdm-fl-node: single-file OMOP CDM node with federated XGBoost and an export audit. Version 0.1.1. Zenodo; 2026. https://doi.org/10.5281/zenodo.23487070 (concept DOI, all versions; this version: https://doi.org/10.5281/zenodo.23487071). The paper's citation will be added when it is published.
 
 ## License
 
