@@ -1,0 +1,36 @@
+test_name,unit,match,priority,measurement_concept_id,loinc_code,unit_concept_id,ucum_unit,value_multiplier,value_offset,feature,source
+Creatinine(검사24시간가능),*,contains,10,,2160-0,,,1,0,Creatinine,seed: lab_config (DATAPREP cell 1); unit unchecked
+"[처방불가]Creatinine (serum, em)",*,contains,11,,2160-0,,,1,0,Creatinine,seed: lab_config (DATAPREP cell 1); unit unchecked
+Creatinine (serum),*,contains,12,,2160-0,,,1,0,Creatinine,seed: lab_config (DATAPREP cell 1); unit unchecked
+BUN(검사24시간가능),*,contains,20,,3094-0,,,1,0,BUN,seed: lab_config (DATAPREP cell 1); unit unchecked
+"[처방불가]BUN (serum, em)",*,contains,21,,3094-0,,,1,0,BUN,seed: lab_config (DATAPREP cell 1); unit unchecked
+Uric Acid(검사24시간가능),*,contains,30,,3084-1,,,1,0,Uric_Acid,seed: lab_config (DATAPREP cell 1); unit unchecked
+Sodium (serum)(검사24시간가능),*,contains,40,,2951-2,,,1,0,Sodium,seed: lab_config (DATAPREP cell 1); unit unchecked
+"[처방불가]Sodium (serum, em)",*,contains,41,,2951-2,,,1,0,Sodium,seed: lab_config (DATAPREP cell 1); unit unchecked
+Potassium (serum)(검사24시간가능),*,contains,50,,2823-3,,,1,0,Potassium,seed: lab_config (DATAPREP cell 1); unit unchecked
+"[POCT, ABGA]Potassium",*,contains,51,,6298-4,,,1,0,Potassium,seed: lab_config (DATAPREP cell 1); unit unchecked
+"[처방불가]Potassium (serum, em)",*,contains,52,,2823-3,,,1,0,Potassium,seed: lab_config (DATAPREP cell 1); unit unchecked
+Calcium(검사24시간가능),*,contains,60,,17861-6,,,1,0,Calcium,seed: lab_config (DATAPREP cell 1); unit unchecked
+Phosphorus(검사24시간가능),*,contains,70,,2777-1,,,1,0,Phosphorus,seed: lab_config (DATAPREP cell 1); unit unchecked
+"CO2, total (serum)",*,contains,80,,2028-9,,,1,0,Bicarbonate,seed: lab_config (DATAPREP cell 1); unit unchecked
+"CO2, total (serum, em)",*,contains,81,,2028-9,,,1,0,Bicarbonate,seed: lab_config (DATAPREP cell 1); unit unchecked
+Albumin(검사24시간가능),*,contains,90,,1751-7,,,1,0,Albumin,seed: lab_config (DATAPREP cell 1); unit unchecked
+[처방불가]Albumin (em),*,contains,91,,1751-7,,,1,0,Albumin,seed: lab_config (DATAPREP cell 1); unit unchecked
+"Protein, total(검사24시간가능)",*,contains,100,,2885-2,,,1,0,Total_Protein,seed: lab_config (DATAPREP cell 1); unit unchecked
+"[처방불가]Protein, total (em)",*,contains,101,,2885-2,,,1,0,Total_Protein,seed: lab_config (DATAPREP cell 1); unit unchecked
+"Bilirubin, total(검사24시간가능)",*,contains,110,,1975-2,,,1,0,Total_Bilirubin,seed: lab_config (DATAPREP cell 1); unit unchecked
+GOT (AST)(검사24시간가능),*,contains,120,,1920-8,,,1,0,AST,seed: lab_config (DATAPREP cell 1); unit unchecked
+GPT (ALT)(검사24시간가능),*,contains,130,,1742-6,,,1,0,ALT,seed: lab_config (DATAPREP cell 1); unit unchecked
+"GPT(ALT) [piccolo, 과내간이]",*,contains,131,,1742-6,,,1,0,ALT,seed: lab_config (DATAPREP cell 1); unit unchecked
+GGT(검사24시간가능),*,contains,140,,2324-2,,,1,0,GGT,seed: lab_config (DATAPREP cell 1); unit unchecked
+[처방불가]GGT (em),*,contains,141,,2324-2,,,1,0,GGT,seed: lab_config (DATAPREP cell 1); unit unchecked
+Hb(검사24시간가능),*,contains,150,,718-7,,,1,0,Hb,seed: lab_config (DATAPREP cell 1); unit unchecked
+"[POCT, ABGA]Hb",*,contains,151,,718-7,,,1,0,Hb,seed: lab_config (DATAPREP cell 1); unit unchecked
+Hb A1c,*,contains,160,,4548-4,,,1,0,HbA1c,seed: lab_config (DATAPREP cell 1); unit unchecked
+Glucose(검사24시간가능),*,contains,170,,2345-7,,,1,0,Glucose,seed: lab_config (DATAPREP cell 1); unit unchecked
+HDL-Cholesterol(검사24시간가능),*,contains,180,,2085-9,,,1,0,HDL,seed: lab_config (DATAPREP cell 1); unit unchecked
+Triglyceride,*,contains,190,,2571-8,,,1,0,TG,seed: lab_config (DATAPREP cell 1); unit unchecked
+Cholesterol(검사24시간가능),*,contains,200,,2093-3,,,1,0,Cholesterol,seed: lab_config (DATAPREP cell 1); unit unchecked
+Microalbumin/Creatinine Ratio,*,contains,210,,14959-1,,,1,0,UACR_Raw,seed: lab_config (DATAPREP cell 1); unit unchecked
+Microalbumin (random urine),*,contains,220,,14957-5,,,1,0,Urine_Microalbumin,seed: lab_config (DATAPREP cell 1); unit unchecked
+Creatinine (random urine),*,contains,230,,2161-8,,,1,0,Urine_Creatinine,seed: lab_config (DATAPREP cell 1); unit unchecked

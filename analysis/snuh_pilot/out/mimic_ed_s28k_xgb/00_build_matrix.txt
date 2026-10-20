@@ -1,0 +1,38 @@
+# 00_build_matrix  dataset=mimic_ed  (MIMIC-IV-ED full-2.2, first ED stay per person, with age)
+
+rows               : 28,209  (train 19,746 / val 8,463)
+outcome rate       : 34.9% (train 34.9%, val 34.9%)
+features           : 17
+data sha256        : ece124746ace08e8…
+
+missing per feature (before imputation)
+  temperature            7.3%
+  heartrate              5.7%
+  resprate               6.6%
+  o2sat                  6.5%
+  sbp                    6.0%
+  dbp                    6.2%
+  pain                  10.6%
+  n_prior_meds           0.0%
+  arrival_hour           0.0%
+  acuity                 2.6%
+  gender                 0.0%
+  arrival_ambulance      0.0%
+  arrival_walkin         0.0%
+  race_group             0.0%
+  arrival_weekend        0.0%
+  triage_incomplete      0.0%
+  age                    0.0%
+
+stratum (baseline eGFR / age quartile)
+  ESI1-2   10,814
+  ESI3     14,568
+  ESI4-5   2,086
+  NA       741
+
+subgroups
+  sg_sex         female: 15,040  male: 13,169
+  sg_arrival     ambulance: 10,356  other: 1,349  walk-in: 16,504
+  sg_esi         ESI1-2: 10,814  ESI3: 14,568  ESI4-5: 2,086  NA: 741
+  sg_race        asian: 1,550  black: 4,397  hispanic: 1,824  other: 3,007  white: 17,431
+  sg_age65       <65: 21,155  >=65: 7,054

@@ -1,0 +1,72 @@
+{
+  "dataset": "synpuf",
+  "scenario": "B1",
+  "seed": 42,
+  "config": "plain",
+  "server_mounts": [
+    "/fl/server1"
+  ],
+  "server_has_data_dir": false,
+  "server_data_files": 0,
+  "server_ip_forward": "0",
+  "site1_data_dirs": [
+    "site-1"
+  ],
+  "site1_data_files": [
+    "train.parquet",
+    "valid.parquet"
+  ],
+  "site1_networks": [
+    "snuh-t0_net1"
+  ],
+  "site1_reaches_server": "connected",
+  "site1_to_site2_by_name": "unresolved",
+  "site1_to_site2_by_ip": "ENETUNREACH",
+  "site1_to_internet": "ENETUNREACH",
+  "site2_data_dirs": [
+    "site-2"
+  ],
+  "site2_data_files": [
+    "train.parquet",
+    "valid.parquet"
+  ],
+  "site2_networks": [
+    "snuh-t0_net2"
+  ],
+  "site2_reaches_server": "connected",
+  "site2_to_site3_by_name": "unresolved",
+  "site2_to_site3_by_ip": "ENETUNREACH",
+  "site2_to_internet": "ENETUNREACH",
+  "site3_data_dirs": [
+    "site-3"
+  ],
+  "site3_data_files": [
+    "train.parquet",
+    "valid.parquet"
+  ],
+  "site3_networks": [
+    "snuh-t0_net3"
+  ],
+  "site3_reaches_server": "connected",
+  "site3_to_site1_by_name": "unresolved",
+  "site3_to_site1_by_ip": "ENETUNREACH",
+  "site3_to_internet": "ENETUNREACH",
+  "server_networks": [
+    "snuh-t0_ctl",
+    "snuh-t0_net1",
+    "snuh-t0_net2",
+    "snuh-t0_net3"
+  ],
+  "net_io_received_sent": {
+    "t0-server1": "144MB / 148MB",
+    "t0-site-1": "47.1MB / 47.9MB",
+    "t0-site-2": "47.1MB / 47.9MB",
+    "t0-site-3": "47.1MB / 47.9MB"
+  },
+  "isolation_ok": true,
+  "model_files": 3,
+  "site_models_identical_bytes": true,
+  "t0_val_auroc": 0.896305043529242,
+  "simulator_val_auroc": 0.896305043529242,
+  "max_abs_pred_diff_vs_simulator": 0.0
+}

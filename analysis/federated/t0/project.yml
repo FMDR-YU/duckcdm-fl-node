@@ -1,0 +1,33 @@
+api_version: 3
+name: snuh_t0
+description: Three isolated sites and a data-free aggregator for the federated XGBoost export study (T0)
+
+participants:
+  - name: server1
+    type: server
+    org: snuh
+    fed_learn_port: 8002
+  - name: site-1
+    type: client
+    org: snuh
+  - name: site-2
+    type: client
+    org: snuh
+  - name: site-3
+    type: client
+    org: snuh
+  - name: admin@snuh.local
+    type: admin
+    org: snuh
+    role: project_admin
+
+builders:
+  - path: nvflare.lighter.impl.workspace.WorkspaceBuilder
+    args:
+      template_file:
+        - master_template.yml
+  - path: nvflare.lighter.impl.static_file.StaticFileBuilder
+    args:
+      config_folder: config
+  - path: nvflare.lighter.impl.cert.CertBuilder
+  - path: nvflare.lighter.impl.signature.SignatureBuilder

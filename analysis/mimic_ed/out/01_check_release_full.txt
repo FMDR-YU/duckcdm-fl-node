@@ -1,0 +1,27 @@
+# 01_check_release  2026-10-07 04:08
+release            : full (data\mimic-iv-ed\full-2.2)
+
+checksums          : 8 ok, 0 missing/bad
+ED stays           : 425,087
+features           : 16
+admitted           : 158,010 (37.2%)
+
+continuous (median after imputation)
+  temperature            98.0
+  heartrate              84.0
+  resprate               18.0
+  o2sat                  99.0
+  sbp                   133.0
+  dbp                    77.0
+  pain                    4.0
+  n_prior_meds            4.0
+  arrival_hour           14.0
+
+categorical (level: stays, cells <11 suppressed)
+  acuity             1: 24,019  2: 139,411  3: 232,053  4: 28,504  5: 1,100
+  gender             0: 229,898  1: 195,189
+  arrival_ambulance  0: 268,467  1: 156,620
+  arrival_walkin     0: 173,238  1: 251,849
+  race_group         0: 31,504  1: 246,002  2: 92,998  3: 34,511  4: 18,528  5: 1,544
+  arrival_weekend    0: 303,543  1: 121,544
+  triage_incomplete  0: 392,620  1: 32,467

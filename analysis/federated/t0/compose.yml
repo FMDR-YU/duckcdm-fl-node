@@ -1,0 +1,74 @@
+# T0: a data-free aggregator, three sites on separate internal networks, one admin on a control network.
+# The aggregator (server1) is the only container attached to the site networks; the sites see only their own
+# data folder; nothing has a route to the outside (internal networks). Variables come from t0.py.
+name: snuh-t0
+
+x-fl: &fl
+  image: snuh-fl-flare:0.1
+  restart: "no"
+  environment:
+    PYTHONDONTWRITEBYTECODE: "1"
+
+networks:
+  net1: {internal: true}
+  net2: {internal: true}
+  net3: {internal: true}
+  ctl: {internal: true}
+
+services:
+  server1:
+    <<: *fl
+    container_name: t0-server1
+    hostname: server1
+    command: ["bash", "/fl/server1/startup/sub_start.sh", "--once"]
+    sysctls:
+      net.ipv4.ip_forward: "0"      # the aggregator is on every site network but must not route between them
+    volumes:
+      - ${T0_KITS}/server1:/fl/server1
+    networks:
+      net1: {aliases: [server1]}
+      net2: {aliases: [server1]}
+      net3: {aliases: [server1]}
+      ctl: {aliases: [server1]}
+
+  site-1:
+    <<: *fl
+    container_name: t0-site-1
+    hostname: site-1
+    command: ["bash", "/fl/site-1/startup/sub_start.sh", "--once"]
+    volumes:
+      - ${T0_KITS}/site-1:/fl/site-1
+      - ${T0_DATA}/site-1:/data/site-1:ro
+    networks: [net1]
+
+  site-2:
+    <<: *fl
+    container_name: t0-site-2
+    hostname: site-2
+    command: ["bash", "/fl/site-2/startup/sub_start.sh", "--once"]
+    volumes:
+      - ${T0_KITS}/site-2:/fl/site-2
+      - ${T0_DATA}/site-2:/data/site-2:ro
+    networks: [net2]
+
+  site-3:
+    <<: *fl
+    container_name: t0-site-3
+    hostname: site-3
+    command: ["bash", "/fl/site-3/startup/sub_start.sh", "--once"]
+    volumes:
+      - ${T0_KITS}/site-3:/fl/site-3
+      - ${T0_DATA}/site-3:/data/site-3:ro
+    networks: [net3]
+
+  # The researcher's side: submits the job definition. No patient data is mounted here either.
+  admin:
+    <<: *fl
+    container_name: t0-admin
+    profiles: ["admin"]
+    working_dir: /work/analysis/federated
+    volumes:
+      - ${T0_KITS}/admin@snuh.local:/fl/admin
+      - ${T0_ANALYSIS}:/work/analysis:ro
+      - ${T0_OUT}:/out
+    networks: [ctl]

@@ -1,0 +1,37 @@
+{
+ "tau": 0.1,
+ "target_sensitivity": 0.9,
+ "cells": 141,
+ "rules": {
+  "shadow_auc": {
+   "label": "shadow-model AUC",
+   "release_if": "<=",
+   "threshold": 0.5378630277777777
+  },
+  "lira_auc": {
+   "label": "LiRA AUC (ordinary rows)",
+   "release_if": "<=",
+   "threshold": 0.628959
+  },
+  "lira_tpr1": {
+   "label": "LiRA TPR@1%FPR (ordinary rows)",
+   "release_if": "<=",
+   "threshold": 0.0457777777777777
+  },
+  "auc_gap": {
+   "label": "member / non-member AUROC gap",
+   "release_if": "<=",
+   "threshold": 0.0517308463484976
+  },
+  "leaf_lt11": {
+   "label": "share of leaves < 11 rows",
+   "release_if": "<=",
+   "threshold": null
+  },
+  "n": {
+   "label": "training rows (a larger value is safer)",
+   "release_if": ">=",
+   "threshold": null
+  }
+ }
+}

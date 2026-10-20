@@ -1,0 +1,46 @@
+# 00_build_matrix  dataset=synpuf  (CMS DE-SynPUF 2008 sample 1 (development substitute))
+
+rows               : 3,000  (train 2,100 / val 900)
+outcome rate       : 37.9% (train 37.9%, val 37.9%)
+features           : 27
+data sha256        : 14948ba41e655f51…
+
+missing per feature (before imputation)
+  age                    0.0%
+  BENE_HI_CVRAGE_TOT_MONS   0.0%
+  BENE_SMI_CVRAGE_TOT_MONS   0.0%
+  BENE_HMO_CVRAGE_TOT_MONS   0.0%
+  PLAN_CVRG_MOS_NUM      0.0%
+  MEDREIMB_IP            0.0%
+  BENRES_IP              0.0%
+  PPPYMT_IP              0.0%
+  MEDREIMB_OP            0.0%
+  BENRES_OP              0.0%
+  PPPYMT_OP              0.0%
+  MEDREIMB_CAR           0.0%
+  BENRES_CAR             0.0%
+  PPPYMT_CAR             0.0%
+  sex                    0.0%
+  race                   0.0%
+  esrd                   0.0%
+  sp_alzhdmta            0.0%
+  sp_chf                 0.0%
+  sp_chrnkidn            0.0%
+  sp_cncr                0.0%
+  sp_copd                0.0%
+  sp_depressn            0.0%
+  sp_ischmcht            0.0%
+  sp_osteoprs            0.0%
+  sp_ra_oa               0.0%
+  sp_strketia            0.0%
+
+stratum (baseline eGFR / age quartile)
+  Q1       799
+  Q2       785
+  Q3       710
+  Q4       706
+
+subgroups
+  sg_age75       <75: 1,829  >=75: 1,171
+  sg_sex         0: 1,652  1: 1,348
+  sg_esrd        0: 2,782  1: 218

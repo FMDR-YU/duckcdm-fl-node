@@ -1,0 +1,7 @@
+nvflare==2.9.0
+xgboost==3.2.0
+scikit-learn==1.9.1
+pandas==3.0.6
+pyarrow==26.0.0
+numpy==2.5.3
+tensorboard==2.21.0

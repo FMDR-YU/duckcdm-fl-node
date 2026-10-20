@@ -1,0 +1,9 @@
+seed,variant,target,component,share_leaves_lt11,share_trees_with_leaf_lt11
+42,xgb_krcp,A_0,xgb,0.1716350040420372,0.93
+42,xgb_krcp,B1_0,xgb,0.13267561168113653,0.506
+42,xgb_krcp,F_B1,xgb,0.16841889327657827,0.948
+42,xgb_leaky,A_0,xgb,0.7134840838758555,0.225
+42,xgb_leaky,B1_0,xgb,0.7375567266871614,0.178
+42,xgb_regularized,A_0,xgb,0.01330166270783848,0.16333333333333333
+42,xgb_regularized,B1_0,xgb,0.022192866578599736,0.24
+42,xgb_regularized,F_B1,xgb,0.011987532965715655,0.15

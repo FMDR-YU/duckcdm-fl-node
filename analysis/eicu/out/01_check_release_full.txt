@@ -1,0 +1,40 @@
+# 01_check_release  2026-10-12 11:19
+release            : full (full-2.0)
+
+required files     : 3 of 3 present
+checksums          : 3 ok, 0 bad (compared for the 3 required files that are present)
+ICU stays          : 200,859
+people             : 139,367  (first stay each)
+analysis rows      : 132,251  (first stay with APACHE IV first-day variables and a known hospital outcome)
+features           : 47
+hospital mortality : 12,588 (9.5%)
+train / validation : 92,575 / 39,676
+
+persons per hospital (analysis rows): hospitals and the people in them
+  hospitals        : 207
+  with >= 100      : 171 hospitals, 131,062 people (99.1% of the rows)
+  with >= 500      : 83 hospitals, 107,183 people (81.0% of the rows)
+  with >= 1000     : 41 hospitals, 76,035 people (57.5% of the rows)
+  with >= 2000     : 14 hospitals, 39,722 people (30.0% of the rows)
+
+stratum (unit type group)
+  med-surg           73,445
+  medical-cardiac    30,687
+  surgical           17,642
+  neuro              10,477
+
+missing per feature (share)
+  electivesurgery        79.3%
+  ph                     77.6%
+  pco2                   77.6%
+  pao2                   77.6%
+  fio2                   77.6%
+  bilirubin              64.4%
+  albumin                61.2%
+  urine                  49.7%
+  wbc                    25.0%
+  hematocrit             22.9%
+  bun                    21.9%
+  creatinine             21.5%
+  sodium                 21.2%
+  glucose                13.5%

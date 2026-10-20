@@ -1,0 +1,69 @@
+{
+  "dataset": "synpuf",
+  "tag": "",
+  "scenario": "B1",
+  "seed": 42,
+  "config": "plain",
+  "rounds": 100,
+  "params": {
+    "objective": "binary:logistic",
+    "eval_metric": "auc",
+    "tree_method": "hist",
+    "max_bin": 256,
+    "nthread": 4,
+    "seed": 42,
+    "max_depth": 6,
+    "eta": 0.1,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0
+  },
+  "n_val": "8,463",
+  "arms": {
+    "A_x": {
+      "auroc": 0.8963050435292421,
+      "auprc": 0.8196619376259101,
+      "brier": 0.1273085438549519,
+      "logloss": 0.38170426214271475,
+      "seconds": 0.2,
+      "n_train": "19,746"
+    },
+    "B_0": {
+      "auroc": 0.8908836634941243,
+      "auprc": 0.8076422361417095,
+      "brier": 0.13102812951928222,
+      "logloss": 0.39287972403817695,
+      "seconds": 0.1,
+      "n_train": "6,582"
+    },
+    "B_1": {
+      "auroc": 0.8908478811575437,
+      "auprc": 0.8095768921849398,
+      "brier": 0.131272351387284,
+      "logloss": 0.3937471489246718,
+      "seconds": 0.1,
+      "n_train": "6,582"
+    },
+    "B_2": {
+      "auroc": 0.8922224450788605,
+      "auprc": 0.8117891764288028,
+      "brier": 0.1303348611587987,
+      "logloss": 0.3921849994613181,
+      "seconds": 0.1,
+      "n_train": "6,582"
+    },
+    "B_avg": {
+      "auroc": 0.8971397273540237,
+      "auprc": 0.8218042428974845,
+      "brier": 0.1268761276507255,
+      "logloss": 0.38023408170558093
+    }
+  },
+  "federated": {
+    "use_federated_build": false
+  },
+  "versions": {
+    "python": "3.14.3",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "xgboost": "3.2.0"
+  }
+}

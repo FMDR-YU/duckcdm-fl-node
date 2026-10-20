@@ -1,0 +1,2026 @@
+=== run_pilot eicu tag=h3b model=xgb 2026-10-19 14:34 from 00
+[00_build_matrix.py] start 14:34
+done -> analysis\snuh_pilot\out\eicu_h3b_xgb\00_build_matrix.txt
+[00_build_matrix.py] done in 0.1 min
+[01_train_targets.py] start 14:34
+  seed 42 xgb_krcp    A_0       n=6,408      2s
+  seed 42 xgb_krcp    Aprime_0  n=2,136      1s
+  seed 42 xgb_krcp    B1_0      n=2,982      1s
+  seed 42 xgb_krcp    B1_1      n=1,932      1s
+  seed 42 xgb_krcp    B1_2      n=1,494      1s
+  seed 42 xgb_krcp    B2_0      n=2,982      1s
+  seed 42 xgb_krcp    B2_1      n=1,932      1s
+  seed 42 xgb_krcp    B2_2      n=1,494      1s
+  seed 42 xgb_krcp    F_B1      federated model file
+  seed 42 xgb_leaky   A_0       n=6,408      4s
+  seed 42 xgb_leaky   Aprime_0  n=2,136      2s
+  seed 42 xgb_leaky   B1_0      n=2,982      2s
+  seed 42 xgb_leaky   B1_1      n=1,932      2s
+  seed 42 xgb_leaky   B1_2      n=1,494      1s
+  seed 42 xgb_leaky   B2_0      n=2,982      2s
+  seed 42 xgb_leaky   B2_1      n=1,932      2s
+  seed 42 xgb_leaky   B2_2      n=1,494      2s
+  seed 42 xgb_regularized A_0       n=6,408      0s
+  seed 42 xgb_regularized Aprime_0  n=2,136      0s
+  seed 42 xgb_regularized B1_0      n=2,982      0s
+  seed 42 xgb_regularized B1_1      n=1,932      0s
+  seed 42 xgb_regularized B1_2      n=1,494      0s
+  seed 42 xgb_regularized B2_0      n=2,982      0s
+  seed 42 xgb_regularized B2_1      n=1,932      0s
+  seed 42 xgb_regularized B2_2      n=1,494      0s
+  seed 42 xgb_regularized F_B1      federated model file
+  seed 43 xgb_krcp    A_0       n=6,408      1s
+  seed 43 xgb_krcp    Aprime_0  n=2,136      1s
+  seed 43 xgb_krcp    B1_0      n=2,982      1s
+  seed 43 xgb_krcp    B1_1      n=1,932      1s
+  seed 43 xgb_krcp    B1_2      n=1,494      1s
+  seed 43 xgb_krcp    B2_0      n=2,982      1s
+  seed 43 xgb_krcp    B2_1      n=1,932      1s
+  seed 43 xgb_krcp    B2_2      n=1,494      1s
+  seed 43 xgb_krcp    F_B1      federated model file
+  seed 43 xgb_leaky   A_0       n=6,408      4s
+  seed 43 xgb_leaky   Aprime_0  n=2,136      2s
+  seed 43 xgb_leaky   B1_0      n=2,982      2s
+  seed 43 xgb_leaky   B1_1      n=1,932      2s
+  seed 43 xgb_leaky   B1_2      n=1,494      1s
+  seed 43 xgb_leaky   B2_0      n=2,982      2s
+  seed 43 xgb_leaky   B2_1      n=1,932      1s
+  seed 43 xgb_leaky   B2_2      n=1,494      1s
+  seed 43 xgb_regularized A_0       n=6,408      0s
+  seed 43 xgb_regularized Aprime_0  n=2,136      0s
+  seed 43 xgb_regularized B1_0      n=2,982      0s
+  seed 43 xgb_regularized B1_1      n=1,932      0s
+  seed 43 xgb_regularized B1_2      n=1,494      0s
+  seed 43 xgb_regularized B2_0      n=2,982      0s
+  seed 43 xgb_regularized B2_1      n=1,932      0s
+  seed 43 xgb_regularized B2_2      n=1,494      0s
+  seed 43 xgb_regularized F_B1      federated model file
+  seed 44 xgb_krcp    A_0       n=6,408      1s
+  seed 44 xgb_krcp    Aprime_0  n=2,136      1s
+  seed 44 xgb_krcp    B1_0      n=2,982      1s
+  seed 44 xgb_krcp    B1_1      n=1,932      1s
+  seed 44 xgb_krcp    B1_2      n=1,494      1s
+  seed 44 xgb_krcp    B2_0      n=2,982      1s
+  seed 44 xgb_krcp    B2_1      n=1,932      1s
+  seed 44 xgb_krcp    B2_2      n=1,494      1s
+  seed 44 xgb_krcp    F_B1      federated model file
+  seed 44 xgb_leaky   A_0       n=6,408      4s
+  seed 44 xgb_leaky   Aprime_0  n=2,136      2s
+  seed 44 xgb_leaky   B1_0      n=2,982      2s
+  seed 44 xgb_leaky   B1_1      n=1,932      2s
+  seed 44 xgb_leaky   B1_2      n=1,494      1s
+  seed 44 xgb_leaky   B2_0      n=2,982      2s
+  seed 44 xgb_leaky   B2_1      n=1,932      1s
+  seed 44 xgb_leaky   B2_2      n=1,494      1s
+  seed 44 xgb_regularized A_0       n=6,408      0s
+  seed 44 xgb_regularized Aprime_0  n=2,136      0s
+  seed 44 xgb_regularized B1_0      n=2,982      0s
+  seed 44 xgb_regularized B1_1      n=1,932      0s
+  seed 44 xgb_regularized B1_2      n=1,494      0s
+  seed 44 xgb_regularized B2_0      n=2,982      0s
+  seed 44 xgb_regularized B2_1      n=1,932      0s
+  seed 44 xgb_regularized B2_2      n=1,494      0s
+  seed 44 xgb_regularized F_B1      federated model file
+  seed 45 xgb_krcp    A_0       n=6,408      1s
+  seed 45 xgb_krcp    Aprime_0  n=2,136      1s
+  seed 45 xgb_krcp    B1_0      n=2,982      1s
+  seed 45 xgb_krcp    B1_1      n=1,932      1s
+  seed 45 xgb_krcp    B1_2      n=1,494      1s
+  seed 45 xgb_krcp    B2_0      n=2,982      1s
+  seed 45 xgb_krcp    B2_1      n=1,932      1s
+  seed 45 xgb_krcp    B2_2      n=1,494      1s
+  seed 45 xgb_krcp    F_B1      federated model file
+  seed 45 xgb_leaky   A_0       n=6,408      4s
+  seed 45 xgb_leaky   Aprime_0  n=2,136      2s
+  seed 45 xgb_leaky   B1_0      n=2,982      2s
+  seed 45 xgb_leaky   B1_1      n=1,932      2s
+  seed 45 xgb_leaky   B1_2      n=1,494      1s
+  seed 45 xgb_leaky   B2_0      n=2,982      2s
+  seed 45 xgb_leaky   B2_1      n=1,932      1s
+  seed 45 xgb_leaky   B2_2      n=1,494      1s
+  seed 45 xgb_regularized A_0       n=6,408      0s
+  seed 45 xgb_regularized Aprime_0  n=2,136      0s
+  seed 45 xgb_regularized B1_0      n=2,982      0s
+  seed 45 xgb_regularized B1_1      n=1,932      0s
+  seed 45 xgb_regularized B1_2      n=1,494      0s
+  seed 45 xgb_regularized B2_0      n=2,982      0s
+  seed 45 xgb_regularized B2_1      n=1,932      0s
+  seed 45 xgb_regularized B2_2      n=1,494      0s
+  seed 45 xgb_regularized F_B1      federated model file
+  seed 46 xgb_krcp    A_0       n=6,408      1s
+  seed 46 xgb_krcp    Aprime_0  n=2,136      1s
+  seed 46 xgb_krcp    B1_0      n=2,982      1s
+  seed 46 xgb_krcp    B1_1      n=1,932      1s
+  seed 46 xgb_krcp    B1_2      n=1,494      1s
+  seed 46 xgb_krcp    B2_0      n=2,982      1s
+  seed 46 xgb_krcp    B2_1      n=1,932      1s
+  seed 46 xgb_krcp    B2_2      n=1,494      1s
+  seed 46 xgb_krcp    F_B1      federated model file
+  seed 46 xgb_leaky   A_0       n=6,408      5s
+  seed 46 xgb_leaky   Aprime_0  n=2,136      2s
+  seed 46 xgb_leaky   B1_0      n=2,982      2s
+  seed 46 xgb_leaky   B1_1      n=1,932      2s
+  seed 46 xgb_leaky   B1_2      n=1,494      2s
+  seed 46 xgb_leaky   B2_0      n=2,982      2s
+  seed 46 xgb_leaky   B2_1      n=1,932      2s
+  seed 46 xgb_leaky   B2_2      n=1,494      1s
+  seed 46 xgb_regularized A_0       n=6,408      0s
+  seed 46 xgb_regularized Aprime_0  n=2,136      0s
+  seed 46 xgb_regularized B1_0      n=2,982      0s
+  seed 46 xgb_regularized B1_1      n=1,932      0s
+  seed 46 xgb_regularized B1_2      n=1,494      0s
+  seed 46 xgb_regularized B2_0      n=2,982      0s
+  seed 46 xgb_regularized B2_1      n=1,932      0s
+  seed 46 xgb_regularized B2_2      n=1,494      0s
+  seed 46 xgb_regularized F_B1      federated model file
+  seed 47 xgb_krcp    A_0       n=6,408      1s
+  seed 47 xgb_krcp    Aprime_0  n=2,136      1s
+  seed 47 xgb_krcp    B1_0      n=2,982      1s
+  seed 47 xgb_krcp    B1_1      n=1,932      1s
+  seed 47 xgb_krcp    B1_2      n=1,494      1s
+  seed 47 xgb_krcp    B2_0      n=2,982      1s
+  seed 47 xgb_krcp    B2_1      n=1,932      1s
+  seed 47 xgb_krcp    B2_2      n=1,494      1s
+  seed 47 xgb_krcp    F_B1      federated model file
+  seed 47 xgb_leaky   A_0       n=6,408      5s
+  seed 47 xgb_leaky   Aprime_0  n=2,136      2s
+  seed 47 xgb_leaky   B1_0      n=2,982      2s
+  seed 47 xgb_leaky   B1_1      n=1,932      2s
+  seed 47 xgb_leaky   B1_2      n=1,494      2s
+  seed 47 xgb_leaky   B2_0      n=2,982      3s
+  seed 47 xgb_leaky   B2_1      n=1,932      2s
+  seed 47 xgb_leaky   B2_2      n=1,494      2s
+  seed 47 xgb_regularized A_0       n=6,408      1s
+  seed 47 xgb_regularized Aprime_0  n=2,136      0s
+  seed 47 xgb_regularized B1_0      n=2,982      0s
+  seed 47 xgb_regularized B1_1      n=1,932      0s
+  seed 47 xgb_regularized B1_2      n=1,494      0s
+  seed 47 xgb_regularized B2_0      n=2,982      0s
+  seed 47 xgb_regularized B2_1      n=1,932      0s
+  seed 47 xgb_regularized B2_2      n=1,494      0s
+  seed 47 xgb_regularized F_B1      federated model file
+  seed 48 xgb_krcp    A_0       n=6,408      2s
+  seed 48 xgb_krcp    Aprime_0  n=2,136      1s
+  seed 48 xgb_krcp    B1_0      n=2,982      1s
+  seed 48 xgb_krcp    B1_1      n=1,932      1s
+  seed 48 xgb_krcp    B1_2      n=1,494      1s
+  seed 48 xgb_krcp    B2_0      n=2,982      1s
+  seed 48 xgb_krcp    B2_1      n=1,932      1s
+  seed 48 xgb_krcp    B2_2      n=1,494      1s
+  seed 48 xgb_krcp    F_B1      federated model file
+  seed 48 xgb_leaky   A_0       n=6,408      6s
+  seed 48 xgb_leaky   Aprime_0  n=2,136      2s
+  seed 48 xgb_leaky   B1_0      n=2,982      2s
+  seed 48 xgb_leaky   B1_1      n=1,932      2s
+  seed 48 xgb_leaky   B1_2      n=1,494      2s
+  seed 48 xgb_leaky   B2_0      n=2,982      3s
+  seed 48 xgb_leaky   B2_1      n=1,932      2s
+  seed 48 xgb_leaky   B2_2      n=1,494      2s
+  seed 48 xgb_regularized A_0       n=6,408      1s
+  seed 48 xgb_regularized Aprime_0  n=2,136      0s
+  seed 48 xgb_regularized B1_0      n=2,982      0s
+  seed 48 xgb_regularized B1_1      n=1,932      0s
+  seed 48 xgb_regularized B1_2      n=1,494      0s
+  seed 48 xgb_regularized B2_0      n=2,982      0s
+  seed 48 xgb_regularized B2_1      n=1,932      0s
+  seed 48 xgb_regularized B2_2      n=1,494      0s
+  seed 48 xgb_regularized F_B1      federated model file
+  seed 49 xgb_krcp    A_0       n=6,408      1s
+  seed 49 xgb_krcp    Aprime_0  n=2,136      1s
+  seed 49 xgb_krcp    B1_0      n=2,982      1s
+  seed 49 xgb_krcp    B1_1      n=1,932      1s
+  seed 49 xgb_krcp    B1_2      n=1,494      1s
+  seed 49 xgb_krcp    B2_0      n=2,982      1s
+  seed 49 xgb_krcp    B2_1      n=1,932      1s
+  seed 49 xgb_krcp    B2_2      n=1,494      1s
+  seed 49 xgb_krcp    F_B1      federated model file
+  seed 49 xgb_leaky   A_0       n=6,408      4s
+  seed 49 xgb_leaky   Aprime_0  n=2,136      1s
+  seed 49 xgb_leaky   B1_0      n=2,982      2s
+  seed 49 xgb_leaky   B1_1      n=1,932      2s
+  seed 49 xgb_leaky   B1_2      n=1,494      1s
+  seed 49 xgb_leaky   B2_0      n=2,982      2s
+  seed 49 xgb_leaky   B2_1      n=1,932      2s
+  seed 49 xgb_leaky   B2_2      n=1,494      2s
+  seed 49 xgb_regularized A_0       n=6,408      0s
+  seed 49 xgb_regularized Aprime_0  n=2,136      0s
+  seed 49 xgb_regularized B1_0      n=2,982      0s
+  seed 49 xgb_regularized B1_1      n=1,932      0s
+  seed 49 xgb_regularized B1_2      n=1,494      0s
+  seed 49 xgb_regularized B2_0      n=2,982      0s
+  seed 49 xgb_regularized B2_1      n=1,932      0s
+  seed 49 xgb_regularized B2_2      n=1,494      0s
+  seed 49 xgb_regularized F_B1      federated model file
+  seed 50 xgb_krcp    A_0       n=6,408      1s
+  seed 50 xgb_krcp    Aprime_0  n=2,136      1s
+  seed 50 xgb_krcp    B1_0      n=2,982      1s
+  seed 50 xgb_krcp    B1_1      n=1,932      1s
+  seed 50 xgb_krcp    B1_2      n=1,494      1s
+  seed 50 xgb_krcp    B2_0      n=2,982      1s
+  seed 50 xgb_krcp    B2_1      n=1,932      1s
+  seed 50 xgb_krcp    B2_2      n=1,494      1s
+  seed 50 xgb_krcp    F_B1      federated model file
+  seed 50 xgb_leaky   A_0       n=6,408      4s
+  seed 50 xgb_leaky   Aprime_0  n=2,136      2s
+  seed 50 xgb_leaky   B1_0      n=2,982      2s
+  seed 50 xgb_leaky   B1_1      n=1,932      2s
+  seed 50 xgb_leaky   B1_2      n=1,494      1s
+  seed 50 xgb_leaky   B2_0      n=2,982      2s
+  seed 50 xgb_leaky   B2_1      n=1,932      2s
+  seed 50 xgb_leaky   B2_2      n=1,494      1s
+  seed 50 xgb_regularized A_0       n=6,408      0s
+  seed 50 xgb_regularized Aprime_0  n=2,136      0s
+  seed 50 xgb_regularized B1_0      n=2,982      0s
+  seed 50 xgb_regularized B1_1      n=1,932      0s
+  seed 50 xgb_regularized B1_2      n=1,494      0s
+  seed 50 xgb_regularized B2_0      n=2,982      0s
+  seed 50 xgb_regularized B2_1      n=1,932      0s
+  seed 50 xgb_regularized B2_2      n=1,494      0s
+  seed 50 xgb_regularized F_B1      federated model file
+  seed 51 xgb_krcp    A_0       n=6,408      1s
+  seed 51 xgb_krcp    Aprime_0  n=2,136      1s
+  seed 51 xgb_krcp    B1_0      n=2,982      1s
+  seed 51 xgb_krcp    B1_1      n=1,932      1s
+  seed 51 xgb_krcp    B1_2      n=1,494      1s
+  seed 51 xgb_krcp    B2_0      n=2,982      1s
+  seed 51 xgb_krcp    B2_1      n=1,932      1s
+  seed 51 xgb_krcp    B2_2      n=1,494      1s
+  seed 51 xgb_krcp    F_B1      federated model file
+  seed 51 xgb_leaky   A_0       n=6,408      4s
+  seed 51 xgb_leaky   Aprime_0  n=2,136      1s
+  seed 51 xgb_leaky   B1_0      n=2,982      1s
+  seed 51 xgb_leaky   B1_1      n=1,932      2s
+  seed 51 xgb_leaky   B1_2      n=1,494      2s
+  seed 51 xgb_leaky   B2_0      n=2,982      2s
+  seed 51 xgb_leaky   B2_1      n=1,932      2s
+  seed 51 xgb_leaky   B2_2      n=1,494      2s
+  seed 51 xgb_regularized A_0       n=6,408      0s
+  seed 51 xgb_regularized Aprime_0  n=2,136      0s
+  seed 51 xgb_regularized B1_0      n=2,982      0s
+  seed 51 xgb_regularized B1_1      n=1,932      0s
+  seed 51 xgb_regularized B1_2      n=1,494      0s
+  seed 51 xgb_regularized B2_0      n=2,982      0s
+  seed 51 xgb_regularized B2_1      n=1,932      0s
+  seed 51 xgb_regularized B2_2      n=1,494      0s
+  seed 51 xgb_regularized F_B1      federated model file
+done -> analysis\snuh_pilot\out\eicu_h3b_xgb\01_utility_long.csv
+[01_train_targets.py] done in 8.3 min
+[02_train_shadows.py] start 14:42
+  xgb_krcp    full  shadow   1/64  n=6,408      2s
+  xgb_krcp    full  shadow   2/64  n=6,408      1s
+  xgb_krcp    full  shadow   3/64  n=6,408      1s
+  xgb_krcp    full  shadow   4/64  n=6,408      1s
+  xgb_krcp    full  shadow   5/64  n=6,408      1s
+  xgb_krcp    full  shadow   6/64  n=6,408      1s
+  xgb_krcp    full  shadow   7/64  n=6,408      1s
+  xgb_krcp    full  shadow   8/64  n=6,408      1s
+  xgb_krcp    full  shadow   9/64  n=6,408      1s
+  xgb_krcp    full  shadow  10/64  n=6,408      1s
+  xgb_krcp    full  shadow  11/64  n=6,408      1s
+  xgb_krcp    full  shadow  12/64  n=6,408      1s
+  xgb_krcp    full  shadow  13/64  n=6,408      1s
+  xgb_krcp    full  shadow  14/64  n=6,408      1s
+  xgb_krcp    full  shadow  15/64  n=6,408      1s
+  xgb_krcp    full  shadow  16/64  n=6,408      1s
+  xgb_krcp    full  shadow  17/64  n=6,408      1s
+  xgb_krcp    full  shadow  18/64  n=6,408      1s
+  xgb_krcp    full  shadow  19/64  n=6,408      1s
+  xgb_krcp    full  shadow  20/64  n=6,408      1s
+  xgb_krcp    full  shadow  21/64  n=6,408      1s
+  xgb_krcp    full  shadow  22/64  n=6,408      1s
+  xgb_krcp    full  shadow  23/64  n=6,408      1s
+  xgb_krcp    full  shadow  24/64  n=6,408      1s
+  xgb_krcp    full  shadow  25/64  n=6,408      1s
+  xgb_krcp    full  shadow  26/64  n=6,408      1s
+  xgb_krcp    full  shadow  27/64  n=6,408      1s
+  xgb_krcp    full  shadow  28/64  n=6,408      1s
+  xgb_krcp    full  shadow  29/64  n=6,408      1s
+  xgb_krcp    full  shadow  30/64  n=6,408      1s
+  xgb_krcp    full  shadow  31/64  n=6,408      1s
+  xgb_krcp    full  shadow  32/64  n=6,408      1s
+  xgb_krcp    full  shadow  33/64  n=6,408      1s
+  xgb_krcp    full  shadow  34/64  n=6,408      1s
+  xgb_krcp    full  shadow  35/64  n=6,408      1s
+  xgb_krcp    full  shadow  36/64  n=6,408      1s
+  xgb_krcp    full  shadow  37/64  n=6,408      1s
+  xgb_krcp    full  shadow  38/64  n=6,408      1s
+  xgb_krcp    full  shadow  39/64  n=6,408      1s
+  xgb_krcp    full  shadow  40/64  n=6,408      1s
+  xgb_krcp    full  shadow  41/64  n=6,408      1s
+  xgb_krcp    full  shadow  42/64  n=6,408      1s
+  xgb_krcp    full  shadow  43/64  n=6,408      1s
+  xgb_krcp    full  shadow  44/64  n=6,408      1s
+  xgb_krcp    full  shadow  45/64  n=6,408      1s
+  xgb_krcp    full  shadow  46/64  n=6,408      1s
+  xgb_krcp    full  shadow  47/64  n=6,408      1s
+  xgb_krcp    full  shadow  48/64  n=6,408      1s
+  xgb_krcp    full  shadow  49/64  n=6,408      1s
+  xgb_krcp    full  shadow  50/64  n=6,408      1s
+  xgb_krcp    full  shadow  51/64  n=6,408      1s
+  xgb_krcp    full  shadow  52/64  n=6,408      1s
+  xgb_krcp    full  shadow  53/64  n=6,408      1s
+  xgb_krcp    full  shadow  54/64  n=6,408      1s
+  xgb_krcp    full  shadow  55/64  n=6,408      1s
+  xgb_krcp    full  shadow  56/64  n=6,408      1s
+  xgb_krcp    full  shadow  57/64  n=6,408      1s
+  xgb_krcp    full  shadow  58/64  n=6,408      1s
+  xgb_krcp    full  shadow  59/64  n=6,408      1s
+  xgb_krcp    full  shadow  60/64  n=6,408      1s
+  xgb_krcp    full  shadow  61/64  n=6,408      1s
+  xgb_krcp    full  shadow  62/64  n=6,408      1s
+  xgb_krcp    full  shadow  63/64  n=6,408      1s
+  xgb_krcp    full  shadow  64/64  n=6,408      1s
+  xgb_krcp    site  shadow   1/64  n=2,136      1s
+  xgb_krcp    site  shadow   2/64  n=2,136      1s
+  xgb_krcp    site  shadow   3/64  n=2,136      1s
+  xgb_krcp    site  shadow   4/64  n=2,136      1s
+  xgb_krcp    site  shadow   5/64  n=2,136      1s
+  xgb_krcp    site  shadow   6/64  n=2,136      1s
+  xgb_krcp    site  shadow   7/64  n=2,136      1s
+  xgb_krcp    site  shadow   8/64  n=2,136      1s
+  xgb_krcp    site  shadow   9/64  n=2,136      1s
+  xgb_krcp    site  shadow  10/64  n=2,136      1s
+  xgb_krcp    site  shadow  11/64  n=2,136      1s
+  xgb_krcp    site  shadow  12/64  n=2,136      1s
+  xgb_krcp    site  shadow  13/64  n=2,136      1s
+  xgb_krcp    site  shadow  14/64  n=2,136      1s
+  xgb_krcp    site  shadow  15/64  n=2,136      1s
+  xgb_krcp    site  shadow  16/64  n=2,136      1s
+  xgb_krcp    site  shadow  17/64  n=2,136      1s
+  xgb_krcp    site  shadow  18/64  n=2,136      1s
+  xgb_krcp    site  shadow  19/64  n=2,136      1s
+  xgb_krcp    site  shadow  20/64  n=2,136      1s
+  xgb_krcp    site  shadow  21/64  n=2,136      1s
+  xgb_krcp    site  shadow  22/64  n=2,136      1s
+  xgb_krcp    site  shadow  23/64  n=2,136      1s
+  xgb_krcp    site  shadow  24/64  n=2,136      1s
+  xgb_krcp    site  shadow  25/64  n=2,136      1s
+  xgb_krcp    site  shadow  26/64  n=2,136      1s
+  xgb_krcp    site  shadow  27/64  n=2,136      1s
+  xgb_krcp    site  shadow  28/64  n=2,136      1s
+  xgb_krcp    site  shadow  29/64  n=2,136      1s
+  xgb_krcp    site  shadow  30/64  n=2,136      1s
+  xgb_krcp    site  shadow  31/64  n=2,136      1s
+  xgb_krcp    site  shadow  32/64  n=2,136      1s
+  xgb_krcp    site  shadow  33/64  n=2,136      1s
+  xgb_krcp    site  shadow  34/64  n=2,136      1s
+  xgb_krcp    site  shadow  35/64  n=2,136      1s
+  xgb_krcp    site  shadow  36/64  n=2,136      1s
+  xgb_krcp    site  shadow  37/64  n=2,136      1s
+  xgb_krcp    site  shadow  38/64  n=2,136      1s
+  xgb_krcp    site  shadow  39/64  n=2,136      1s
+  xgb_krcp    site  shadow  40/64  n=2,136      1s
+  xgb_krcp    site  shadow  41/64  n=2,136      1s
+  xgb_krcp    site  shadow  42/64  n=2,136      1s
+  xgb_krcp    site  shadow  43/64  n=2,136      1s
+  xgb_krcp    site  shadow  44/64  n=2,136      1s
+  xgb_krcp    site  shadow  45/64  n=2,136      1s
+  xgb_krcp    site  shadow  46/64  n=2,136      1s
+  xgb_krcp    site  shadow  47/64  n=2,136      1s
+  xgb_krcp    site  shadow  48/64  n=2,136      1s
+  xgb_krcp    site  shadow  49/64  n=2,136      1s
+  xgb_krcp    site  shadow  50/64  n=2,136      1s
+  xgb_krcp    site  shadow  51/64  n=2,136      1s
+  xgb_krcp    site  shadow  52/64  n=2,136      1s
+  xgb_krcp    site  shadow  53/64  n=2,136      1s
+  xgb_krcp    site  shadow  54/64  n=2,136      1s
+  xgb_krcp    site  shadow  55/64  n=2,136      1s
+  xgb_krcp    site  shadow  56/64  n=2,136      1s
+  xgb_krcp    site  shadow  57/64  n=2,136      1s
+  xgb_krcp    site  shadow  58/64  n=2,136      1s
+  xgb_krcp    site  shadow  59/64  n=2,136      1s
+  xgb_krcp    site  shadow  60/64  n=2,136      1s
+  xgb_krcp    site  shadow  61/64  n=2,136      1s
+  xgb_krcp    site  shadow  62/64  n=2,136      1s
+  xgb_krcp    site  shadow  63/64  n=2,136      1s
+  xgb_krcp    site  shadow  64/64  n=2,136      1s
+  xgb_krcp    b2_0  shadow   1/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow   2/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow   3/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow   4/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow   5/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow   6/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow   7/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow   8/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow   9/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  10/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  11/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  12/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  13/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  14/64  n=2,982      2s
+  xgb_krcp    b2_0  shadow  15/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  16/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  17/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  18/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  19/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  20/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  21/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  22/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  23/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  24/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  25/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  26/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  27/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  28/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  29/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  30/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  31/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  32/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  33/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  34/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  35/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  36/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  37/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  38/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  39/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  40/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  41/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  42/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  43/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  44/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  45/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  46/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  47/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  48/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  49/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  50/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  51/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  52/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  53/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  54/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  55/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  56/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  57/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  58/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  59/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  60/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  61/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  62/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  63/64  n=2,982      1s
+  xgb_krcp    b2_0  shadow  64/64  n=2,982      1s
+  xgb_krcp    b2_1  shadow   1/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow   2/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow   3/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow   4/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow   5/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow   6/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow   7/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow   8/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow   9/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  10/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  11/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  12/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  13/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  14/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  15/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  16/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  17/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  18/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  19/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  20/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  21/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  22/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  23/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  24/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  25/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  26/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  27/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  28/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  29/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  30/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  31/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  32/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  33/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  34/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  35/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  36/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  37/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  38/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  39/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  40/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  41/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  42/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  43/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  44/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  45/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  46/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  47/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  48/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  49/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  50/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  51/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  52/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  53/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  54/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  55/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  56/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  57/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  58/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  59/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  60/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  61/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  62/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  63/64  n=1,932      1s
+  xgb_krcp    b2_1  shadow  64/64  n=1,932      1s
+  xgb_krcp    b2_2  shadow   1/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow   2/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow   3/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow   4/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow   5/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow   6/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow   7/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow   8/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow   9/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  10/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  11/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  12/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  13/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  14/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  15/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  16/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  17/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  18/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  19/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  20/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  21/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  22/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  23/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  24/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  25/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  26/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  27/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  28/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  29/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  30/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  31/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  32/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  33/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  34/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  35/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  36/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  37/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  38/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  39/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  40/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  41/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  42/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  43/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  44/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  45/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  46/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  47/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  48/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  49/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  50/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  51/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  52/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  53/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  54/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  55/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  56/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  57/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  58/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  59/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  60/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  61/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  62/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  63/64  n=1,494      1s
+  xgb_krcp    b2_2  shadow  64/64  n=1,494      1s
+  xgb_leaky   full  shadow   1/64  n=6,408      5s
+  xgb_leaky   full  shadow   2/64  n=6,408      5s
+  xgb_leaky   full  shadow   3/64  n=6,408      5s
+  xgb_leaky   full  shadow   4/64  n=6,408      5s
+  xgb_leaky   full  shadow   5/64  n=6,408      5s
+  xgb_leaky   full  shadow   6/64  n=6,408      4s
+  xgb_leaky   full  shadow   7/64  n=6,408      5s
+  xgb_leaky   full  shadow   8/64  n=6,408      5s
+  xgb_leaky   full  shadow   9/64  n=6,408      5s
+  xgb_leaky   full  shadow  10/64  n=6,408      5s
+  xgb_leaky   full  shadow  11/64  n=6,408      6s
+  xgb_leaky   full  shadow  12/64  n=6,408      6s
+  xgb_leaky   full  shadow  13/64  n=6,408      5s
+  xgb_leaky   full  shadow  14/64  n=6,408      6s
+  xgb_leaky   full  shadow  15/64  n=6,408      5s
+  xgb_leaky   full  shadow  16/64  n=6,408      5s
+  xgb_leaky   full  shadow  17/64  n=6,408      5s
+  xgb_leaky   full  shadow  18/64  n=6,408      5s
+  xgb_leaky   full  shadow  19/64  n=6,408      5s
+  xgb_leaky   full  shadow  20/64  n=6,408      5s
+  xgb_leaky   full  shadow  21/64  n=6,408      5s
+  xgb_leaky   full  shadow  22/64  n=6,408      5s
+  xgb_leaky   full  shadow  23/64  n=6,408      5s
+  xgb_leaky   full  shadow  24/64  n=6,408      5s
+  xgb_leaky   full  shadow  25/64  n=6,408      5s
+  xgb_leaky   full  shadow  26/64  n=6,408      5s
+  xgb_leaky   full  shadow  27/64  n=6,408      6s
+  xgb_leaky   full  shadow  28/64  n=6,408      5s
+  xgb_leaky   full  shadow  29/64  n=6,408      5s
+  xgb_leaky   full  shadow  30/64  n=6,408      5s
+  xgb_leaky   full  shadow  31/64  n=6,408      5s
+  xgb_leaky   full  shadow  32/64  n=6,408      5s
+  xgb_leaky   full  shadow  33/64  n=6,408      5s
+  xgb_leaky   full  shadow  34/64  n=6,408      6s
+  xgb_leaky   full  shadow  35/64  n=6,408      6s
+  xgb_leaky   full  shadow  36/64  n=6,408      5s
+  xgb_leaky   full  shadow  37/64  n=6,408      5s
+  xgb_leaky   full  shadow  38/64  n=6,408      5s
+  xgb_leaky   full  shadow  39/64  n=6,408      5s
+  xgb_leaky   full  shadow  40/64  n=6,408      5s
+  xgb_leaky   full  shadow  41/64  n=6,408      5s
+  xgb_leaky   full  shadow  42/64  n=6,408      5s
+  xgb_leaky   full  shadow  43/64  n=6,408      5s
+  xgb_leaky   full  shadow  44/64  n=6,408      4s
+  xgb_leaky   full  shadow  45/64  n=6,408      5s
+  xgb_leaky   full  shadow  46/64  n=6,408      4s
+  xgb_leaky   full  shadow  47/64  n=6,408      5s
+  xgb_leaky   full  shadow  48/64  n=6,408      5s
+  xgb_leaky   full  shadow  49/64  n=6,408      5s
+  xgb_leaky   full  shadow  50/64  n=6,408      5s
+  xgb_leaky   full  shadow  51/64  n=6,408      5s
+  xgb_leaky   full  shadow  52/64  n=6,408      5s
+  xgb_leaky   full  shadow  53/64  n=6,408      5s
+  xgb_leaky   full  shadow  54/64  n=6,408      4s
+  xgb_leaky   full  shadow  55/64  n=6,408      5s
+  xgb_leaky   full  shadow  56/64  n=6,408      4s
+  xgb_leaky   full  shadow  57/64  n=6,408      5s
+  xgb_leaky   full  shadow  58/64  n=6,408      4s
+  xgb_leaky   full  shadow  59/64  n=6,408      4s
+  xgb_leaky   full  shadow  60/64  n=6,408      4s
+  xgb_leaky   full  shadow  61/64  n=6,408      4s
+  xgb_leaky   full  shadow  62/64  n=6,408      5s
+  xgb_leaky   full  shadow  63/64  n=6,408      5s
+  xgb_leaky   full  shadow  64/64  n=6,408      5s
+  xgb_leaky   site  shadow   1/64  n=2,136      2s
+  xgb_leaky   site  shadow   2/64  n=2,136      2s
+  xgb_leaky   site  shadow   3/64  n=2,136      2s
+  xgb_leaky   site  shadow   4/64  n=2,136      2s
+  xgb_leaky   site  shadow   5/64  n=2,136      2s
+  xgb_leaky   site  shadow   6/64  n=2,136      2s
+  xgb_leaky   site  shadow   7/64  n=2,136      2s
+  xgb_leaky   site  shadow   8/64  n=2,136      2s
+  xgb_leaky   site  shadow   9/64  n=2,136      2s
+  xgb_leaky   site  shadow  10/64  n=2,136      2s
+  xgb_leaky   site  shadow  11/64  n=2,136      2s
+  xgb_leaky   site  shadow  12/64  n=2,136      2s
+  xgb_leaky   site  shadow  13/64  n=2,136      2s
+  xgb_leaky   site  shadow  14/64  n=2,136      2s
+  xgb_leaky   site  shadow  15/64  n=2,136      2s
+  xgb_leaky   site  shadow  16/64  n=2,136      2s
+  xgb_leaky   site  shadow  17/64  n=2,136      2s
+  xgb_leaky   site  shadow  18/64  n=2,136      2s
+  xgb_leaky   site  shadow  19/64  n=2,136      2s
+  xgb_leaky   site  shadow  20/64  n=2,136      2s
+  xgb_leaky   site  shadow  21/64  n=2,136      2s
+  xgb_leaky   site  shadow  22/64  n=2,136      2s
+  xgb_leaky   site  shadow  23/64  n=2,136      2s
+  xgb_leaky   site  shadow  24/64  n=2,136      2s
+  xgb_leaky   site  shadow  25/64  n=2,136      2s
+  xgb_leaky   site  shadow  26/64  n=2,136      2s
+  xgb_leaky   site  shadow  27/64  n=2,136      2s
+  xgb_leaky   site  shadow  28/64  n=2,136      2s
+  xgb_leaky   site  shadow  29/64  n=2,136      2s
+  xgb_leaky   site  shadow  30/64  n=2,136      2s
+  xgb_leaky   site  shadow  31/64  n=2,136      2s
+  xgb_leaky   site  shadow  32/64  n=2,136      2s
+  xgb_leaky   site  shadow  33/64  n=2,136      2s
+  xgb_leaky   site  shadow  34/64  n=2,136      2s
+  xgb_leaky   site  shadow  35/64  n=2,136      2s
+  xgb_leaky   site  shadow  36/64  n=2,136      2s
+  xgb_leaky   site  shadow  37/64  n=2,136      2s
+  xgb_leaky   site  shadow  38/64  n=2,136      2s
+  xgb_leaky   site  shadow  39/64  n=2,136      2s
+  xgb_leaky   site  shadow  40/64  n=2,136      2s
+  xgb_leaky   site  shadow  41/64  n=2,136      2s
+  xgb_leaky   site  shadow  42/64  n=2,136      2s
+  xgb_leaky   site  shadow  43/64  n=2,136      2s
+  xgb_leaky   site  shadow  44/64  n=2,136      2s
+  xgb_leaky   site  shadow  45/64  n=2,136      2s
+  xgb_leaky   site  shadow  46/64  n=2,136      2s
+  xgb_leaky   site  shadow  47/64  n=2,136      2s
+  xgb_leaky   site  shadow  48/64  n=2,136      2s
+  xgb_leaky   site  shadow  49/64  n=2,136      2s
+  xgb_leaky   site  shadow  50/64  n=2,136      2s
+  xgb_leaky   site  shadow  51/64  n=2,136      2s
+  xgb_leaky   site  shadow  52/64  n=2,136      2s
+  xgb_leaky   site  shadow  53/64  n=2,136      2s
+  xgb_leaky   site  shadow  54/64  n=2,136      2s
+  xgb_leaky   site  shadow  55/64  n=2,136      2s
+  xgb_leaky   site  shadow  56/64  n=2,136      2s
+  xgb_leaky   site  shadow  57/64  n=2,136      2s
+  xgb_leaky   site  shadow  58/64  n=2,136      2s
+  xgb_leaky   site  shadow  59/64  n=2,136      2s
+  xgb_leaky   site  shadow  60/64  n=2,136      2s
+  xgb_leaky   site  shadow  61/64  n=2,136      2s
+  xgb_leaky   site  shadow  62/64  n=2,136      2s
+  xgb_leaky   site  shadow  63/64  n=2,136      2s
+  xgb_leaky   site  shadow  64/64  n=2,136      2s
+  xgb_leaky   b2_0  shadow   1/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow   2/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow   3/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow   4/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow   5/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow   6/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow   7/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow   8/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow   9/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  10/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  11/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  12/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  13/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  14/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  15/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  16/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  17/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  18/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  19/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  20/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  21/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  22/64  n=2,982      4s
+  xgb_leaky   b2_0  shadow  23/64  n=2,982      5s
+  xgb_leaky   b2_0  shadow  24/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  25/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  26/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  27/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  28/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  29/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  30/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  31/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  32/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  33/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  34/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  35/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  36/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  37/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  38/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  39/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  40/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  41/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  42/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  43/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  44/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  45/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  46/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  47/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  48/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  49/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  50/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  51/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  52/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  53/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  54/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  55/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  56/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  57/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  58/64  n=2,982      3s
+  xgb_leaky   b2_0  shadow  59/64  n=2,982      4s
+  xgb_leaky   b2_0  shadow  60/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  61/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  62/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  63/64  n=2,982      2s
+  xgb_leaky   b2_0  shadow  64/64  n=2,982      2s
+  xgb_leaky   b2_1  shadow   1/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow   2/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow   3/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow   4/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow   5/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow   6/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow   7/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow   8/64  n=1,932      2s
+  xgb_leaky   b2_1  shadow   9/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  10/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  11/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  12/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  13/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  14/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  15/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  16/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  17/64  n=1,932      2s
+  xgb_leaky   b2_1  shadow  18/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  19/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  20/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  21/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  22/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  23/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  24/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  25/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  26/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  27/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  28/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  29/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  30/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  31/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  32/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  33/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  34/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  35/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  36/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  37/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  38/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  39/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  40/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  41/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  42/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  43/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  44/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  45/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  46/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  47/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  48/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  49/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  50/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  51/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  52/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  53/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  54/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  55/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  56/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  57/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  58/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  59/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  60/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  61/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  62/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  63/64  n=1,932      1s
+  xgb_leaky   b2_1  shadow  64/64  n=1,932      1s
+  xgb_leaky   b2_2  shadow   1/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow   2/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow   3/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow   4/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow   5/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow   6/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow   7/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow   8/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow   9/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  10/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  11/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  12/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  13/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  14/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  15/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  16/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  17/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  18/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  19/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  20/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  21/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  22/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  23/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  24/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  25/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  26/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  27/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  28/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  29/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  30/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  31/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  32/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  33/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  34/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  35/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  36/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  37/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  38/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  39/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  40/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  41/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  42/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  43/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  44/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  45/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  46/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  47/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  48/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  49/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  50/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  51/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  52/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  53/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  54/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  55/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  56/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  57/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  58/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  59/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  60/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  61/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  62/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  63/64  n=1,494      1s
+  xgb_leaky   b2_2  shadow  64/64  n=1,494      1s
+  xgb_regularized full  shadow   1/64  n=6,408      0s
+  xgb_regularized full  shadow   2/64  n=6,408      0s
+  xgb_regularized full  shadow   3/64  n=6,408      0s
+  xgb_regularized full  shadow   4/64  n=6,408      0s
+  xgb_regularized full  shadow   5/64  n=6,408      0s
+  xgb_regularized full  shadow   6/64  n=6,408      0s
+  xgb_regularized full  shadow   7/64  n=6,408      0s
+  xgb_regularized full  shadow   8/64  n=6,408      0s
+  xgb_regularized full  shadow   9/64  n=6,408      0s
+  xgb_regularized full  shadow  10/64  n=6,408      0s
+  xgb_regularized full  shadow  11/64  n=6,408      0s
+  xgb_regularized full  shadow  12/64  n=6,408      0s
+  xgb_regularized full  shadow  13/64  n=6,408      0s
+  xgb_regularized full  shadow  14/64  n=6,408      0s
+  xgb_regularized full  shadow  15/64  n=6,408      0s
+  xgb_regularized full  shadow  16/64  n=6,408      0s
+  xgb_regularized full  shadow  17/64  n=6,408      0s
+  xgb_regularized full  shadow  18/64  n=6,408      0s
+  xgb_regularized full  shadow  19/64  n=6,408      0s
+  xgb_regularized full  shadow  20/64  n=6,408      0s
+  xgb_regularized full  shadow  21/64  n=6,408      0s
+  xgb_regularized full  shadow  22/64  n=6,408      0s
+  xgb_regularized full  shadow  23/64  n=6,408      0s
+  xgb_regularized full  shadow  24/64  n=6,408      0s
+  xgb_regularized full  shadow  25/64  n=6,408      0s
+  xgb_regularized full  shadow  26/64  n=6,408      0s
+  xgb_regularized full  shadow  27/64  n=6,408      0s
+  xgb_regularized full  shadow  28/64  n=6,408      0s
+  xgb_regularized full  shadow  29/64  n=6,408      0s
+  xgb_regularized full  shadow  30/64  n=6,408      0s
+  xgb_regularized full  shadow  31/64  n=6,408      0s
+  xgb_regularized full  shadow  32/64  n=6,408      0s
+  xgb_regularized full  shadow  33/64  n=6,408      0s
+  xgb_regularized full  shadow  34/64  n=6,408      0s
+  xgb_regularized full  shadow  35/64  n=6,408      0s
+  xgb_regularized full  shadow  36/64  n=6,408      0s
+  xgb_regularized full  shadow  37/64  n=6,408      0s
+  xgb_regularized full  shadow  38/64  n=6,408      0s
+  xgb_regularized full  shadow  39/64  n=6,408      0s
+  xgb_regularized full  shadow  40/64  n=6,408      0s
+  xgb_regularized full  shadow  41/64  n=6,408      0s
+  xgb_regularized full  shadow  42/64  n=6,408      0s
+  xgb_regularized full  shadow  43/64  n=6,408      0s
+  xgb_regularized full  shadow  44/64  n=6,408      0s
+  xgb_regularized full  shadow  45/64  n=6,408      0s
+  xgb_regularized full  shadow  46/64  n=6,408      0s
+  xgb_regularized full  shadow  47/64  n=6,408      0s
+  xgb_regularized full  shadow  48/64  n=6,408      0s
+  xgb_regularized full  shadow  49/64  n=6,408      0s
+  xgb_regularized full  shadow  50/64  n=6,408      0s
+  xgb_regularized full  shadow  51/64  n=6,408      0s
+  xgb_regularized full  shadow  52/64  n=6,408      0s
+  xgb_regularized full  shadow  53/64  n=6,408      0s
+  xgb_regularized full  shadow  54/64  n=6,408      0s
+  xgb_regularized full  shadow  55/64  n=6,408      0s
+  xgb_regularized full  shadow  56/64  n=6,408      0s
+  xgb_regularized full  shadow  57/64  n=6,408      0s
+  xgb_regularized full  shadow  58/64  n=6,408      0s
+  xgb_regularized full  shadow  59/64  n=6,408      0s
+  xgb_regularized full  shadow  60/64  n=6,408      0s
+  xgb_regularized full  shadow  61/64  n=6,408      0s
+  xgb_regularized full  shadow  62/64  n=6,408      0s
+  xgb_regularized full  shadow  63/64  n=6,408      0s
+  xgb_regularized full  shadow  64/64  n=6,408      0s
+  xgb_regularized site  shadow   1/64  n=2,136      0s
+  xgb_regularized site  shadow   2/64  n=2,136      0s
+  xgb_regularized site  shadow   3/64  n=2,136      0s
+  xgb_regularized site  shadow   4/64  n=2,136      0s
+  xgb_regularized site  shadow   5/64  n=2,136      0s
+  xgb_regularized site  shadow   6/64  n=2,136      0s
+  xgb_regularized site  shadow   7/64  n=2,136      0s
+  xgb_regularized site  shadow   8/64  n=2,136      0s
+  xgb_regularized site  shadow   9/64  n=2,136      0s
+  xgb_regularized site  shadow  10/64  n=2,136      0s
+  xgb_regularized site  shadow  11/64  n=2,136      0s
+  xgb_regularized site  shadow  12/64  n=2,136      0s
+  xgb_regularized site  shadow  13/64  n=2,136      0s
+  xgb_regularized site  shadow  14/64  n=2,136      0s
+  xgb_regularized site  shadow  15/64  n=2,136      0s
+  xgb_regularized site  shadow  16/64  n=2,136      0s
+  xgb_regularized site  shadow  17/64  n=2,136      0s
+  xgb_regularized site  shadow  18/64  n=2,136      0s
+  xgb_regularized site  shadow  19/64  n=2,136      0s
+  xgb_regularized site  shadow  20/64  n=2,136      0s
+  xgb_regularized site  shadow  21/64  n=2,136      0s
+  xgb_regularized site  shadow  22/64  n=2,136      0s
+  xgb_regularized site  shadow  23/64  n=2,136      0s
+  xgb_regularized site  shadow  24/64  n=2,136      0s
+  xgb_regularized site  shadow  25/64  n=2,136      0s
+  xgb_regularized site  shadow  26/64  n=2,136      0s
+  xgb_regularized site  shadow  27/64  n=2,136      0s
+  xgb_regularized site  shadow  28/64  n=2,136      0s
+  xgb_regularized site  shadow  29/64  n=2,136      0s
+  xgb_regularized site  shadow  30/64  n=2,136      0s
+  xgb_regularized site  shadow  31/64  n=2,136      0s
+  xgb_regularized site  shadow  32/64  n=2,136      0s
+  xgb_regularized site  shadow  33/64  n=2,136      0s
+  xgb_regularized site  shadow  34/64  n=2,136      0s
+  xgb_regularized site  shadow  35/64  n=2,136      0s
+  xgb_regularized site  shadow  36/64  n=2,136      0s
+  xgb_regularized site  shadow  37/64  n=2,136      0s
+  xgb_regularized site  shadow  38/64  n=2,136      0s
+  xgb_regularized site  shadow  39/64  n=2,136      0s
+  xgb_regularized site  shadow  40/64  n=2,136      0s
+  xgb_regularized site  shadow  41/64  n=2,136      0s
+  xgb_regularized site  shadow  42/64  n=2,136      0s
+  xgb_regularized site  shadow  43/64  n=2,136      0s
+  xgb_regularized site  shadow  44/64  n=2,136      0s
+  xgb_regularized site  shadow  45/64  n=2,136      0s
+  xgb_regularized site  shadow  46/64  n=2,136      0s
+  xgb_regularized site  shadow  47/64  n=2,136      0s
+  xgb_regularized site  shadow  48/64  n=2,136      0s
+  xgb_regularized site  shadow  49/64  n=2,136      0s
+  xgb_regularized site  shadow  50/64  n=2,136      0s
+  xgb_regularized site  shadow  51/64  n=2,136      0s
+  xgb_regularized site  shadow  52/64  n=2,136      0s
+  xgb_regularized site  shadow  53/64  n=2,136      0s
+  xgb_regularized site  shadow  54/64  n=2,136      0s
+  xgb_regularized site  shadow  55/64  n=2,136      0s
+  xgb_regularized site  shadow  56/64  n=2,136      0s
+  xgb_regularized site  shadow  57/64  n=2,136      0s
+  xgb_regularized site  shadow  58/64  n=2,136      0s
+  xgb_regularized site  shadow  59/64  n=2,136      0s
+  xgb_regularized site  shadow  60/64  n=2,136      0s
+  xgb_regularized site  shadow  61/64  n=2,136      0s
+  xgb_regularized site  shadow  62/64  n=2,136      0s
+  xgb_regularized site  shadow  63/64  n=2,136      0s
+  xgb_regularized site  shadow  64/64  n=2,136      0s
+  xgb_regularized b2_0  shadow   1/64  n=2,982      0s
+  xgb_regularized b2_0  shadow   2/64  n=2,982      0s
+  xgb_regularized b2_0  shadow   3/64  n=2,982      0s
+  xgb_regularized b2_0  shadow   4/64  n=2,982      0s
+  xgb_regularized b2_0  shadow   5/64  n=2,982      0s
+  xgb_regularized b2_0  shadow   6/64  n=2,982      0s
+  xgb_regularized b2_0  shadow   7/64  n=2,982      0s
+  xgb_regularized b2_0  shadow   8/64  n=2,982      0s
+  xgb_regularized b2_0  shadow   9/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  10/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  11/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  12/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  13/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  14/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  15/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  16/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  17/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  18/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  19/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  20/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  21/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  22/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  23/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  24/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  25/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  26/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  27/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  28/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  29/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  30/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  31/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  32/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  33/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  34/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  35/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  36/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  37/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  38/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  39/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  40/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  41/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  42/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  43/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  44/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  45/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  46/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  47/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  48/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  49/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  50/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  51/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  52/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  53/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  54/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  55/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  56/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  57/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  58/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  59/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  60/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  61/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  62/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  63/64  n=2,982      0s
+  xgb_regularized b2_0  shadow  64/64  n=2,982      0s
+  xgb_regularized b2_1  shadow   1/64  n=1,932      0s
+  xgb_regularized b2_1  shadow   2/64  n=1,932      0s
+  xgb_regularized b2_1  shadow   3/64  n=1,932      0s
+  xgb_regularized b2_1  shadow   4/64  n=1,932      0s
+  xgb_regularized b2_1  shadow   5/64  n=1,932      0s
+  xgb_regularized b2_1  shadow   6/64  n=1,932      0s
+  xgb_regularized b2_1  shadow   7/64  n=1,932      0s
+  xgb_regularized b2_1  shadow   8/64  n=1,932      0s
+  xgb_regularized b2_1  shadow   9/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  10/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  11/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  12/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  13/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  14/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  15/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  16/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  17/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  18/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  19/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  20/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  21/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  22/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  23/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  24/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  25/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  26/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  27/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  28/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  29/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  30/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  31/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  32/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  33/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  34/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  35/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  36/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  37/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  38/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  39/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  40/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  41/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  42/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  43/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  44/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  45/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  46/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  47/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  48/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  49/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  50/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  51/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  52/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  53/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  54/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  55/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  56/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  57/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  58/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  59/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  60/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  61/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  62/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  63/64  n=1,932      0s
+  xgb_regularized b2_1  shadow  64/64  n=1,932      0s
+  xgb_regularized b2_2  shadow   1/64  n=1,494      0s
+  xgb_regularized b2_2  shadow   2/64  n=1,494      0s
+  xgb_regularized b2_2  shadow   3/64  n=1,494      0s
+  xgb_regularized b2_2  shadow   4/64  n=1,494      0s
+  xgb_regularized b2_2  shadow   5/64  n=1,494      0s
+  xgb_regularized b2_2  shadow   6/64  n=1,494      0s
+  xgb_regularized b2_2  shadow   7/64  n=1,494      0s
+  xgb_regularized b2_2  shadow   8/64  n=1,494      0s
+  xgb_regularized b2_2  shadow   9/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  10/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  11/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  12/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  13/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  14/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  15/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  16/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  17/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  18/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  19/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  20/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  21/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  22/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  23/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  24/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  25/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  26/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  27/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  28/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  29/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  30/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  31/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  32/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  33/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  34/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  35/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  36/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  37/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  38/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  39/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  40/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  41/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  42/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  43/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  44/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  45/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  46/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  47/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  48/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  49/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  50/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  51/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  52/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  53/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  54/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  55/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  56/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  57/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  58/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  59/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  60/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  61/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  62/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  63/64  n=1,494      0s
+  xgb_regularized b2_2  shadow  64/64  n=1,494      0s
+done -- 960 new shadows
+[02_train_shadows.py] done in 18.3 min
+[03_attack_audit.py] start 15:01
+  seed 42 xgb_krcp    A_0       shadow 0.618  lira 0.726  lira_gv 0.723  rmia 0.689
+  seed 42 xgb_krcp    Aprime_0  shadow 0.643  lira 0.713  lira_gv 0.723  rmia 0.682
+  seed 42 xgb_krcp    B1_0      shadow 0.647  lira 0.699  lira_gv 0.677  rmia 0.622
+  seed 42 xgb_krcp    B1_1      shadow 0.593  lira 0.790  lira_gv 0.792  rmia 0.733
+  seed 42 xgb_krcp    B1_2      shadow 0.619  lira 0.740  lira_gv 0.743  rmia 0.722
+  seed 42 xgb_krcp    B2_0      shadow 0.637  lira 0.710  lira_gv 0.693  rmia 0.642
+  seed 42 xgb_krcp    B2_1      shadow 0.589  lira 0.786  lira_gv 0.792  rmia 0.700
+  seed 42 xgb_krcp    B2_2      shadow 0.613  lira 0.730  lira_gv 0.722  rmia 0.743
+  seed 42 xgb_krcp    B1_comb   shadow 0.540  lira 0.580  lira_gv 0.589  rmia 0.560
+  seed 42 xgb_krcp    B2_comb   shadow 0.545  lira 0.591  lira_gv 0.600  rmia 0.555
+  seed 42 xgb_krcp    F_B1      shadow 0.623  lira 0.721  lira_gv 0.719  rmia 0.657
+  seed 43 xgb_krcp    A_0       shadow 0.616  lira 0.723  lira_gv 0.724  rmia 0.700
+  seed 43 xgb_krcp    Aprime_0  shadow 0.646  lira 0.708  lira_gv 0.711  rmia 0.668
+  seed 43 xgb_krcp    B1_0      shadow 0.645  lira 0.690  lira_gv 0.675  rmia 0.656
+  seed 43 xgb_krcp    B1_1      shadow 0.575  lira 0.780  lira_gv 0.784  rmia 0.728
+  seed 43 xgb_krcp    B1_2      shadow 0.613  lira 0.749  lira_gv 0.754  rmia 0.755
+  seed 43 xgb_krcp    B2_0      shadow 0.629  lira 0.708  lira_gv 0.696  rmia 0.668
+  seed 43 xgb_krcp    B2_1      shadow 0.583  lira 0.776  lira_gv 0.775  rmia 0.785
+  seed 43 xgb_krcp    B2_2      shadow 0.613  lira 0.734  lira_gv 0.735  rmia 0.714
+  seed 43 xgb_krcp    B1_comb   shadow 0.540  lira 0.587  lira_gv 0.592  rmia 0.565
+  seed 43 xgb_krcp    B2_comb   shadow 0.541  lira 0.600  lira_gv 0.605  rmia 0.560
+  seed 43 xgb_krcp    F_B1      shadow 0.618  lira 0.729  lira_gv 0.727  rmia 0.694
+  seed 44 xgb_krcp    A_0       shadow 0.617  lira 0.729  lira_gv 0.734  rmia 0.701
+  seed 44 xgb_krcp    Aprime_0  shadow 0.650  lira 0.720  lira_gv 0.712  rmia 0.681
+  seed 44 xgb_krcp    B1_0      shadow 0.638  lira 0.695  lira_gv 0.676  rmia 0.646
+  seed 44 xgb_krcp    B1_1      shadow 0.583  lira 0.783  lira_gv 0.787  rmia 0.700
+  seed 44 xgb_krcp    B1_2      shadow 0.620  lira 0.746  lira_gv 0.752  rmia 0.695
+  seed 44 xgb_krcp    B2_0      shadow 0.638  lira 0.711  lira_gv 0.690  rmia 0.639
+  seed 44 xgb_krcp    B2_1      shadow 0.585  lira 0.779  lira_gv 0.779  rmia 0.740
+  seed 44 xgb_krcp    B2_2      shadow 0.612  lira 0.734  lira_gv 0.735  rmia 0.710
+  seed 44 xgb_krcp    B1_comb   shadow 0.549  lira 0.586  lira_gv 0.593  rmia 0.561
+  seed 44 xgb_krcp    B2_comb   shadow 0.546  lira 0.587  lira_gv 0.598  rmia 0.564
+  seed 44 xgb_krcp    F_B1      shadow 0.615  lira 0.728  lira_gv 0.729  rmia 0.666
+  seed 45 xgb_krcp    A_0       shadow 0.619  lira 0.738  lira_gv 0.734  rmia 0.653
+  seed 45 xgb_krcp    Aprime_0  shadow 0.655  lira 0.728  lira_gv 0.724  rmia 0.649
+  seed 45 xgb_krcp    B1_0      shadow 0.644  lira 0.692  lira_gv 0.675  rmia 0.641
+  seed 45 xgb_krcp    B1_1      shadow 0.604  lira 0.790  lira_gv 0.790  rmia 0.742
+  seed 45 xgb_krcp    B1_2      shadow 0.606  lira 0.738  lira_gv 0.745  rmia 0.728
+  seed 45 xgb_krcp    B2_0      shadow 0.640  lira 0.703  lira_gv 0.691  rmia 0.661
+  seed 45 xgb_krcp    B2_1      shadow 0.613  lira 0.786  lira_gv 0.779  rmia 0.738
+  seed 45 xgb_krcp    B2_2      shadow 0.604  lira 0.732  lira_gv 0.731  rmia 0.688
+  seed 45 xgb_krcp    B1_comb   shadow 0.549  lira 0.586  lira_gv 0.591  rmia 0.577
+  seed 45 xgb_krcp    B2_comb   shadow 0.549  lira 0.598  lira_gv 0.608  rmia 0.576
+  seed 45 xgb_krcp    F_B1      shadow 0.628  lira 0.727  lira_gv 0.726  rmia 0.690
+  seed 46 xgb_krcp    A_0       shadow 0.613  lira 0.730  lira_gv 0.721  rmia 0.706
+  seed 46 xgb_krcp    Aprime_0  shadow 0.635  lira 0.720  lira_gv 0.719  rmia 0.680
+  seed 46 xgb_krcp    B1_0      shadow 0.645  lira 0.697  lira_gv 0.675  rmia 0.634
+  seed 46 xgb_krcp    B1_1      shadow 0.596  lira 0.773  lira_gv 0.779  rmia 0.728
+  seed 46 xgb_krcp    B1_2      shadow 0.622  lira 0.742  lira_gv 0.741  rmia 0.686
+  seed 46 xgb_krcp    B2_0      shadow 0.642  lira 0.704  lira_gv 0.687  rmia 0.641
+  seed 46 xgb_krcp    B2_1      shadow 0.587  lira 0.776  lira_gv 0.777  rmia 0.732
+  seed 46 xgb_krcp    B2_2      shadow 0.617  lira 0.741  lira_gv 0.732  rmia 0.695
+  seed 46 xgb_krcp    B1_comb   shadow 0.546  lira 0.581  lira_gv 0.587  rmia 0.557
+  seed 46 xgb_krcp    B2_comb   shadow 0.538  lira 0.592  lira_gv 0.605  rmia 0.568
+  seed 46 xgb_krcp    F_B1      shadow 0.625  lira 0.725  lira_gv 0.723  rmia 0.708
+  seed 47 xgb_krcp    A_0       shadow 0.616  lira 0.735  lira_gv 0.736  rmia 0.650
+  seed 47 xgb_krcp    Aprime_0  shadow 0.650  lira 0.724  lira_gv 0.717  rmia 0.664
+  seed 47 xgb_krcp    B1_0      shadow 0.622  lira 0.689  lira_gv 0.671  rmia 0.648
+  seed 47 xgb_krcp    B1_1      shadow 0.594  lira 0.785  lira_gv 0.786  rmia 0.735
+  seed 47 xgb_krcp    B1_2      shadow 0.616  lira 0.747  lira_gv 0.752  rmia 0.688
+  seed 47 xgb_krcp    B2_0      shadow 0.624  lira 0.700  lira_gv 0.691  rmia 0.631
+  seed 47 xgb_krcp    B2_1      shadow 0.598  lira 0.776  lira_gv 0.777  rmia 0.733
+  seed 47 xgb_krcp    B2_2      shadow 0.608  lira 0.732  lira_gv 0.734  rmia 0.691
+  seed 47 xgb_krcp    B1_comb   shadow 0.543  lira 0.594  lira_gv 0.603  rmia 0.578
+  seed 47 xgb_krcp    B2_comb   shadow 0.540  lira 0.590  lira_gv 0.602  rmia 0.562
+  seed 47 xgb_krcp    F_B1      shadow 0.618  lira 0.730  lira_gv 0.735  rmia 0.684
+  seed 48 xgb_krcp    A_0       shadow 0.620  lira 0.726  lira_gv 0.728  rmia 0.662
+  seed 48 xgb_krcp    Aprime_0  shadow 0.645  lira 0.727  lira_gv 0.727  rmia 0.687
+  seed 48 xgb_krcp    B1_0      shadow 0.636  lira 0.692  lira_gv 0.675  rmia 0.631
+  seed 48 xgb_krcp    B1_1      shadow 0.591  lira 0.783  lira_gv 0.778  rmia 0.783
+  seed 48 xgb_krcp    B1_2      shadow 0.612  lira 0.737  lira_gv 0.748  rmia 0.687
+  seed 48 xgb_krcp    B2_0      shadow 0.633  lira 0.708  lira_gv 0.694  rmia 0.636
+  seed 48 xgb_krcp    B2_1      shadow 0.592  lira 0.783  lira_gv 0.781  rmia 0.723
+  seed 48 xgb_krcp    B2_2      shadow 0.616  lira 0.727  lira_gv 0.729  rmia 0.704
+  seed 48 xgb_krcp    B1_comb   shadow 0.558  lira 0.592  lira_gv 0.598  rmia 0.565
+  seed 48 xgb_krcp    B2_comb   shadow 0.553  lira 0.605  lira_gv 0.612  rmia 0.562
+  seed 48 xgb_krcp    F_B1      shadow 0.612  lira 0.733  lira_gv 0.729  rmia 0.705
+  seed 49 xgb_krcp    A_0       shadow 0.624  lira 0.737  lira_gv 0.733  rmia 0.704
+  seed 49 xgb_krcp    Aprime_0  shadow 0.630  lira 0.706  lira_gv 0.708  rmia 0.678
+  seed 49 xgb_krcp    B1_0      shadow 0.638  lira 0.693  lira_gv 0.675  rmia 0.645
+  seed 49 xgb_krcp    B1_1      shadow 0.589  lira 0.783  lira_gv 0.791  rmia 0.671
+  seed 49 xgb_krcp    B1_2      shadow 0.629  lira 0.746  lira_gv 0.751  rmia 0.730
+  seed 49 xgb_krcp    B2_0      shadow 0.634  lira 0.708  lira_gv 0.691  rmia 0.635
+  seed 49 xgb_krcp    B2_1      shadow 0.589  lira 0.772  lira_gv 0.780  rmia 0.680
+  seed 49 xgb_krcp    B2_2      shadow 0.633  lira 0.730  lira_gv 0.734  rmia 0.695
+  seed 49 xgb_krcp    B1_comb   shadow 0.550  lira 0.584  lira_gv 0.592  rmia 0.568
+  seed 49 xgb_krcp    B2_comb   shadow 0.543  lira 0.598  lira_gv 0.604  rmia 0.562
+  seed 49 xgb_krcp    F_B1      shadow 0.615  lira 0.725  lira_gv 0.724  rmia 0.686
+  seed 50 xgb_krcp    A_0       shadow 0.615  lira 0.724  lira_gv 0.721  rmia 0.671
+  seed 50 xgb_krcp    Aprime_0  shadow 0.641  lira 0.709  lira_gv 0.710  rmia 0.663
+  seed 50 xgb_krcp    B1_0      shadow 0.632  lira 0.692  lira_gv 0.679  rmia 0.661
+  seed 50 xgb_krcp    B1_1      shadow 0.597  lira 0.792  lira_gv 0.798  rmia 0.713
+  seed 50 xgb_krcp    B1_2      shadow 0.606  lira 0.753  lira_gv 0.756  rmia 0.699
+  seed 50 xgb_krcp    B2_0      shadow 0.635  lira 0.700  lira_gv 0.693  rmia 0.661
+  seed 50 xgb_krcp    B2_1      shadow 0.598  lira 0.779  lira_gv 0.781  rmia 0.736
+  seed 50 xgb_krcp    B2_2      shadow 0.612  lira 0.742  lira_gv 0.740  rmia 0.720
+  seed 50 xgb_krcp    B1_comb   shadow 0.545  lira 0.590  lira_gv 0.592  rmia 0.566
+  seed 50 xgb_krcp    B2_comb   shadow 0.547  lira 0.598  lira_gv 0.601  rmia 0.574
+  seed 50 xgb_krcp    F_B1      shadow 0.618  lira 0.735  lira_gv 0.735  rmia 0.703
+  seed 51 xgb_krcp    A_0       shadow 0.619  lira 0.717  lira_gv 0.719  rmia 0.683
+  seed 51 xgb_krcp    Aprime_0  shadow 0.645  lira 0.716  lira_gv 0.719  rmia 0.665
+  seed 51 xgb_krcp    B1_0      shadow 0.634  lira 0.683  lira_gv 0.664  rmia 0.634
+  seed 51 xgb_krcp    B1_1      shadow 0.606  lira 0.795  lira_gv 0.795  rmia 0.724
+  seed 51 xgb_krcp    B1_2      shadow 0.618  lira 0.738  lira_gv 0.747  rmia 0.724
+  seed 51 xgb_krcp    B2_0      shadow 0.637  lira 0.699  lira_gv 0.678  rmia 0.632
+  seed 51 xgb_krcp    B2_1      shadow 0.606  lira 0.784  lira_gv 0.787  rmia 0.770
+  seed 51 xgb_krcp    B2_2      shadow 0.619  lira 0.746  lira_gv 0.739  rmia 0.727
+  seed 51 xgb_krcp    B1_comb   shadow 0.546  lira 0.592  lira_gv 0.594  rmia 0.549
+  seed 51 xgb_krcp    B2_comb   shadow 0.547  lira 0.591  lira_gv 0.597  rmia 0.551
+  seed 51 xgb_krcp    F_B1      shadow 0.614  lira 0.722  lira_gv 0.721  rmia 0.676
+  seed 42 xgb_leaky   A_0       shadow 0.660  lira 0.812  lira_gv 0.794  rmia 0.589
+  seed 42 xgb_leaky   Aprime_0  shadow 0.630  lira 0.700  lira_gv 0.649  rmia 0.603
+  seed 42 xgb_leaky   B1_0      shadow 0.664  lira 0.735  lira_gv 0.711  rmia 0.563
+  seed 42 xgb_leaky   B1_1      shadow 0.662  lira 0.757  lira_gv 0.719  rmia 0.639
+  seed 42 xgb_leaky   B1_2      shadow 0.618  lira 0.683  lira_gv 0.676  rmia 0.598
+  seed 42 xgb_leaky   B2_0      shadow 0.664  lira 0.752  lira_gv 0.725  rmia 0.567
+  seed 42 xgb_leaky   B2_1      shadow 0.664  lira 0.752  lira_gv 0.717  rmia 0.640
+  seed 42 xgb_leaky   B2_2      shadow 0.621  lira 0.676  lira_gv 0.674  rmia 0.595
+  seed 42 xgb_leaky   B1_comb   shadow 0.581  lira 0.541  lira_gv 0.560  rmia 0.556
+  seed 42 xgb_leaky   B2_comb   shadow 0.580  lira 0.556  lira_gv 0.568  rmia 0.556
+  seed 43 xgb_leaky   A_0       shadow 0.661  lira 0.810  lira_gv 0.792  rmia 0.589
+  seed 43 xgb_leaky   Aprime_0  shadow 0.632  lira 0.698  lira_gv 0.671  rmia 0.600
+  seed 43 xgb_leaky   B1_0      shadow 0.668  lira 0.740  lira_gv 0.713  rmia 0.564
+  seed 43 xgb_leaky   B1_1      shadow 0.661  lira 0.757  lira_gv 0.724  rmia 0.657
+  seed 43 xgb_leaky   B1_2      shadow 0.635  lira 0.700  lira_gv 0.688  rmia 0.605
+  seed 43 xgb_leaky   B2_0      shadow 0.663  lira 0.754  lira_gv 0.724  rmia 0.577
+  seed 43 xgb_leaky   B2_1      shadow 0.659  lira 0.745  lira_gv 0.718  rmia 0.654
+  seed 43 xgb_leaky   B2_2      shadow 0.635  lira 0.694  lira_gv 0.688  rmia 0.605
+  seed 43 xgb_leaky   B1_comb   shadow 0.578  lira 0.536  lira_gv 0.556  rmia 0.546
+  seed 43 xgb_leaky   B2_comb   shadow 0.578  lira 0.557  lira_gv 0.570  rmia 0.545
+  seed 44 xgb_leaky   A_0       shadow 0.661  lira 0.809  lira_gv 0.790  rmia 0.582
+  seed 44 xgb_leaky   Aprime_0  shadow 0.614  lira 0.690  lira_gv 0.669  rmia 0.588
+  seed 44 xgb_leaky   B1_0      shadow 0.669  lira 0.735  lira_gv 0.714  rmia 0.572
+  seed 44 xgb_leaky   B1_1      shadow 0.655  lira 0.759  lira_gv 0.720  rmia 0.632
+  seed 44 xgb_leaky   B1_2      shadow 0.630  lira 0.690  lira_gv 0.687  rmia 0.624
+  seed 44 xgb_leaky   B2_0      shadow 0.668  lira 0.747  lira_gv 0.722  rmia 0.580
+  seed 44 xgb_leaky   B2_1      shadow 0.655  lira 0.746  lira_gv 0.714  rmia 0.631
+  seed 44 xgb_leaky   B2_2      shadow 0.632  lira 0.683  lira_gv 0.682  rmia 0.634
+  seed 44 xgb_leaky   B1_comb   shadow 0.584  lira 0.529  lira_gv 0.550  rmia 0.539
+  seed 44 xgb_leaky   B2_comb   shadow 0.586  lira 0.547  lira_gv 0.559  rmia 0.541
+  seed 45 xgb_leaky   A_0       shadow 0.662  lira 0.809  lira_gv 0.790  rmia 0.591
+  seed 45 xgb_leaky   Aprime_0  shadow 0.665  lira 0.747  lira_gv 0.754  rmia 0.610
+  seed 45 xgb_leaky   B1_0      shadow 0.670  lira 0.745  lira_gv 0.722  rmia 0.563
+  seed 45 xgb_leaky   B1_1      shadow 0.670  lira 0.770  lira_gv 0.722  rmia 0.652
+  seed 45 xgb_leaky   B1_2      shadow 0.618  lira 0.681  lira_gv 0.673  rmia 0.607
+  seed 45 xgb_leaky   B2_0      shadow 0.667  lira 0.756  lira_gv 0.731  rmia 0.574
+  seed 45 xgb_leaky   B2_1      shadow 0.670  lira 0.753  lira_gv 0.714  rmia 0.651
+  seed 45 xgb_leaky   B2_2      shadow 0.620  lira 0.672  lira_gv 0.669  rmia 0.620
+  seed 45 xgb_leaky   B1_comb   shadow 0.577  lira 0.541  lira_gv 0.559  rmia 0.550
+  seed 45 xgb_leaky   B2_comb   shadow 0.579  lira 0.568  lira_gv 0.572  rmia 0.548
+  seed 46 xgb_leaky   A_0       shadow 0.661  lira 0.810  lira_gv 0.789  rmia 0.592
+  seed 46 xgb_leaky   Aprime_0  shadow 0.631  lira 0.714  lira_gv 0.698  rmia 0.606
+  seed 46 xgb_leaky   B1_0      shadow 0.668  lira 0.741  lira_gv 0.721  rmia 0.574
+  seed 46 xgb_leaky   B1_1      shadow 0.655  lira 0.760  lira_gv 0.707  rmia 0.627
+  seed 46 xgb_leaky   B1_2      shadow 0.624  lira 0.684  lira_gv 0.683  rmia 0.599
+  seed 46 xgb_leaky   B2_0      shadow 0.668  lira 0.756  lira_gv 0.733  rmia 0.583
+  seed 46 xgb_leaky   B2_1      shadow 0.657  lira 0.752  lira_gv 0.703  rmia 0.627
+  seed 46 xgb_leaky   B2_2      shadow 0.625  lira 0.687  lira_gv 0.681  rmia 0.596
+  seed 46 xgb_leaky   B1_comb   shadow 0.579  lira 0.542  lira_gv 0.561  rmia 0.546
+  seed 46 xgb_leaky   B2_comb   shadow 0.578  lira 0.555  lira_gv 0.562  rmia 0.547
+  seed 47 xgb_leaky   A_0       shadow 0.659  lira 0.808  lira_gv 0.788  rmia 0.590
+  seed 47 xgb_leaky   Aprime_0  shadow 0.611  lira 0.678  lira_gv 0.652  rmia 0.614
+  seed 47 xgb_leaky   B1_0      shadow 0.659  lira 0.735  lira_gv 0.711  rmia 0.568
+  seed 47 xgb_leaky   B1_1      shadow 0.666  lira 0.764  lira_gv 0.720  rmia 0.652
+  seed 47 xgb_leaky   B1_2      shadow 0.619  lira 0.684  lira_gv 0.677  rmia 0.592
+  seed 47 xgb_leaky   B2_0      shadow 0.660  lira 0.747  lira_gv 0.720  rmia 0.570
+  seed 47 xgb_leaky   B2_1      shadow 0.673  lira 0.756  lira_gv 0.716  rmia 0.648
+  seed 47 xgb_leaky   B2_2      shadow 0.621  lira 0.676  lira_gv 0.673  rmia 0.591
+  seed 47 xgb_leaky   B1_comb   shadow 0.576  lira 0.539  lira_gv 0.555  rmia 0.551
+  seed 47 xgb_leaky   B2_comb   shadow 0.578  lira 0.554  lira_gv 0.567  rmia 0.551
+  seed 48 xgb_leaky   A_0       shadow 0.657  lira 0.807  lira_gv 0.788  rmia 0.588
+  seed 48 xgb_leaky   Aprime_0  shadow 0.617  lira 0.689  lira_gv 0.646  rmia 0.590
+  seed 48 xgb_leaky   B1_0      shadow 0.663  lira 0.738  lira_gv 0.715  rmia 0.568
+  seed 48 xgb_leaky   B1_1      shadow 0.659  lira 0.760  lira_gv 0.714  rmia 0.635
+  seed 48 xgb_leaky   B1_2      shadow 0.622  lira 0.697  lira_gv 0.682  rmia 0.597
+  seed 48 xgb_leaky   B2_0      shadow 0.661  lira 0.753  lira_gv 0.726  rmia 0.576
+  seed 48 xgb_leaky   B2_1      shadow 0.663  lira 0.753  lira_gv 0.709  rmia 0.635
+  seed 48 xgb_leaky   B2_2      shadow 0.625  lira 0.685  lira_gv 0.676  rmia 0.594
+  seed 48 xgb_leaky   B1_comb   shadow 0.581  lira 0.539  lira_gv 0.555  rmia 0.550
+  seed 48 xgb_leaky   B2_comb   shadow 0.583  lira 0.552  lira_gv 0.561  rmia 0.546
+  seed 49 xgb_leaky   A_0       shadow 0.659  lira 0.816  lira_gv 0.797  rmia 0.589
+  seed 49 xgb_leaky   Aprime_0  shadow 0.644  lira 0.720  lira_gv 0.706  rmia 0.609
+  seed 49 xgb_leaky   B1_0      shadow 0.668  lira 0.739  lira_gv 0.718  rmia 0.576
+  seed 49 xgb_leaky   B1_1      shadow 0.665  lira 0.764  lira_gv 0.717  rmia 0.653
+  seed 49 xgb_leaky   B1_2      shadow 0.618  lira 0.683  lira_gv 0.676  rmia 0.596
+  seed 49 xgb_leaky   B2_0      shadow 0.668  lira 0.755  lira_gv 0.728  rmia 0.573
+  seed 49 xgb_leaky   B2_1      shadow 0.665  lira 0.754  lira_gv 0.711  rmia 0.652
+  seed 49 xgb_leaky   B2_2      shadow 0.618  lira 0.677  lira_gv 0.672  rmia 0.593
+  seed 49 xgb_leaky   B1_comb   shadow 0.580  lira 0.542  lira_gv 0.561  rmia 0.548
+  seed 49 xgb_leaky   B2_comb   shadow 0.583  lira 0.560  lira_gv 0.570  rmia 0.546
+  seed 50 xgb_leaky   A_0       shadow 0.661  lira 0.804  lira_gv 0.785  rmia 0.585
+  seed 50 xgb_leaky   Aprime_0  shadow 0.612  lira 0.681  lira_gv 0.662  rmia 0.591
+  seed 50 xgb_leaky   B1_0      shadow 0.661  lira 0.736  lira_gv 0.712  rmia 0.564
+  seed 50 xgb_leaky   B1_1      shadow 0.652  lira 0.758  lira_gv 0.710  rmia 0.646
+  seed 50 xgb_leaky   B1_2      shadow 0.615  lira 0.690  lira_gv 0.674  rmia 0.592
+  seed 50 xgb_leaky   B2_0      shadow 0.664  lira 0.751  lira_gv 0.723  rmia 0.578
+  seed 50 xgb_leaky   B2_1      shadow 0.659  lira 0.746  lira_gv 0.704  rmia 0.646
+  seed 50 xgb_leaky   B2_2      shadow 0.622  lira 0.687  lira_gv 0.671  rmia 0.590
+  seed 50 xgb_leaky   B1_comb   shadow 0.585  lira 0.533  lira_gv 0.554  rmia 0.550
+  seed 50 xgb_leaky   B2_comb   shadow 0.585  lira 0.549  lira_gv 0.559  rmia 0.548
+  seed 51 xgb_leaky   A_0       shadow 0.657  lira 0.813  lira_gv 0.795  rmia 0.587
+  seed 51 xgb_leaky   Aprime_0  shadow 0.616  lira 0.687  lira_gv 0.657  rmia 0.595
+  seed 51 xgb_leaky   B1_0      shadow 0.668  lira 0.734  lira_gv 0.711  rmia 0.571
+  seed 51 xgb_leaky   B1_1      shadow 0.661  lira 0.758  lira_gv 0.717  rmia 0.651
+  seed 51 xgb_leaky   B1_2      shadow 0.619  lira 0.689  lira_gv 0.687  rmia 0.604
+  seed 51 xgb_leaky   B2_0      shadow 0.663  lira 0.754  lira_gv 0.722  rmia 0.570
+  seed 51 xgb_leaky   B2_1      shadow 0.663  lira 0.747  lira_gv 0.712  rmia 0.649
+  seed 51 xgb_leaky   B2_2      shadow 0.620  lira 0.674  lira_gv 0.681  rmia 0.601
+  seed 51 xgb_leaky   B1_comb   shadow 0.578  lira 0.531  lira_gv 0.550  rmia 0.536
+  seed 51 xgb_leaky   B2_comb   shadow 0.578  lira 0.548  lira_gv 0.561  rmia 0.536
+  seed 42 xgb_regularized A_0       shadow 0.528  lira 0.619  lira_gv 0.624  rmia 0.585
+  seed 42 xgb_regularized Aprime_0  shadow 0.564  lira 0.637  lira_gv 0.651  rmia 0.651
+  seed 42 xgb_regularized B1_0      shadow 0.568  lira 0.624  lira_gv 0.614  rmia 0.602
+  seed 42 xgb_regularized B1_1      shadow 0.523  lira 0.696  lira_gv 0.703  rmia 0.756
+  seed 42 xgb_regularized B1_2      shadow 0.542  lira 0.667  lira_gv 0.666  rmia 0.696
+  seed 42 xgb_regularized B2_0      shadow 0.566  lira 0.612  lira_gv 0.607  rmia 0.611
+  seed 42 xgb_regularized B2_1      shadow 0.532  lira 0.703  lira_gv 0.702  rmia 0.750
+  seed 42 xgb_regularized B2_2      shadow 0.545  lira 0.664  lira_gv 0.662  rmia 0.692
+  seed 42 xgb_regularized B1_comb   shadow 0.516  lira 0.555  lira_gv 0.562  rmia 0.543
+  seed 42 xgb_regularized B2_comb   shadow 0.510  lira 0.554  lira_gv 0.558  rmia 0.544
+  seed 42 xgb_regularized F_B1      shadow 0.524  lira 0.629  lira_gv 0.632  rmia 0.586
+  seed 43 xgb_regularized A_0       shadow 0.539  lira 0.625  lira_gv 0.633  rmia 0.596
+  seed 43 xgb_regularized Aprime_0  shadow 0.575  lira 0.638  lira_gv 0.635  rmia 0.634
+  seed 43 xgb_regularized B1_0      shadow 0.572  lira 0.623  lira_gv 0.614  rmia 0.604
+  seed 43 xgb_regularized B1_1      shadow 0.504  lira 0.696  lira_gv 0.702  rmia 0.750
+  seed 43 xgb_regularized B1_2      shadow 0.534  lira 0.671  lira_gv 0.675  rmia 0.717
+  seed 43 xgb_regularized B2_0      shadow 0.566  lira 0.614  lira_gv 0.611  rmia 0.616
+  seed 43 xgb_regularized B2_1      shadow 0.512  lira 0.698  lira_gv 0.693  rmia 0.751
+  seed 43 xgb_regularized B2_2      shadow 0.552  lira 0.674  lira_gv 0.674  rmia 0.708
+  seed 43 xgb_regularized B1_comb   shadow 0.504  lira 0.564  lira_gv 0.567  rmia 0.539
+  seed 43 xgb_regularized B2_comb   shadow 0.509  lira 0.567  lira_gv 0.571  rmia 0.542
+  seed 43 xgb_regularized F_B1      shadow 0.542  lira 0.627  lira_gv 0.631  rmia 0.601
+  seed 44 xgb_regularized A_0       shadow 0.541  lira 0.633  lira_gv 0.634  rmia 0.594
+  seed 44 xgb_regularized Aprime_0  shadow 0.579  lira 0.645  lira_gv 0.644  rmia 0.637
+  seed 44 xgb_regularized B1_0      shadow 0.572  lira 0.618  lira_gv 0.613  rmia 0.614
+  seed 44 xgb_regularized B1_1      shadow 0.520  lira 0.698  lira_gv 0.703  rmia 0.748
+  seed 44 xgb_regularized B1_2      shadow 0.535  lira 0.666  lira_gv 0.669  rmia 0.704
+  seed 44 xgb_regularized B2_0      shadow 0.574  lira 0.616  lira_gv 0.612  rmia 0.618
+  seed 44 xgb_regularized B2_1      shadow 0.522  lira 0.691  lira_gv 0.693  rmia 0.738
+  seed 44 xgb_regularized B2_2      shadow 0.547  lira 0.671  lira_gv 0.663  rmia 0.697
+  seed 44 xgb_regularized B1_comb   shadow 0.513  lira 0.557  lira_gv 0.563  rmia 0.545
+  seed 44 xgb_regularized B2_comb   shadow 0.524  lira 0.554  lira_gv 0.554  rmia 0.545
+  seed 44 xgb_regularized F_B1      shadow 0.539  lira 0.628  lira_gv 0.633  rmia 0.592
+  seed 45 xgb_regularized A_0       shadow 0.531  lira 0.625  lira_gv 0.633  rmia 0.598
+  seed 45 xgb_regularized Aprime_0  shadow 0.577  lira 0.651  lira_gv 0.648  rmia 0.631
+  seed 45 xgb_regularized B1_0      shadow 0.576  lira 0.617  lira_gv 0.613  rmia 0.608
+  seed 45 xgb_regularized B1_1      shadow 0.530  lira 0.700  lira_gv 0.694  rmia 0.758
+  seed 45 xgb_regularized B1_2      shadow 0.534  lira 0.659  lira_gv 0.658  rmia 0.687
+  seed 45 xgb_regularized B2_0      shadow 0.570  lira 0.613  lira_gv 0.612  rmia 0.616
+  seed 45 xgb_regularized B2_1      shadow 0.528  lira 0.699  lira_gv 0.696  rmia 0.757
+  seed 45 xgb_regularized B2_2      shadow 0.539  lira 0.664  lira_gv 0.651  rmia 0.682
+  seed 45 xgb_regularized B1_comb   shadow 0.512  lira 0.560  lira_gv 0.567  rmia 0.546
+  seed 45 xgb_regularized B2_comb   shadow 0.526  lira 0.564  lira_gv 0.567  rmia 0.546
+  seed 45 xgb_regularized F_B1      shadow 0.533  lira 0.626  lira_gv 0.633  rmia 0.599
+  seed 46 xgb_regularized A_0       shadow 0.538  lira 0.628  lira_gv 0.634  rmia 0.601
+  seed 46 xgb_regularized Aprime_0  shadow 0.571  lira 0.654  lira_gv 0.652  rmia 0.638
+  seed 46 xgb_regularized B1_0      shadow 0.577  lira 0.624  lira_gv 0.619  rmia 0.619
+  seed 46 xgb_regularized B1_1      shadow 0.519  lira 0.688  lira_gv 0.691  rmia 0.743
+  seed 46 xgb_regularized B1_2      shadow 0.533  lira 0.664  lira_gv 0.664  rmia 0.696
+  seed 46 xgb_regularized B2_0      shadow 0.578  lira 0.619  lira_gv 0.617  rmia 0.621
+  seed 46 xgb_regularized B2_1      shadow 0.522  lira 0.676  lira_gv 0.674  rmia 0.745
+  seed 46 xgb_regularized B2_2      shadow 0.541  lira 0.672  lira_gv 0.665  rmia 0.688
+  seed 46 xgb_regularized B1_comb   shadow 0.512  lira 0.555  lira_gv 0.564  rmia 0.541
+  seed 46 xgb_regularized B2_comb   shadow 0.520  lira 0.564  lira_gv 0.563  rmia 0.542
+  seed 46 xgb_regularized F_B1      shadow 0.547  lira 0.622  lira_gv 0.628  rmia 0.589
+  seed 47 xgb_regularized A_0       shadow 0.538  lira 0.625  lira_gv 0.625  rmia 0.598
+  seed 47 xgb_regularized Aprime_0  shadow 0.574  lira 0.635  lira_gv 0.628  rmia 0.628
+  seed 47 xgb_regularized B1_0      shadow 0.563  lira 0.610  lira_gv 0.600  rmia 0.598
+  seed 47 xgb_regularized B1_1      shadow 0.538  lira 0.706  lira_gv 0.706  rmia 0.762
+  seed 47 xgb_regularized B1_2      shadow 0.531  lira 0.664  lira_gv 0.669  rmia 0.712
+  seed 47 xgb_regularized B2_0      shadow 0.562  lira 0.611  lira_gv 0.603  rmia 0.607
+  seed 47 xgb_regularized B2_1      shadow 0.541  lira 0.704  lira_gv 0.697  rmia 0.767
+  seed 47 xgb_regularized B2_2      shadow 0.544  lira 0.676  lira_gv 0.670  rmia 0.696
+  seed 47 xgb_regularized B1_comb   shadow 0.508  lira 0.556  lira_gv 0.563  rmia 0.540
+  seed 47 xgb_regularized B2_comb   shadow 0.513  lira 0.561  lira_gv 0.559  rmia 0.542
+  seed 47 xgb_regularized F_B1      shadow 0.531  lira 0.634  lira_gv 0.635  rmia 0.590
+  seed 48 xgb_regularized A_0       shadow 0.537  lira 0.629  lira_gv 0.632  rmia 0.605
+  seed 48 xgb_regularized Aprime_0  shadow 0.569  lira 0.654  lira_gv 0.656  rmia 0.637
+  seed 48 xgb_regularized B1_0      shadow 0.568  lira 0.615  lira_gv 0.610  rmia 0.608
+  seed 48 xgb_regularized B1_1      shadow 0.521  lira 0.680  lira_gv 0.683  rmia 0.751
+  seed 48 xgb_regularized B1_2      shadow 0.531  lira 0.657  lira_gv 0.663  rmia 0.695
+  seed 48 xgb_regularized B2_0      shadow 0.570  lira 0.615  lira_gv 0.611  rmia 0.612
+  seed 48 xgb_regularized B2_1      shadow 0.524  lira 0.694  lira_gv 0.692  rmia 0.747
+  seed 48 xgb_regularized B2_2      shadow 0.531  lira 0.661  lira_gv 0.666  rmia 0.692
+  seed 48 xgb_regularized B1_comb   shadow 0.516  lira 0.555  lira_gv 0.566  rmia 0.550
+  seed 48 xgb_regularized B2_comb   shadow 0.521  lira 0.564  lira_gv 0.565  rmia 0.546
+  seed 48 xgb_regularized F_B1      shadow 0.532  lira 0.627  lira_gv 0.628  rmia 0.595
+  seed 49 xgb_regularized A_0       shadow 0.523  lira 0.639  lira_gv 0.642  rmia 0.590
+  seed 49 xgb_regularized Aprime_0  shadow 0.570  lira 0.627  lira_gv 0.634  rmia 0.644
+  seed 49 xgb_regularized B1_0      shadow 0.576  lira 0.628  lira_gv 0.625  rmia 0.619
+  seed 49 xgb_regularized B1_1      shadow 0.525  lira 0.698  lira_gv 0.701  rmia 0.753
+  seed 49 xgb_regularized B1_2      shadow 0.550  lira 0.668  lira_gv 0.671  rmia 0.706
+  seed 49 xgb_regularized B2_0      shadow 0.577  lira 0.632  lira_gv 0.628  rmia 0.625
+  seed 49 xgb_regularized B2_1      shadow 0.527  lira 0.676  lira_gv 0.678  rmia 0.745
+  seed 49 xgb_regularized B2_2      shadow 0.565  lira 0.677  lira_gv 0.677  rmia 0.704
+  seed 49 xgb_regularized B1_comb   shadow 0.521  lira 0.563  lira_gv 0.567  rmia 0.535
+  seed 49 xgb_regularized B2_comb   shadow 0.507  lira 0.559  lira_gv 0.563  rmia 0.535
+  seed 49 xgb_regularized F_B1      shadow 0.542  lira 0.625  lira_gv 0.631  rmia 0.594
+  seed 50 xgb_regularized A_0       shadow 0.540  lira 0.616  lira_gv 0.624  rmia 0.601
+  seed 50 xgb_regularized Aprime_0  shadow 0.563  lira 0.636  lira_gv 0.628  rmia 0.628
+  seed 50 xgb_regularized B1_0      shadow 0.576  lira 0.613  lira_gv 0.608  rmia 0.604
+  seed 50 xgb_regularized B1_1      shadow 0.521  lira 0.701  lira_gv 0.709  rmia 0.771
+  seed 50 xgb_regularized B1_2      shadow 0.544  lira 0.657  lira_gv 0.660  rmia 0.694
+  seed 50 xgb_regularized B2_0      shadow 0.568  lira 0.619  lira_gv 0.612  rmia 0.611
+  seed 50 xgb_regularized B2_1      shadow 0.529  lira 0.702  lira_gv 0.698  rmia 0.772
+  seed 50 xgb_regularized B2_2      shadow 0.556  lira 0.669  lira_gv 0.663  rmia 0.684
+  seed 50 xgb_regularized B1_comb   shadow 0.523  lira 0.559  lira_gv 0.564  rmia 0.547
+  seed 50 xgb_regularized B2_comb   shadow 0.515  lira 0.559  lira_gv 0.559  rmia 0.546
+  seed 50 xgb_regularized F_B1      shadow 0.530  lira 0.627  lira_gv 0.633  rmia 0.588
+  seed 51 xgb_regularized A_0       shadow 0.547  lira 0.625  lira_gv 0.633  rmia 0.594
+  seed 51 xgb_regularized Aprime_0  shadow 0.583  lira 0.631  lira_gv 0.645  rmia 0.649
+  seed 51 xgb_regularized B1_0      shadow 0.568  lira 0.619  lira_gv 0.615  rmia 0.621
+  seed 51 xgb_regularized B1_1      shadow 0.530  lira 0.711  lira_gv 0.714  rmia 0.762
+  seed 51 xgb_regularized B1_2      shadow 0.525  lira 0.660  lira_gv 0.666  rmia 0.711
+  seed 51 xgb_regularized B2_0      shadow 0.561  lira 0.618  lira_gv 0.611  rmia 0.630
+  seed 51 xgb_regularized B2_1      shadow 0.535  lira 0.706  lira_gv 0.701  rmia 0.762
+  seed 51 xgb_regularized B2_2      shadow 0.538  lira 0.667  lira_gv 0.667  rmia 0.707
+  seed 51 xgb_regularized B1_comb   shadow 0.516  lira 0.558  lira_gv 0.562  rmia 0.541
+  seed 51 xgb_regularized B2_comb   shadow 0.515  lira 0.558  lira_gv 0.562  rmia 0.544
+  seed 51 xgb_regularized F_B1      shadow 0.530  lira 0.629  lira_gv 0.634  rmia 0.593
+done -> analysis\snuh_pilot\out\eicu_h3b_xgb\03_attacks_long.csv
+[03_attack_audit.py] done in 8.8 min
+[03b_size_curve.py] start 15:09
+  xgb_krcp         n= 2,000 shadow   1/64     1s
+  xgb_krcp         n= 2,000 shadow   2/64     1s
+  xgb_krcp         n= 2,000 shadow   3/64     1s
+  xgb_krcp         n= 2,000 shadow   4/64     1s
+  xgb_krcp         n= 2,000 shadow   5/64     1s
+  xgb_krcp         n= 2,000 shadow   6/64     1s
+  xgb_krcp         n= 2,000 shadow   7/64     1s
+  xgb_krcp         n= 2,000 shadow   8/64     1s
+  xgb_krcp         n= 2,000 shadow   9/64     1s
+  xgb_krcp         n= 2,000 shadow  10/64     1s
+  xgb_krcp         n= 2,000 shadow  11/64     1s
+  xgb_krcp         n= 2,000 shadow  12/64     1s
+  xgb_krcp         n= 2,000 shadow  13/64     1s
+  xgb_krcp         n= 2,000 shadow  14/64     1s
+  xgb_krcp         n= 2,000 shadow  15/64     1s
+  xgb_krcp         n= 2,000 shadow  16/64     1s
+  xgb_krcp         n= 2,000 shadow  17/64     1s
+  xgb_krcp         n= 2,000 shadow  18/64     1s
+  xgb_krcp         n= 2,000 shadow  19/64     1s
+  xgb_krcp         n= 2,000 shadow  20/64     1s
+  xgb_krcp         n= 2,000 shadow  21/64     1s
+  xgb_krcp         n= 2,000 shadow  22/64     1s
+  xgb_krcp         n= 2,000 shadow  23/64     1s
+  xgb_krcp         n= 2,000 shadow  24/64     1s
+  xgb_krcp         n= 2,000 shadow  25/64     1s
+  xgb_krcp         n= 2,000 shadow  26/64     1s
+  xgb_krcp         n= 2,000 shadow  27/64     1s
+  xgb_krcp         n= 2,000 shadow  28/64     1s
+  xgb_krcp         n= 2,000 shadow  29/64     1s
+  xgb_krcp         n= 2,000 shadow  30/64     1s
+  xgb_krcp         n= 2,000 shadow  31/64     1s
+  xgb_krcp         n= 2,000 shadow  32/64     1s
+  xgb_krcp         n= 2,000 shadow  33/64     1s
+  xgb_krcp         n= 2,000 shadow  34/64     1s
+  xgb_krcp         n= 2,000 shadow  35/64     1s
+  xgb_krcp         n= 2,000 shadow  36/64     1s
+  xgb_krcp         n= 2,000 shadow  37/64     1s
+  xgb_krcp         n= 2,000 shadow  38/64     1s
+  xgb_krcp         n= 2,000 shadow  39/64     1s
+  xgb_krcp         n= 2,000 shadow  40/64     1s
+  xgb_krcp         n= 2,000 shadow  41/64     1s
+  xgb_krcp         n= 2,000 shadow  42/64     1s
+  xgb_krcp         n= 2,000 shadow  43/64     1s
+  xgb_krcp         n= 2,000 shadow  44/64     1s
+  xgb_krcp         n= 2,000 shadow  45/64     1s
+  xgb_krcp         n= 2,000 shadow  46/64     1s
+  xgb_krcp         n= 2,000 shadow  47/64     1s
+  xgb_krcp         n= 2,000 shadow  48/64     1s
+  xgb_krcp         n= 2,000 shadow  49/64     1s
+  xgb_krcp         n= 2,000 shadow  50/64     1s
+  xgb_krcp         n= 2,000 shadow  51/64     1s
+  xgb_krcp         n= 2,000 shadow  52/64     1s
+  xgb_krcp         n= 2,000 shadow  53/64     1s
+  xgb_krcp         n= 2,000 shadow  54/64     1s
+  xgb_krcp         n= 2,000 shadow  55/64     1s
+  xgb_krcp         n= 2,000 shadow  56/64     1s
+  xgb_krcp         n= 2,000 shadow  57/64     1s
+  xgb_krcp         n= 2,000 shadow  58/64     1s
+  xgb_krcp         n= 2,000 shadow  59/64     1s
+  xgb_krcp         n= 2,000 shadow  60/64     1s
+  xgb_krcp         n= 2,000 shadow  61/64     1s
+  xgb_krcp         n= 2,000 shadow  62/64     1s
+  xgb_krcp         n= 2,000 shadow  63/64     1s
+  xgb_krcp         n= 2,000 shadow  64/64     1s
+  seed 42 xgb_krcp         n= 2,000  shadow 0.665  lira 0.726
+  seed 43 xgb_krcp         n= 2,000  shadow 0.648  lira 0.719
+  seed 44 xgb_krcp         n= 2,000  shadow 0.653  lira 0.731
+  seed 45 xgb_krcp         n= 2,000  shadow 0.649  lira 0.711
+  seed 46 xgb_krcp         n= 2,000  shadow 0.654  lira 0.737
+  seed 47 xgb_krcp         n= 2,000  shadow 0.657  lira 0.710
+  seed 48 xgb_krcp         n= 2,000  shadow 0.655  lira 0.709
+  seed 49 xgb_krcp         n= 2,000  shadow 0.652  lira 0.721
+  seed 50 xgb_krcp         n= 2,000  shadow 0.638  lira 0.710
+  seed 51 xgb_krcp         n= 2,000  shadow 0.635  lira 0.699
+  xgb_krcp         n= 5,000 shadow   1/64     1s
+  xgb_krcp         n= 5,000 shadow   2/64     1s
+  xgb_krcp         n= 5,000 shadow   3/64     1s
+  xgb_krcp         n= 5,000 shadow   4/64     1s
+  xgb_krcp         n= 5,000 shadow   5/64     1s
+  xgb_krcp         n= 5,000 shadow   6/64     1s
+  xgb_krcp         n= 5,000 shadow   7/64     1s
+  xgb_krcp         n= 5,000 shadow   8/64     1s
+  xgb_krcp         n= 5,000 shadow   9/64     1s
+  xgb_krcp         n= 5,000 shadow  10/64     1s
+  xgb_krcp         n= 5,000 shadow  11/64     1s
+  xgb_krcp         n= 5,000 shadow  12/64     1s
+  xgb_krcp         n= 5,000 shadow  13/64     1s
+  xgb_krcp         n= 5,000 shadow  14/64     1s
+  xgb_krcp         n= 5,000 shadow  15/64     1s
+  xgb_krcp         n= 5,000 shadow  16/64     1s
+  xgb_krcp         n= 5,000 shadow  17/64     1s
+  xgb_krcp         n= 5,000 shadow  18/64     1s
+  xgb_krcp         n= 5,000 shadow  19/64     1s
+  xgb_krcp         n= 5,000 shadow  20/64     1s
+  xgb_krcp         n= 5,000 shadow  21/64     1s
+  xgb_krcp         n= 5,000 shadow  22/64     1s
+  xgb_krcp         n= 5,000 shadow  23/64     1s
+  xgb_krcp         n= 5,000 shadow  24/64     1s
+  xgb_krcp         n= 5,000 shadow  25/64     1s
+  xgb_krcp         n= 5,000 shadow  26/64     1s
+  xgb_krcp         n= 5,000 shadow  27/64     1s
+  xgb_krcp         n= 5,000 shadow  28/64     1s
+  xgb_krcp         n= 5,000 shadow  29/64     1s
+  xgb_krcp         n= 5,000 shadow  30/64     1s
+  xgb_krcp         n= 5,000 shadow  31/64     1s
+  xgb_krcp         n= 5,000 shadow  32/64     1s
+  xgb_krcp         n= 5,000 shadow  33/64     1s
+  xgb_krcp         n= 5,000 shadow  34/64     1s
+  xgb_krcp         n= 5,000 shadow  35/64     1s
+  xgb_krcp         n= 5,000 shadow  36/64     1s
+  xgb_krcp         n= 5,000 shadow  37/64     1s
+  xgb_krcp         n= 5,000 shadow  38/64     1s
+  xgb_krcp         n= 5,000 shadow  39/64     1s
+  xgb_krcp         n= 5,000 shadow  40/64     1s
+  xgb_krcp         n= 5,000 shadow  41/64     1s
+  xgb_krcp         n= 5,000 shadow  42/64     1s
+  xgb_krcp         n= 5,000 shadow  43/64     1s
+  xgb_krcp         n= 5,000 shadow  44/64     1s
+  xgb_krcp         n= 5,000 shadow  45/64     1s
+  xgb_krcp         n= 5,000 shadow  46/64     1s
+  xgb_krcp         n= 5,000 shadow  47/64     1s
+  xgb_krcp         n= 5,000 shadow  48/64     1s
+  xgb_krcp         n= 5,000 shadow  49/64     1s
+  xgb_krcp         n= 5,000 shadow  50/64     1s
+  xgb_krcp         n= 5,000 shadow  51/64     1s
+  xgb_krcp         n= 5,000 shadow  52/64     1s
+  xgb_krcp         n= 5,000 shadow  53/64     1s
+  xgb_krcp         n= 5,000 shadow  54/64     1s
+  xgb_krcp         n= 5,000 shadow  55/64     1s
+  xgb_krcp         n= 5,000 shadow  56/64     1s
+  xgb_krcp         n= 5,000 shadow  57/64     1s
+  xgb_krcp         n= 5,000 shadow  58/64     1s
+  xgb_krcp         n= 5,000 shadow  59/64     1s
+  xgb_krcp         n= 5,000 shadow  60/64     1s
+  xgb_krcp         n= 5,000 shadow  61/64     1s
+  xgb_krcp         n= 5,000 shadow  62/64     1s
+  xgb_krcp         n= 5,000 shadow  63/64     1s
+  xgb_krcp         n= 5,000 shadow  64/64     1s
+  seed 42 xgb_krcp         n= 5,000  shadow 0.626  lira 0.725
+  seed 43 xgb_krcp         n= 5,000  shadow 0.625  lira 0.728
+  seed 44 xgb_krcp         n= 5,000  shadow 0.627  lira 0.729
+  seed 45 xgb_krcp         n= 5,000  shadow 0.635  lira 0.729
+  seed 46 xgb_krcp         n= 5,000  shadow 0.618  lira 0.733
+  seed 47 xgb_krcp         n= 5,000  shadow 0.622  lira 0.723
+  seed 48 xgb_krcp         n= 5,000  shadow 0.630  lira 0.722
+  seed 49 xgb_krcp         n= 5,000  shadow 0.621  lira 0.725
+  seed 50 xgb_krcp         n= 5,000  shadow 0.620  lira 0.730
+  seed 51 xgb_krcp         n= 5,000  shadow 0.623  lira 0.728
+  xgb_krcp         n= 6,408 shadow   1/64     1s
+  xgb_krcp         n= 6,408 shadow   2/64     1s
+  xgb_krcp         n= 6,408 shadow   3/64     1s
+  xgb_krcp         n= 6,408 shadow   4/64     1s
+  xgb_krcp         n= 6,408 shadow   5/64     1s
+  xgb_krcp         n= 6,408 shadow   6/64     1s
+  xgb_krcp         n= 6,408 shadow   7/64     1s
+  xgb_krcp         n= 6,408 shadow   8/64     1s
+  xgb_krcp         n= 6,408 shadow   9/64     1s
+  xgb_krcp         n= 6,408 shadow  10/64     1s
+  xgb_krcp         n= 6,408 shadow  11/64     1s
+  xgb_krcp         n= 6,408 shadow  12/64     1s
+  xgb_krcp         n= 6,408 shadow  13/64     1s
+  xgb_krcp         n= 6,408 shadow  14/64     1s
+  xgb_krcp         n= 6,408 shadow  15/64     2s
+  xgb_krcp         n= 6,408 shadow  16/64     1s
+  xgb_krcp         n= 6,408 shadow  17/64     1s
+  xgb_krcp         n= 6,408 shadow  18/64     1s
+  xgb_krcp         n= 6,408 shadow  19/64     1s
+  xgb_krcp         n= 6,408 shadow  20/64     1s
+  xgb_krcp         n= 6,408 shadow  21/64     1s
+  xgb_krcp         n= 6,408 shadow  22/64     1s
+  xgb_krcp         n= 6,408 shadow  23/64     1s
+  xgb_krcp         n= 6,408 shadow  24/64     1s
+  xgb_krcp         n= 6,408 shadow  25/64     1s
+  xgb_krcp         n= 6,408 shadow  26/64     1s
+  xgb_krcp         n= 6,408 shadow  27/64     1s
+  xgb_krcp         n= 6,408 shadow  28/64     1s
+  xgb_krcp         n= 6,408 shadow  29/64     1s
+  xgb_krcp         n= 6,408 shadow  30/64     1s
+  xgb_krcp         n= 6,408 shadow  31/64     1s
+  xgb_krcp         n= 6,408 shadow  32/64     1s
+  xgb_krcp         n= 6,408 shadow  33/64     1s
+  xgb_krcp         n= 6,408 shadow  34/64     1s
+  xgb_krcp         n= 6,408 shadow  35/64     1s
+  xgb_krcp         n= 6,408 shadow  36/64     1s
+  xgb_krcp         n= 6,408 shadow  37/64     1s
+  xgb_krcp         n= 6,408 shadow  38/64     1s
+  xgb_krcp         n= 6,408 shadow  39/64     1s
+  xgb_krcp         n= 6,408 shadow  40/64     1s
+  xgb_krcp         n= 6,408 shadow  41/64     2s
+  xgb_krcp         n= 6,408 shadow  42/64     1s
+  xgb_krcp         n= 6,408 shadow  43/64     1s
+  xgb_krcp         n= 6,408 shadow  44/64     1s
+  xgb_krcp         n= 6,408 shadow  45/64     1s
+  xgb_krcp         n= 6,408 shadow  46/64     1s
+  xgb_krcp         n= 6,408 shadow  47/64     1s
+  xgb_krcp         n= 6,408 shadow  48/64     1s
+  xgb_krcp         n= 6,408 shadow  49/64     1s
+  xgb_krcp         n= 6,408 shadow  50/64     1s
+  xgb_krcp         n= 6,408 shadow  51/64     1s
+  xgb_krcp         n= 6,408 shadow  52/64     1s
+  xgb_krcp         n= 6,408 shadow  53/64     1s
+  xgb_krcp         n= 6,408 shadow  54/64     1s
+  xgb_krcp         n= 6,408 shadow  55/64     1s
+  xgb_krcp         n= 6,408 shadow  56/64     1s
+  xgb_krcp         n= 6,408 shadow  57/64     1s
+  xgb_krcp         n= 6,408 shadow  58/64     1s
+  xgb_krcp         n= 6,408 shadow  59/64     1s
+  xgb_krcp         n= 6,408 shadow  60/64     1s
+  xgb_krcp         n= 6,408 shadow  61/64     1s
+  xgb_krcp         n= 6,408 shadow  62/64     1s
+  xgb_krcp         n= 6,408 shadow  63/64     1s
+  xgb_krcp         n= 6,408 shadow  64/64     1s
+  seed 42 xgb_krcp         n= 6,408  shadow 0.621  lira 0.734
+  seed 43 xgb_krcp         n= 6,408  shadow 0.617  lira 0.724
+  seed 44 xgb_krcp         n= 6,408  shadow 0.624  lira 0.729
+  seed 45 xgb_krcp         n= 6,408  shadow 0.625  lira 0.724
+  seed 46 xgb_krcp         n= 6,408  shadow 0.615  lira 0.725
+  seed 47 xgb_krcp         n= 6,408  shadow 0.616  lira 0.730
+  seed 48 xgb_krcp         n= 6,408  shadow 0.618  lira 0.726
+  seed 49 xgb_krcp         n= 6,408  shadow 0.612  lira 0.728
+  seed 50 xgb_krcp         n= 6,408  shadow 0.618  lira 0.723
+  seed 51 xgb_krcp         n= 6,408  shadow 0.615  lira 0.728
+  xgb_regularized  n= 2,000 shadow   1/64     0s
+  xgb_regularized  n= 2,000 shadow   2/64     0s
+  xgb_regularized  n= 2,000 shadow   3/64     0s
+  xgb_regularized  n= 2,000 shadow   4/64     0s
+  xgb_regularized  n= 2,000 shadow   5/64     0s
+  xgb_regularized  n= 2,000 shadow   6/64     0s
+  xgb_regularized  n= 2,000 shadow   7/64     0s
+  xgb_regularized  n= 2,000 shadow   8/64     0s
+  xgb_regularized  n= 2,000 shadow   9/64     0s
+  xgb_regularized  n= 2,000 shadow  10/64     0s
+  xgb_regularized  n= 2,000 shadow  11/64     0s
+  xgb_regularized  n= 2,000 shadow  12/64     0s
+  xgb_regularized  n= 2,000 shadow  13/64     0s
+  xgb_regularized  n= 2,000 shadow  14/64     0s
+  xgb_regularized  n= 2,000 shadow  15/64     0s
+  xgb_regularized  n= 2,000 shadow  16/64     0s
+  xgb_regularized  n= 2,000 shadow  17/64     0s
+  xgb_regularized  n= 2,000 shadow  18/64     0s
+  xgb_regularized  n= 2,000 shadow  19/64     0s
+  xgb_regularized  n= 2,000 shadow  20/64     0s
+  xgb_regularized  n= 2,000 shadow  21/64     0s
+  xgb_regularized  n= 2,000 shadow  22/64     0s
+  xgb_regularized  n= 2,000 shadow  23/64     0s
+  xgb_regularized  n= 2,000 shadow  24/64     0s
+  xgb_regularized  n= 2,000 shadow  25/64     0s
+  xgb_regularized  n= 2,000 shadow  26/64     0s
+  xgb_regularized  n= 2,000 shadow  27/64     0s
+  xgb_regularized  n= 2,000 shadow  28/64     0s
+  xgb_regularized  n= 2,000 shadow  29/64     0s
+  xgb_regularized  n= 2,000 shadow  30/64     0s
+  xgb_regularized  n= 2,000 shadow  31/64     0s
+  xgb_regularized  n= 2,000 shadow  32/64     0s
+  xgb_regularized  n= 2,000 shadow  33/64     0s
+  xgb_regularized  n= 2,000 shadow  34/64     0s
+  xgb_regularized  n= 2,000 shadow  35/64     0s
+  xgb_regularized  n= 2,000 shadow  36/64     0s
+  xgb_regularized  n= 2,000 shadow  37/64     0s
+  xgb_regularized  n= 2,000 shadow  38/64     0s
+  xgb_regularized  n= 2,000 shadow  39/64     0s
+  xgb_regularized  n= 2,000 shadow  40/64     0s
+  xgb_regularized  n= 2,000 shadow  41/64     0s
+  xgb_regularized  n= 2,000 shadow  42/64     0s
+  xgb_regularized  n= 2,000 shadow  43/64     0s
+  xgb_regularized  n= 2,000 shadow  44/64     0s
+  xgb_regularized  n= 2,000 shadow  45/64     0s
+  xgb_regularized  n= 2,000 shadow  46/64     0s
+  xgb_regularized  n= 2,000 shadow  47/64     0s
+  xgb_regularized  n= 2,000 shadow  48/64     0s
+  xgb_regularized  n= 2,000 shadow  49/64     0s
+  xgb_regularized  n= 2,000 shadow  50/64     0s
+  xgb_regularized  n= 2,000 shadow  51/64     0s
+  xgb_regularized  n= 2,000 shadow  52/64     0s
+  xgb_regularized  n= 2,000 shadow  53/64     0s
+  xgb_regularized  n= 2,000 shadow  54/64     0s
+  xgb_regularized  n= 2,000 shadow  55/64     0s
+  xgb_regularized  n= 2,000 shadow  56/64     0s
+  xgb_regularized  n= 2,000 shadow  57/64     0s
+  xgb_regularized  n= 2,000 shadow  58/64     0s
+  xgb_regularized  n= 2,000 shadow  59/64     0s
+  xgb_regularized  n= 2,000 shadow  60/64     0s
+  xgb_regularized  n= 2,000 shadow  61/64     0s
+  xgb_regularized  n= 2,000 shadow  62/64     0s
+  xgb_regularized  n= 2,000 shadow  63/64     0s
+  xgb_regularized  n= 2,000 shadow  64/64     0s
+  seed 42 xgb_regularized  n= 2,000  shadow 0.586  lira 0.633
+  seed 43 xgb_regularized  n= 2,000  shadow 0.587  lira 0.657
+  seed 44 xgb_regularized  n= 2,000  shadow 0.569  lira 0.639
+  seed 45 xgb_regularized  n= 2,000  shadow 0.592  lira 0.637
+  seed 46 xgb_regularized  n= 2,000  shadow 0.569  lira 0.651
+  seed 47 xgb_regularized  n= 2,000  shadow 0.584  lira 0.632
+  seed 48 xgb_regularized  n= 2,000  shadow 0.573  lira 0.635
+  seed 49 xgb_regularized  n= 2,000  shadow 0.582  lira 0.652
+  seed 50 xgb_regularized  n= 2,000  shadow 0.576  lira 0.635
+  seed 51 xgb_regularized  n= 2,000  shadow 0.571  lira 0.623
+  xgb_regularized  n= 5,000 shadow   1/64     0s
+  xgb_regularized  n= 5,000 shadow   2/64     0s
+  xgb_regularized  n= 5,000 shadow   3/64     0s
+  xgb_regularized  n= 5,000 shadow   4/64     0s
+  xgb_regularized  n= 5,000 shadow   5/64     0s
+  xgb_regularized  n= 5,000 shadow   6/64     0s
+  xgb_regularized  n= 5,000 shadow   7/64     0s
+  xgb_regularized  n= 5,000 shadow   8/64     0s
+  xgb_regularized  n= 5,000 shadow   9/64     0s
+  xgb_regularized  n= 5,000 shadow  10/64     0s
+  xgb_regularized  n= 5,000 shadow  11/64     0s
+  xgb_regularized  n= 5,000 shadow  12/64     0s
+  xgb_regularized  n= 5,000 shadow  13/64     0s
+  xgb_regularized  n= 5,000 shadow  14/64     0s
+  xgb_regularized  n= 5,000 shadow  15/64     0s
+  xgb_regularized  n= 5,000 shadow  16/64     0s
+  xgb_regularized  n= 5,000 shadow  17/64     0s
+  xgb_regularized  n= 5,000 shadow  18/64     0s
+  xgb_regularized  n= 5,000 shadow  19/64     0s
+  xgb_regularized  n= 5,000 shadow  20/64     0s
+  xgb_regularized  n= 5,000 shadow  21/64     0s
+  xgb_regularized  n= 5,000 shadow  22/64     0s
+  xgb_regularized  n= 5,000 shadow  23/64     0s
+  xgb_regularized  n= 5,000 shadow  24/64     0s
+  xgb_regularized  n= 5,000 shadow  25/64     0s
+  xgb_regularized  n= 5,000 shadow  26/64     0s
+  xgb_regularized  n= 5,000 shadow  27/64     0s
+  xgb_regularized  n= 5,000 shadow  28/64     0s
+  xgb_regularized  n= 5,000 shadow  29/64     0s
+  xgb_regularized  n= 5,000 shadow  30/64     0s
+  xgb_regularized  n= 5,000 shadow  31/64     0s
+  xgb_regularized  n= 5,000 shadow  32/64     0s
+  xgb_regularized  n= 5,000 shadow  33/64     0s
+  xgb_regularized  n= 5,000 shadow  34/64     0s
+  xgb_regularized  n= 5,000 shadow  35/64     0s
+  xgb_regularized  n= 5,000 shadow  36/64     0s
+  xgb_regularized  n= 5,000 shadow  37/64     0s
+  xgb_regularized  n= 5,000 shadow  38/64     0s
+  xgb_regularized  n= 5,000 shadow  39/64     0s
+  xgb_regularized  n= 5,000 shadow  40/64     0s
+  xgb_regularized  n= 5,000 shadow  41/64     0s
+  xgb_regularized  n= 5,000 shadow  42/64     0s
+  xgb_regularized  n= 5,000 shadow  43/64     0s
+  xgb_regularized  n= 5,000 shadow  44/64     0s
+  xgb_regularized  n= 5,000 shadow  45/64     0s
+  xgb_regularized  n= 5,000 shadow  46/64     0s
+  xgb_regularized  n= 5,000 shadow  47/64     0s
+  xgb_regularized  n= 5,000 shadow  48/64     0s
+  xgb_regularized  n= 5,000 shadow  49/64     0s
+  xgb_regularized  n= 5,000 shadow  50/64     0s
+  xgb_regularized  n= 5,000 shadow  51/64     0s
+  xgb_regularized  n= 5,000 shadow  52/64     0s
+  xgb_regularized  n= 5,000 shadow  53/64     0s
+  xgb_regularized  n= 5,000 shadow  54/64     0s
+  xgb_regularized  n= 5,000 shadow  55/64     0s
+  xgb_regularized  n= 5,000 shadow  56/64     0s
+  xgb_regularized  n= 5,000 shadow  57/64     0s
+  xgb_regularized  n= 5,000 shadow  58/64     0s
+  xgb_regularized  n= 5,000 shadow  59/64     0s
+  xgb_regularized  n= 5,000 shadow  60/64     0s
+  xgb_regularized  n= 5,000 shadow  61/64     0s
+  xgb_regularized  n= 5,000 shadow  62/64     0s
+  xgb_regularized  n= 5,000 shadow  63/64     0s
+  xgb_regularized  n= 5,000 shadow  64/64     0s
+  seed 42 xgb_regularized  n= 5,000  shadow 0.546  lira 0.638
+  seed 43 xgb_regularized  n= 5,000  shadow 0.543  lira 0.630
+  seed 44 xgb_regularized  n= 5,000  shadow 0.548  lira 0.637
+  seed 45 xgb_regularized  n= 5,000  shadow 0.535  lira 0.618
+  seed 46 xgb_regularized  n= 5,000  shadow 0.540  lira 0.636
+  seed 47 xgb_regularized  n= 5,000  shadow 0.539  lira 0.625
+  seed 48 xgb_regularized  n= 5,000  shadow 0.544  lira 0.629
+  seed 49 xgb_regularized  n= 5,000  shadow 0.534  lira 0.625
+  seed 50 xgb_regularized  n= 5,000  shadow 0.536  lira 0.633
+  seed 51 xgb_regularized  n= 5,000  shadow 0.531  lira 0.633
+  xgb_regularized  n= 6,408 shadow   1/64     0s
+  xgb_regularized  n= 6,408 shadow   2/64     0s
+  xgb_regularized  n= 6,408 shadow   3/64     0s
+  xgb_regularized  n= 6,408 shadow   4/64     0s
+  xgb_regularized  n= 6,408 shadow   5/64     0s
+  xgb_regularized  n= 6,408 shadow   6/64     0s
+  xgb_regularized  n= 6,408 shadow   7/64     0s
+  xgb_regularized  n= 6,408 shadow   8/64     0s
+  xgb_regularized  n= 6,408 shadow   9/64     0s
+  xgb_regularized  n= 6,408 shadow  10/64     0s
+  xgb_regularized  n= 6,408 shadow  11/64     0s
+  xgb_regularized  n= 6,408 shadow  12/64     0s
+  xgb_regularized  n= 6,408 shadow  13/64     0s
+  xgb_regularized  n= 6,408 shadow  14/64     0s
+  xgb_regularized  n= 6,408 shadow  15/64     0s
+  xgb_regularized  n= 6,408 shadow  16/64     0s
+  xgb_regularized  n= 6,408 shadow  17/64     0s
+  xgb_regularized  n= 6,408 shadow  18/64     0s
+  xgb_regularized  n= 6,408 shadow  19/64     0s
+  xgb_regularized  n= 6,408 shadow  20/64     0s
+  xgb_regularized  n= 6,408 shadow  21/64     0s
+  xgb_regularized  n= 6,408 shadow  22/64     0s
+  xgb_regularized  n= 6,408 shadow  23/64     0s
+  xgb_regularized  n= 6,408 shadow  24/64     0s
+  xgb_regularized  n= 6,408 shadow  25/64     0s
+  xgb_regularized  n= 6,408 shadow  26/64     0s
+  xgb_regularized  n= 6,408 shadow  27/64     0s
+  xgb_regularized  n= 6,408 shadow  28/64     0s
+  xgb_regularized  n= 6,408 shadow  29/64     0s
+  xgb_regularized  n= 6,408 shadow  30/64     0s
+  xgb_regularized  n= 6,408 shadow  31/64     0s
+  xgb_regularized  n= 6,408 shadow  32/64     0s
+  xgb_regularized  n= 6,408 shadow  33/64     0s
+  xgb_regularized  n= 6,408 shadow  34/64     0s
+  xgb_regularized  n= 6,408 shadow  35/64     0s
+  xgb_regularized  n= 6,408 shadow  36/64     0s
+  xgb_regularized  n= 6,408 shadow  37/64     0s
+  xgb_regularized  n= 6,408 shadow  38/64     0s
+  xgb_regularized  n= 6,408 shadow  39/64     0s
+  xgb_regularized  n= 6,408 shadow  40/64     0s
+  xgb_regularized  n= 6,408 shadow  41/64     0s
+  xgb_regularized  n= 6,408 shadow  42/64     0s
+  xgb_regularized  n= 6,408 shadow  43/64     0s
+  xgb_regularized  n= 6,408 shadow  44/64     0s
+  xgb_regularized  n= 6,408 shadow  45/64     0s
+  xgb_regularized  n= 6,408 shadow  46/64     0s
+  xgb_regularized  n= 6,408 shadow  47/64     0s
+  xgb_regularized  n= 6,408 shadow  48/64     0s
+  xgb_regularized  n= 6,408 shadow  49/64     0s
+  xgb_regularized  n= 6,408 shadow  50/64     0s
+  xgb_regularized  n= 6,408 shadow  51/64     0s
+  xgb_regularized  n= 6,408 shadow  52/64     0s
+  xgb_regularized  n= 6,408 shadow  53/64     0s
+  xgb_regularized  n= 6,408 shadow  54/64     0s
+  xgb_regularized  n= 6,408 shadow  55/64     0s
+  xgb_regularized  n= 6,408 shadow  56/64     0s
+  xgb_regularized  n= 6,408 shadow  57/64     0s
+  xgb_regularized  n= 6,408 shadow  58/64     0s
+  xgb_regularized  n= 6,408 shadow  59/64     0s
+  xgb_regularized  n= 6,408 shadow  60/64     0s
+  xgb_regularized  n= 6,408 shadow  61/64     0s
+  xgb_regularized  n= 6,408 shadow  62/64     0s
+  xgb_regularized  n= 6,408 shadow  63/64     0s
+  xgb_regularized  n= 6,408 shadow  64/64     0s
+  seed 42 xgb_regularized  n= 6,408  shadow 0.536  lira 0.613
+  seed 43 xgb_regularized  n= 6,408  shadow 0.544  lira 0.620
+  seed 44 xgb_regularized  n= 6,408  shadow 0.530  lira 0.621
+  seed 45 xgb_regularized  n= 6,408  shadow 0.543  lira 0.627
+  seed 46 xgb_regularized  n= 6,408  shadow 0.533  lira 0.629
+  seed 47 xgb_regularized  n= 6,408  shadow 0.545  lira 0.615
+  seed 48 xgb_regularized  n= 6,408  shadow 0.547  lira 0.621
+  seed 49 xgb_regularized  n= 6,408  shadow 0.525  lira 0.619
+  seed 50 xgb_regularized  n= 6,408  shadow 0.529  lira 0.618
+  seed 51 xgb_regularized  n= 6,408  shadow 0.541  lira 0.626
+done -> analysis\snuh_pilot\out\eicu_h3b_xgb\03b_size_curve_long.csv
+[03b_size_curve.py] done in 6.8 min
+[04_gate1_formats.py] start 15:16
+  xgb_krcp    A_0   max|dp| 0.00e+00
+  xgb_krcp    B1_0  max|dp| 0.00e+00
+  xgb_krcp    F_B1  max|dp| 0.00e+00
+  xgb_leaky   A_0   max|dp| 0.00e+00
+  xgb_leaky   B1_0  max|dp| 0.00e+00
+  xgb_regularized A_0   max|dp| 0.00e+00
+  xgb_regularized B1_0  max|dp| 0.00e+00
+  xgb_regularized F_B1  max|dp| 0.00e+00
+done -> analysis\snuh_pilot\out\eicu_h3b_xgb\04_gate1.csv
+[04_gate1_formats.py] done in 0.1 min
+[05_gate3_escrow.py] start 15:16
+  gate3 xgb_krcp         PASS  |dAUROC| 0.0e+00  max|dp| 0.0e+00
+  gate3 xgb_leaky        PASS  |dAUROC| 0.0e+00  max|dp| 0.0e+00
+  gate3 xgb_regularized  PASS  |dAUROC| 0.0e+00  max|dp| 0.0e+00
+done -> analysis\snuh_pilot\out\eicu_h3b_xgb\05_gate3.csv
+[05_gate3_escrow.py] done in 0.3 min
+[06_summarize.py] start 15:17
+done -> analysis\snuh_pilot\out\eicu_h3b_xgb\06_summary.md
+[06_summarize.py] done in 0.0 min
+all steps done -> analysis/snuh_pilot/out/
+=== run_pilot eicu tag=h3b model=xgb 2026-10-19 22:56 from 06
+[06_summarize.py] start 22:56
+done -> analysis\snuh_pilot\out\eicu_h3b_xgb\06_summary.md
+[06_summarize.py] done in 0.0 min
+all steps done -> analysis/snuh_pilot/out/

@@ -1,0 +1,67 @@
+# 00_build_matrix  dataset=eicu  (eICU-CRD full-2.0, first ICU stay per person with APACHE IV first-day variables)
+
+rows               : 28,209  (train 19,746 / val 8,463)
+outcome rate       : 9.5% (train 9.5%, val 9.5%)
+features           : 47
+data sha256        : 63fe45ad95285f05…
+
+missing per feature (before imputation)
+  age                    0.0%
+  height                 2.4%
+  weight                 3.4%
+  bmi                    4.6%
+  hours_hospital_to_icu   0.0%
+  eyes                   3.1%
+  motor                  3.1%
+  verbal                 3.1%
+  meds                   1.9%
+  urine                 49.7%
+  wbc                   25.0%
+  temperature            7.0%
+  respiratoryrate        1.8%
+  sodium                21.4%
+  heartrate              1.4%
+  meanbp                 1.6%
+  ph                    77.9%
+  hematocrit            23.0%
+  creatinine            21.8%
+  albumin               60.9%
+  pao2                  77.9%
+  pco2                  77.9%
+  bun                   22.1%
+  glucose               13.8%
+  bilirubin             64.3%
+  fio2                  77.9%
+  gcs_total              3.1%
+  gender                 0.1%
+  ethnicity_group        0.0%
+  unit_type              0.0%
+  unit_source            0.0%
+  hospital_source        0.0%
+  dx_group               0.0%
+  intubated              0.0%
+  vent                   0.0%
+  dialysis               0.0%
+  electivesurgery       79.4%
+  thrombolytics          0.0%
+  readmit                0.0%
+  aids                   0.0%
+  hepaticfailure         0.0%
+  lymphoma               0.0%
+  metastaticcancer       0.0%
+  leukemia               0.0%
+  immunosuppression      0.0%
+  cirrhosis              0.0%
+  diabetes               0.0%
+
+stratum (baseline eGFR / age quartile)
+  med-surg 15,620
+  medical-cardiac 6,527
+  neuro    2,248
+  surgical 3,814
+
+subgroups
+  sg_sex         NA: 23  female: 12,904  male: 15,282
+  sg_age65       <65: 13,701  >=65: 14,499  NA: <11
+  sg_unit        med-surg: 15,620  medical-cardiac: 6,527  neuro: 2,248  surgical: 3,814
+  sg_ethnicity   black: 3,013  hispanic: 1,126  other: 2,309  white: 21,761

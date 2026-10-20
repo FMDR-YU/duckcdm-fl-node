@@ -1,0 +1,7 @@
+seed,variant,target,max_abs_dp,label_agree,bytes_total,formats,pickle_used_on_load,files
+42,krcp,A_0,2.220446049250313e-16,1.0,789498,json;text;cbm;json,False,cat.cbm:b81f7a7bb745;ensemble.json:c7d1c1d6f4ba;lgb.txt:085b0db757d1;rf.json:1caa3ea0df20;xgb.json:4dac6b57fc79
+42,krcp,B1_0,1.1102230246251565e-16,1.0,548860,json;text;cbm;json,False,cat.cbm:80545652b1aa;ensemble.json:6f2b723eca97;lgb.txt:ce88defe86d9;rf.json:62ca5d345621;xgb.json:cc200b606df7
+42,leaky,A_0,0.0,1.0,10823184,json;text;cbm;json,False,cat.cbm:43f2761af479;ensemble.json:c7d1c1d6f4ba;lgb.txt:b9577b192b20;rf.json:32270df29891;xgb.json:295a0da48782
+42,leaky,B1_0,0.0,1.0,5312531,json;text;cbm;json,False,cat.cbm:a039d7a90d70;ensemble.json:6f2b723eca97;lgb.txt:ef9bad224be1;rf.json:26c3a0d4cebc;xgb.json:4db264ec4465
+42,regularized,A_0,2.220446049250313e-16,1.0,152675,json;text;cbm;json,False,cat.cbm:3e7273085954;ensemble.json:c7d1c1d6f4ba;lgb.txt:3a47c2f2bd22;rf.json:477557afa8dc;xgb.json:e44b5a3d2f9f
+42,regularized,B1_0,2.220446049250313e-16,1.0,96477,json;text;cbm;json,False,cat.cbm:841d5dbf5de0;ensemble.json:6f2b723eca97;lgb.txt:94d4975178c3;rf.json:b730dd02ece5;xgb.json:e5999609ec24

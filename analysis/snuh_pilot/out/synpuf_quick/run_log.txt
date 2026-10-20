@@ -1,0 +1,258 @@
+=== run_pilot synpuf quick 2026-10-07 15:58 from 00
+[00_build_matrix.py] start 15:58
+done -> analysis\snuh_pilot\out\synpuf_quick\00_build_matrix.txt
+[00_build_matrix.py] done in 0.1 min
+[01_train_targets.py] start 15:58
+  seed 42 krcp        A_0       n=2,100      2s
+  seed 42 krcp        Aprime_0  n=700      0s
+  seed 42 krcp        B1_0      n=700      0s
+  seed 42 krcp        B1_1      n=700      0s
+  seed 42 krcp        B1_2      n=700      0s
+  seed 42 krcp        B2_0      n=1,050      0s
+  seed 42 krcp        B2_1      n=630      0s
+  seed 42 krcp        B2_2      n=420      0s
+  seed 42 leaky       A_0       n=2,100      2s
+  seed 42 leaky       Aprime_0  n=700      2s
+  seed 42 leaky       B1_0      n=700      1s
+  seed 42 leaky       B1_1      n=700      2s
+  seed 42 leaky       B1_2      n=700      2s
+  seed 42 leaky       B2_0      n=1,050      2s
+  seed 42 leaky       B2_1      n=630      2s
+  seed 42 leaky       B2_2      n=420      2s
+  seed 42 regularized A_0       n=2,100      0s
+  seed 42 regularized Aprime_0  n=700      0s
+  seed 42 regularized B1_0      n=700      0s
+  seed 42 regularized B1_1      n=700      0s
+  seed 42 regularized B1_2      n=700      0s
+  seed 42 regularized B2_0      n=1,050      0s
+  seed 42 regularized B2_1      n=630      0s
+  seed 42 regularized B2_2      n=420      0s
+  seed 43 krcp        A_0       n=2,100      0s
+  seed 43 krcp        Aprime_0  n=700      0s
+  seed 43 krcp        B1_0      n=700      0s
+  seed 43 krcp        B1_1      n=700      0s
+  seed 43 krcp        B1_2      n=700      0s
+  seed 43 krcp        B2_0      n=1,050      0s
+  seed 43 krcp        B2_1      n=630      0s
+  seed 43 krcp        B2_2      n=420      0s
+  seed 43 leaky       A_0       n=2,100      3s
+  seed 43 leaky       Aprime_0  n=700      2s
+  seed 43 leaky       B1_0      n=700      2s
+  seed 43 leaky       B1_1      n=700      2s
+  seed 43 leaky       B1_2      n=700      2s
+  seed 43 leaky       B2_0      n=1,050      2s
+  seed 43 leaky       B2_1      n=630      2s
+  seed 43 leaky       B2_2      n=420      2s
+  seed 43 regularized A_0       n=2,100      0s
+  seed 43 regularized Aprime_0  n=700      0s
+  seed 43 regularized B1_0      n=700      0s
+  seed 43 regularized B1_1      n=700      0s
+  seed 43 regularized B1_2      n=700      0s
+  seed 43 regularized B2_0      n=1,050      0s
+  seed 43 regularized B2_1      n=630      0s
+  seed 43 regularized B2_2      n=420      0s
+done -> analysis\snuh_pilot\out\synpuf_quick\01_utility_long.csv
+[01_train_targets.py] done in 0.8 min
+[02_train_shadows.py] start 15:59
+  krcp        full  shadow   1/8  n=2,100      2s
+  krcp        full  shadow   2/8  n=2,100      0s
+  krcp        full  shadow   3/8  n=2,100      0s
+  krcp        full  shadow   4/8  n=2,100      0s
+  krcp        full  shadow   5/8  n=2,100      0s
+  krcp        full  shadow   6/8  n=2,100      0s
+  krcp        full  shadow   7/8  n=2,100      0s
+  krcp        full  shadow   8/8  n=2,100      0s
+  krcp        site  shadow   1/8  n=700      0s
+  krcp        site  shadow   2/8  n=700      0s
+  krcp        site  shadow   3/8  n=700      0s
+  krcp        site  shadow   4/8  n=700      0s
+  krcp        site  shadow   5/8  n=700      0s
+  krcp        site  shadow   6/8  n=700      0s
+  krcp        site  shadow   7/8  n=700      0s
+  krcp        site  shadow   8/8  n=700      0s
+  krcp        b2_0  shadow   1/8  n=1,050      0s
+  krcp        b2_0  shadow   2/8  n=1,050      0s
+  krcp        b2_0  shadow   3/8  n=1,050      0s
+  krcp        b2_0  shadow   4/8  n=1,050      0s
+  krcp        b2_0  shadow   5/8  n=1,050      0s
+  krcp        b2_0  shadow   6/8  n=1,050      0s
+  krcp        b2_0  shadow   7/8  n=1,050      0s
+  krcp        b2_0  shadow   8/8  n=1,050      0s
+  krcp        b2_1  shadow   1/8  n=630      0s
+  krcp        b2_1  shadow   2/8  n=630      0s
+  krcp        b2_1  shadow   3/8  n=630      0s
+  krcp        b2_1  shadow   4/8  n=630      0s
+  krcp        b2_1  shadow   5/8  n=630      0s
+  krcp        b2_1  shadow   6/8  n=630      0s
+  krcp        b2_1  shadow   7/8  n=630      0s
+  krcp        b2_1  shadow   8/8  n=630      0s
+  krcp        b2_2  shadow   1/8  n=420      0s
+  krcp        b2_2  shadow   2/8  n=420      0s
+  krcp        b2_2  shadow   3/8  n=420      0s
+  krcp        b2_2  shadow   4/8  n=420      0s
+  krcp        b2_2  shadow   5/8  n=420      0s
+  krcp        b2_2  shadow   6/8  n=420      0s
+  krcp        b2_2  shadow   7/8  n=420      0s
+  krcp        b2_2  shadow   8/8  n=420      0s
+  leaky       full  shadow   1/8  n=2,100      3s
+  leaky       full  shadow   2/8  n=2,100      3s
+  leaky       full  shadow   3/8  n=2,100      3s
+  leaky       full  shadow   4/8  n=2,100      3s
+  leaky       full  shadow   5/8  n=2,100      3s
+  leaky       full  shadow   6/8  n=2,100      3s
+  leaky       full  shadow   7/8  n=2,100      3s
+  leaky       full  shadow   8/8  n=2,100      3s
+  leaky       site  shadow   1/8  n=700      2s
+  leaky       site  shadow   2/8  n=700      2s
+  leaky       site  shadow   3/8  n=700      2s
+  leaky       site  shadow   4/8  n=700      2s
+  leaky       site  shadow   5/8  n=700      2s
+  leaky       site  shadow   6/8  n=700      2s
+  leaky       site  shadow   7/8  n=700      2s
+  leaky       site  shadow   8/8  n=700      2s
+  leaky       b2_0  shadow   1/8  n=1,050      2s
+  leaky       b2_0  shadow   2/8  n=1,050      2s
+  leaky       b2_0  shadow   3/8  n=1,050      2s
+  leaky       b2_0  shadow   4/8  n=1,050      2s
+  leaky       b2_0  shadow   5/8  n=1,050      2s
+  leaky       b2_0  shadow   6/8  n=1,050      2s
+  leaky       b2_0  shadow   7/8  n=1,050      3s
+  leaky       b2_0  shadow   8/8  n=1,050      2s
+  leaky       b2_1  shadow   1/8  n=630      2s
+  leaky       b2_1  shadow   2/8  n=630      2s
+  leaky       b2_1  shadow   3/8  n=630      2s
+  leaky       b2_1  shadow   4/8  n=630      2s
+  leaky       b2_1  shadow   5/8  n=630      2s
+  leaky       b2_1  shadow   6/8  n=630      2s
+  leaky       b2_1  shadow   7/8  n=630      2s
+  leaky       b2_1  shadow   8/8  n=630      2s
+  leaky       b2_2  shadow   1/8  n=420      2s
+  leaky       b2_2  shadow   2/8  n=420      2s
+  leaky       b2_2  shadow   3/8  n=420      2s
+  leaky       b2_2  shadow   4/8  n=420      2s
+  leaky       b2_2  shadow   5/8  n=420      2s
+  leaky       b2_2  shadow   6/8  n=420      2s
+  leaky       b2_2  shadow   7/8  n=420      2s
+  leaky       b2_2  shadow   8/8  n=420      2s
+  regularized full  shadow   1/8  n=2,100      0s
+  regularized full  shadow   2/8  n=2,100      0s
+  regularized full  shadow   3/8  n=2,100      0s
+  regularized full  shadow   4/8  n=2,100      0s
+  regularized full  shadow   5/8  n=2,100      0s
+  regularized full  shadow   6/8  n=2,100      0s
+  regularized full  shadow   7/8  n=2,100      0s
+  regularized full  shadow   8/8  n=2,100      0s
+  regularized site  shadow   1/8  n=700      0s
+  regularized site  shadow   2/8  n=700      0s
+  regularized site  shadow   3/8  n=700      0s
+  regularized site  shadow   4/8  n=700      0s
+  regularized site  shadow   5/8  n=700      0s
+  regularized site  shadow   6/8  n=700      0s
+  regularized site  shadow   7/8  n=700      0s
+  regularized site  shadow   8/8  n=700      0s
+  regularized b2_0  shadow   1/8  n=1,050      0s
+  regularized b2_0  shadow   2/8  n=1,050      0s
+  regularized b2_0  shadow   3/8  n=1,050      0s
+  regularized b2_0  shadow   4/8  n=1,050      0s
+  regularized b2_0  shadow   5/8  n=1,050      0s
+  regularized b2_0  shadow   6/8  n=1,050      0s
+  regularized b2_0  shadow   7/8  n=1,050      0s
+  regularized b2_0  shadow   8/8  n=1,050      0s
+  regularized b2_1  shadow   1/8  n=630      0s
+  regularized b2_1  shadow   2/8  n=630      0s
+  regularized b2_1  shadow   3/8  n=630      0s
+  regularized b2_1  shadow   4/8  n=630      0s
+  regularized b2_1  shadow   5/8  n=630      0s
+  regularized b2_1  shadow   6/8  n=630      0s
+  regularized b2_1  shadow   7/8  n=630      0s
+  regularized b2_1  shadow   8/8  n=630      0s
+  regularized b2_2  shadow   1/8  n=420      0s
+  regularized b2_2  shadow   2/8  n=420      0s
+  regularized b2_2  shadow   3/8  n=420      0s
+  regularized b2_2  shadow   4/8  n=420      0s
+  regularized b2_2  shadow   5/8  n=420      0s
+  regularized b2_2  shadow   6/8  n=420      0s
+  regularized b2_2  shadow   7/8  n=420      0s
+  regularized b2_2  shadow   8/8  n=420      0s
+done -- 120 new shadows
+[02_train_shadows.py] done in 1.9 min
+[03_attack_audit.py] start 16:01
+  seed 42 krcp        A_0       shadow 0.540  lira 0.671
+  seed 42 krcp        Aprime_0  shadow 0.587  lira 0.651
+  seed 42 krcp        B1_0      shadow 0.579  lira 0.655
+  seed 42 krcp        B1_1      shadow 0.583  lira 0.648
+  seed 42 krcp        B1_2      shadow 0.584  lira 0.630
+  seed 42 krcp        B2_0      shadow 0.526  lira 0.674
+  seed 42 krcp        B2_1      shadow 0.572  lira 0.636
+  seed 42 krcp        B2_2      shadow 0.586  lira 0.615
+  seed 42 krcp        B1_comb   shadow 0.513  lira 0.565
+  seed 42 krcp        B2_comb   shadow 0.501  lira 0.574
+  seed 43 krcp        A_0       shadow 0.534  lira 0.671
+  seed 43 krcp        Aprime_0  shadow 0.610  lira 0.647
+  seed 43 krcp        B1_0      shadow 0.583  lira 0.623
+  seed 43 krcp        B1_1      shadow 0.582  lira 0.643
+  seed 43 krcp        B1_2      shadow 0.556  lira 0.660
+  seed 43 krcp        B2_0      shadow 0.547  lira 0.644
+  seed 43 krcp        B2_1      shadow 0.572  lira 0.624
+  seed 43 krcp        B2_2      shadow 0.627  lira 0.652
+  seed 43 krcp        B1_comb   shadow 0.521  lira 0.548
+  seed 43 krcp        B2_comb   shadow 0.527  lira 0.588
+  seed 42 leaky       A_0       shadow 0.799  lira 0.848
+  seed 42 leaky       Aprime_0  shadow 0.819  lira 0.763
+  seed 42 leaky       B1_0      shadow 0.829  lira 0.780
+  seed 42 leaky       B1_1      shadow 0.833  lira 0.771
+  seed 42 leaky       B1_2      shadow 0.809  lira 0.787
+  seed 42 leaky       B2_0      shadow 0.802  lira 0.795
+  seed 42 leaky       B2_1      shadow 0.811  lira 0.759
+  seed 42 leaky       B2_2      shadow 0.827  lira 0.767
+  seed 42 leaky       B1_comb   shadow 0.568  lira 0.563
+  seed 42 leaky       B2_comb   shadow 0.572  lira 0.615
+  seed 43 leaky       A_0       shadow 0.792  lira 0.836
+  seed 43 leaky       Aprime_0  shadow 0.819  lira 0.792
+  seed 43 leaky       B1_0      shadow 0.817  lira 0.779
+  seed 43 leaky       B1_1      shadow 0.815  lira 0.775
+  seed 43 leaky       B1_2      shadow 0.829  lira 0.782
+  seed 43 leaky       B2_0      shadow 0.807  lira 0.782
+  seed 43 leaky       B2_1      shadow 0.831  lira 0.813
+  seed 43 leaky       B2_2      shadow 0.862  lira 0.780
+  seed 43 leaky       B1_comb   shadow 0.581  lira 0.555
+  seed 43 leaky       B2_comb   shadow 0.582  lira 0.589
+  seed 42 regularized A_0       shadow 0.477  lira 0.546
+  seed 42 regularized Aprime_0  shadow 0.520  lira 0.525
+  seed 42 regularized B1_0      shadow 0.512  lira 0.523
+  seed 42 regularized B1_1      shadow 0.518  lira 0.529
+  seed 42 regularized B1_2      shadow 0.487  lira 0.512
+  seed 42 regularized B2_0      shadow 0.518  lira 0.525
+  seed 42 regularized B2_1      shadow 0.485  lira 0.519
+  seed 42 regularized B2_2      shadow 0.462  lira 0.506
+  seed 42 regularized B1_comb   shadow 0.515  lira 0.518
+  seed 42 regularized B2_comb   shadow 0.471  lira 0.527
+  seed 43 regularized A_0       shadow 0.514  lira 0.540
+  seed 43 regularized Aprime_0  shadow 0.510  lira 0.499
+  seed 43 regularized B1_0      shadow 0.483  lira 0.504
+  seed 43 regularized B1_1      shadow 0.493  lira 0.530
+  seed 43 regularized B1_2      shadow 0.487  lira 0.532
+  seed 43 regularized B2_0      shadow 0.497  lira 0.522
+  seed 43 regularized B2_1      shadow 0.494  lira 0.516
+  seed 43 regularized B2_2      shadow 0.538  lira 0.520
+  seed 43 regularized B1_comb   shadow 0.497  lira 0.505
+  seed 43 regularized B2_comb   shadow 0.500  lira 0.502
+done -> analysis\snuh_pilot\out\synpuf_quick\03_attacks_long.csv
+[03_attack_audit.py] done in 1.0 min
+[04_gate1_formats.py] start 16:02
+  krcp        A_0   max|dp| 2.22e-16
+  krcp        B1_0  max|dp| 1.11e-16
+  leaky       A_0   max|dp| 0.00e+00
+  leaky       B1_0  max|dp| 0.00e+00
+  regularized A_0   max|dp| 2.22e-16
+  regularized B1_0  max|dp| 2.22e-16
+done -> analysis\snuh_pilot\out\synpuf_quick\04_gate1.csv
+[04_gate1_formats.py] done in 0.1 min
+[05_gate3_escrow.py] start 16:02
+  gate3 PASS  |dAUROC| 0.0e+00  max|dp| 0.0e+00
+done -> analysis\snuh_pilot\out\synpuf_quick\05_gate3.csv
+[05_gate3_escrow.py] done in 0.1 min
+[06_summarize.py] start 16:02
+done -> analysis\snuh_pilot\out\synpuf_quick\06_summary.md
+[06_summarize.py] done in 0.0 min
+all steps done -> analysis/snuh_pilot/out/

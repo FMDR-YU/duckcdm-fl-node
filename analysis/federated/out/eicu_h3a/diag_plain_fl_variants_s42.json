@@ -1,0 +1,43 @@
+{
+ "tag": "eicu_h3a",
+ "seed": 42,
+ "rounds": 100,
+ "variants": {
+  "asis": {
+   "seconds_fl": 58.7,
+   "auroc_A": 0.9035255345075883,
+   "auroc_F": 0.908600054537243,
+   "pearson": 0.9794796627555958,
+   "max_abs_pred_diff": 0.25822168588638306,
+   "mean_abs_pred_diff": 0.015021281316876411,
+   "splits_A": 1272,
+   "splits_F": 1270,
+   "share_F_splits_in_A": 0.7259842519685039,
+   "max_bin": 256
+  },
+  "imputed": {
+   "seconds_fl": 63.9,
+   "auroc_A": 0.9052756261131136,
+   "auroc_F": 0.9041976634199963,
+   "pearson": 0.9764814901165058,
+   "max_abs_pred_diff": 0.3218204975128174,
+   "mean_abs_pred_diff": 0.0155504634603858,
+   "splits_A": 1165,
+   "splits_F": 1183,
+   "share_F_splits_in_A": 0.7531699070160609,
+   "max_bin": 256
+  },
+  "maxbin": {
+   "seconds_fl": 61.0,
+   "auroc_A": 0.9030398121873695,
+   "auroc_F": 0.9030398121873695,
+   "pearson": 0.9999999999999938,
+   "max_abs_pred_diff": 1.1920928955078125e-07,
+   "mean_abs_pred_diff": 7.95598165126421e-09,
+   "splits_A": 1366,
+   "splits_F": 1366,
+   "share_F_splits_in_A": 1.0,
+   "max_bin": 1024
+  }
+ }
+}
