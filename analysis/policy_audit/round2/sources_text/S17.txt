@@ -1,0 +1,458 @@
+Current ruleset on the subject of trained Machine Learning models - Genomics England Research Environment User Guide 
+ Skip to content
+ Genomics England Research Environment User Guide
+ Current ruleset on the subject of trained Machine Learning models
+ Initializing search
+ Home
+ Getting started
+ How-to guides
+ Data
+ Desktop applications
+ CloudOS
+ High Performance Cluster (HPC)
+ Workflows and scripts
+ Getting help
+ Data security and Export
+ Training
+ Genomics England Research Environment User Guide
+ Home
+ Getting started
+ Getting started
+ Welcome pack
+ Accessing the RE
+ Accessing the RE
+ Setting up AWS
+ Accessing the RE FAQs
+ Change or reset your password
+ Rebuild your workspace
+ Learning to use the RE
+ Your role as a researcher
+ Your role as a researcher
+ Introduction to the Research Network
+ Student guidelines
+ Researcher roles FAQs
+ Files, directories and import/export
+ Files, directories and import/export
+ Filesystem
+ Access control
+ Importing data and tools into the Research Environment
+ Exporting your results and publishing
+ Technical information
+ Technical information
+ Ubuntu upgrade
+ Whitelisted sites
+ Backup retention policy
+ Desktop RAM limits
+ Support for Python in the Research Environment
+ How-to guides
+ How-to guides
+ Complete end-to-end guides
+ Complete end-to-end guides
+ I'm interested in a phenotype and I want to know what variants are related
+ I'm interested in a gene and I want to know what phenotypes are related
+ I want to know more about pathogenicity of different variant types on a large scale
+ I want to find a diagnosis for patients who didn't get one through primary clinical interpretation
+ I want to develop and test scripts and workflows
+ Working with the desktop applications (videos)
+ Working with the desktop applications (videos)
+ About the RE videos
+ Labkey videos
+ Airlock videos
+ Participant explorer videos
+ IVA videos
+ Data exploration
+ Data exploration
+ Working with LabKey
+ Working with LabKey
+ Labkey API
+ Labkey API configuration
+ Working with NHS GMS data within LabKey
+ Labkey videos
+ Getting medical histories
+ Getting medical histories
+ Accessing and comparing medical history data with Participant Explorer
+ Accessing medical history data programmatically
+ Accessing mental health data programmatically
+ Cohort building
+ Cohort building
+ Phenotype-first cohort building
+ Phenotype-first cohort building
+ Building cohorts with Participant Explorer
+ Building cohorts with Cohort Browser in CloudOS
+ Building cancer cohorts programmatically
+ Building rare disease cohorts programmatically
+ Genotype-first cohort building
+ Genotype-first cohort building
+ Using our variant screening workflows
+ Finding participants by genotype in IVA
+ Finding participants by genotype in Cohort browser in CloudOS
+ Finding participants with prioritised variants programmatically
+ Querying aggregate VCF files to find participants by genotypes
+ Working with our aggregate VCF datasets
+ Working with our aggregate VCF datasets
+ AggV2 code book
+ AggV2 code book
+ AggV2 code book general information
+ AggV2 code book genotype queries
+ AggV2 code book functional annotation queries
+ AggV2 code book phenotype queries
+ AggV2 code book combining queries
+ somAgg code book
+ somAgg code book
+ somAgg code book general information
+ somAgg code book genotype queries
+ somAgg code book phenotype queries
+ De novo data code book
+ Task FAQs
+ Data
+ Data
+ Data overview
+ Data overview
+ Data for cancer participants
+ Data for rare disease participants
+ Data for all participants
+ Data for COVID-19 participants
+ 100kGP disease models
+ Clinical and phenotype data
+ Clinical and phenotype data
+ 100kGP clinical and phenotype data
+ 100kGP clinical and phenotype data
+ Cancer-specific 100kGP clinical data
+ Uncurated SACT for 100K participants
+ Rare disease-specific 100kGP clinical data
+ General 100kGP clinical data
+ NHS Genomic Medicine Service (GMS) Clinical and Phenotype data
+ NHS Genomic Medicine Service (GMS) Clinical and Phenotype data
+ Cancer-specific NHS GMS clinical data
+ Rare disease-specific NHS GMS clinical data
+ General NHS GMS clinical data
+ COVID-19 clinical data
+ Genomic data
+ Genomic data sources
+ Transcriptomics data
+ Transcriptomics data
+ 100kGP Pilot
+ 100kGP Extension
+ Research study cohort data
+ Research study cohort data
+ Genomics England bioinformatics data
+ Genomics England bioinformatics data
+ DRAGEN 3.7.8
+ Aggregated Variant Calls (AggV3)
+ Aggregated Variant Calls (AggV3)
+ Data generation, structure and locations
+ Detailed methods as provided by Illumina
+ AggV3 samples
+ AggGIAB - A small aggregate with public data to test your workflows
+ AggV3 functional annotation
+ AggV3 sample quality metrics
+ AggV3 site QC
+ AggV3 site QC
+ Processing of multiallelic VCFs
+ AggV3 Principal components and genetically inferred relatedness
+ AggV3 shard lookup tool
+ AggV3 code book
+ AggV3 code book
+ AggV3 code book - shards
+ AggV3 code book - genotype queries
+ AggV3 code book - functional annotation queries
+ AggV3 code book - querying QC metrics
+ AggV3 code book - combining genotype and siteQC queries
+ AggV3 change log and roadmap
+ Aggregated variant calls(AggV2)
+ Aggregated variant calls(AggV2)
+ AggV2 details
+ AggV2 details
+ AggV2 sample QC
+ AggV2 gVCF aggregation
+ AggV2 variant normalisation and representation
+ AggV2 site QC, FILTER and INFO Fields
+ AggV2 functional annotation
+ Summary statistics across genetically-inferred ancestry groups for 100,000 Genomes Project participants
+ AggV2 allele frequencies
+ AggV2 Principal components and genetically inferred relatedness
+ AggV2 Ancestry inference
+ AggV2 file manifest
+ AggV2 FAQs
+ Somatic aggregated variant calls
+ Somatic aggregated variant calls
+ somAgg sample stats
+ somAgg variant counts per chunk
+ somAgg VCF aggregation
+ COVID-19 aggregations
+ COVID-19 aggregations
+ COVID-19 aggregation methods
+ Data available for the COVID-19 aggregation
+ COVID-19 publication
+ Genetic similarity to worldwide populations (ancestry) in the UK Biobank
+ Genetic similarity to worldwide populations (ancestry) in the UK Biobank
+ Background on the ukbb assigner R script
+ De novo variant research dataset
+ De novo variant research dataset
+ Where and how to access de novo data
+ De novo data cohort statistics
+ De novo data FAQs
+ Tiering
+ Tiering
+ Rare disease tiering
+ Cancer tiering
+ Interpretation request (rare disease)
+ Solved cases (rare disease)
+ HLA variants
+ Exomiser
+ Cancer analysis
+ Cancer analysis
+ Cancer analysis
+ Cancer analysis histology and TGCA study
+ Staging data (cancer)
+ Staging data (cancer)
+ Cancer staging statistics 19
+ Cancer staging statistics 18
+ Cancer staging statistics 17
+ Cancer staging statistics 16
+ Cancer staging statistics 15
+ Cancer staging statistics 14
+ Cancer staging statistics 13
+ Cancer staging statistics 12
+ Cancer staging statistics 11
+ Cancer staging statistics 10
+ Cancer staging statistics 9
+ Cancer staging statistics 8
+ Long-read sequencing data
+ Long-read sequencing data
+ ONT cancer pilot project
+ ONT rare disease
+ Long-read SGP genomic data
+ PacBio rare disease pilot
+ ONT pilot
+ ONT COVID-19
+ Orthogonal standard-of-care (SOC) test data (cancer)
+ 100,000 Genomes Cancer Programme - pan-cancer publication
+ Clinical application of tumour in normal contamination assessment from WGS - TINC publication
+ Publicly available data
+ Research community provided data
+ Research community provided data
+ Participant supplementary data
+ Aggv2 phased data (provided by University of Oxford)
+ Polygenic risk scores (provided by Genomics PLC)
+ Data releases
+ Data releases
+ Genomic Medicine Service (GMS) data releases
+ Genomic Medicine Service (GMS) data releases
+ Change summary
+ Release 5 (28/08/2025)
+ Release 4 (22/08/2024)
+ Release 3 (18/03/2024)
+ Release 2 (28/02/2023)
+ Release 1 (15/06/2022)
+ 100kGP (main programme) releases
+ 100kGP (main programme) releases
+ Change summary
+ Release 19 (31/10/2024)
+ Release 18 (21/12/2023)
+ Release 17 (30/03/2023)
+ Release 16 (13/10/2022)
+ Release 15 (26/05/2022)
+ Release 14 (27/01/2022)
+ Release 13 (30/09/2021)
+ Release 12 (06/05/2021)
+ Release 11 (17/12/2020)
+ Release 10 (03/09/2020)
+ Release 9 (02/02/2020)
+ Release 8 (28/11/2019)
+ Release 7 (25/07/2019)
+ Release 6 (28/02/2019)
+ Release 5.1 (20/11/2018)
+ Release 5 (31/10/2018)
+ Release 4 (31/07/2018)
+ Release 3 (20/04/2018)
+ Release 2 (30/01/2018)
+ Release 1 (11/10/2017)
+ Covid-19 data releases
+ Covid-19 data releases
+ COVID-19 data release v7.0
+ COVID-19 data release v6.0
+ COVID-19 data release v5.0
+ Frequent data releases
+ Application data versions
+ Terminology server
+ Multimodal data
+ Pathology reports for cancer participants
+ Pathology synoptic reports dataset
+ Access to VIVO Biobank samples for NGRL participants with paediatric cancers
+ Desktop applications
+ Desktop applications
+ LabKey - tables of data
+ LabKey - tables of data
+ RStudio
+ Participant Explorer - search for participants
+ Participant Explorer - search for participants
+ Search for participants
+ Browse search results
+ View participant
+ Compare participants' medical histories
+ Download search results
+ Data in Participant Explorer
+ Participant Explorer code systems
+ Participant Explorer release notes
+ Participant Explorer FAQs
+ Interactive Variant Analysis (IVA) - catalogue of variants
+ Interactive Variant Analysis (IVA) - catalogue of variants
+ IVA variant browser
+ IVA case interpretation, case portal
+ IVA catalog
+ IVA filter reference
+ IVA project and studies
+ IVA release notes
+ Integrative Genome Viewer (IGV) - visualise genomic data
+ PanelApp - curated gene lists
+ BioMart
+ Terminal application
+ Jupyter notebooks
+ VSCode
+ LibreOffice
+ CloudOS
+ CloudOS
+ CloudOS data
+ Cloud instance types
+ High Performance Cluster (HPC)
+ High Performance Cluster (HPC)
+ What is an HPC?
+ Accessing the HPC
+ How to run jobs on the HPC
+ How to run jobs on the HPC
+ Queues on the HPC
+ Memory allocation on the HPC
+ LSF project codes
+ HPC submission scripts
+ Job dependencies
+ Application profile
+ Monitoring jobs on the HPC
+ HPC troubleshooting
+ Using software on the HPC
+ How to request software installation within the Research Environment
+ Using R on the HPC
+ Using R on the HPC
+ Using Rstudio on the HPC
+ Plotting in R on the HPC
+ Working with R packages
+ Python packages and personal conda environments
+ Importing software with containers
+ Importing software with containers
+ Step-by-step guide to using containers
+ Troubleshooting with containers
+ Jupyter Lab on the HPC
+ GW Genome Browser
+ Workflows and scripts
+ Workflows and scripts
+ Workflows
+ Workflows
+ Association testing
+ Association testing
+ Aggregate variant testing (AVT)
+ Aggregate variant testing (AVT)
+ Input files
+ Parameters
+ Output files
+ Known issues and limitations
+ Changelog
+ Previous WDL versions
+ Previous WDL versions
+ v3
+ v3
+ AVT detailed input file overview
+ GWAS
+ GWAS
+ Version history
+ Optional arguments and default
+ Detailed process output
+ Software versions
+ Common errors
+ Variant screening
+ Variant screening
+ Small Variant
+ Small Variant
+ Parameters
+ Input files
+ Output files
+ Known issues and limitations
+ Changelog
+ Previous WDL version
+ Previous WDL version
+ v1
+ v1
+ Troubleshooting the Gene Variant workflow
+ Structural Variant
+ Structural Variant
+ Structural variant workflow changelog
+ Structural variant workflow appendix
+ Previous versions
+ Previous versions
+ v2.0.1
+ v2.0.1
+ v1.2
+ Scripts
+ Scripts
+ Extract variants by coordinate
+ Cancer survival analysis
+ Somatic SVs and CNVs for a specific gene
+ Variant Effect Predictor (VEP)
+ Variant Effect Predictor (VEP)
+ VEP containers for older releases
+ Support
+ Getting help
+ Getting help
+ Live service issues
+ Prioritise our roadmap for workflows and scripts
+ Further reading and documentation
+ Data security and Export
+ Data security and Export
+ Data security and you
+ Airlock - importing and exporting files
+ Airlock - importing and exporting files
+ Using the Airlock
+ What you can and can't export
+ Machine learning models
+ How we process Airlock requests
+ Individual level data and case studies
+ Reporting potential diagnoses and contacting clinicians
+ Reporting potential diagnoses and contacting clinicians
+ Clinical Research Interface FAQs
+ Training
+ Training
+ Upcoming live training
+ Monthly introduction sessions
+ Using genomic data to build cohorts, June 2026
+ Building rare disease cohorts with matching controls, May 2026
+ Building cancer cohorts, April 2026
+ Working with the new aggregate VCFs – AggV3
+ Importing tools and data to use in the Research Environment, February 2026
+ Using the Research Environment for clinical diagnostic discovery, January 2026
+ Running workflows on the HPC and Cloud, December 2025
+ What tools and workflows should I use to fulfil an overall goal? November 2025
+ Using GEL data for publications and reports, October 2025
+ Getting medical histories for participants, September 2025
+ Working with Python in the Research Environment, April 2025
+ Working with R in the Research Environment, March 2025
+ Home
+ Data security and Export
+ Airlock - importing and exporting files
+ tools 
+ Current ruleset on the subject of trained Machine Learning models ¶ 
+ Please find below the current Airlock ruleset around trained ML models:
+ You can import trained models into the  RE  (subject to review and approval by Genomics England) via Airlock. 
+ You can export model testing statistics and model outputs in cases where those outputs are suitable for export under the Airlock rules. 
+ You cannot export trained models from the  RE . 
+ Researchers may train models within the  RE , provided they are not intended for export. For example, a model can be trained on a subset of data and applied to another subset within the  RE  to generate Airlock- compliant outputs. 
+ All research activities, including the use of machine learning models, can only be conducted under an approved and active project listed in the Research Registry (subject to approval by the independent Access Review Committee and the Genomics England Research Management Team). Projects will not be approved where the aim is to develop/train and then export machine learning models. 
+ Genomics England is actively reviewing policies related to the use and potential export of machine learning models, and there may be future changes to the current rules. Any such changes will be communicated to all researchers working on projects related to machine learning models and will be reflected in an update to this page if and when they are made. 
+ February 10, 2026 
+ Back to top
+ Copyright &copy; 2025 Genomics England Limited
+ Made with
+ Material for MkDocs
+ Cookie consent
+ We use cookies to recognise your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether you find what you're searching for. With your consent, you're helping us to make our documentation better.
+ Google Analytics
+ Accept 
+ Reject

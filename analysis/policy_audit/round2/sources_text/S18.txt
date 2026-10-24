@@ -1,0 +1,225 @@
+UK LLC policy on use of AI models &#8212; UK LLC Dataset Documentation 
+ Skip to main content 
+ Back to top 
+ Ctrl + K 
+ Welcome to UK LLC Guidebook
+ Available linkages 
+ Health linkages 
+ Geographic linkages 
+ Our partner LPS 
+ LPS characteristics 
+ Permitted linkages 
+ Temporal coverage 
+ Discover LPS data 
+ Understanding UK LLC 
+ UK LLC profile 
+ UK LLC sample 
+ Freeze 17 | Aug 2026 
+ Freeze 16 | May 2026 
+ Freeze 15 | Feb 2026 
+ Freeze 14 | Nov 2025 
+ Freeze 13 | Aug 2025 
+ Freeze 12 | May 2025 
+ Freeze 11 | Feb 2025 
+ Freeze 10 | Nov 2024 
+ Freeze 9 | Aug 2024 
+ Freeze 8 | May 2024 
+ Freeze 7 | Feb 2024 
+ Freeze 6 | Nov 2023 
+ Freeze 5 | Aug 2023 
+ Freeze 4 | May 2023 
+ Freeze 3 | Feb 2023 
+ Freeze 2 | Nov 2022 
+ Freeze 1 | Aug 2022 
+ UK LLC database design 
+ Data security 
+ Five Safes Framework 
+ Data Bulletins 
+ Applying to UK LLC 
+ Am I eligible? 
+ How do I apply? 
+ Submit EoI 
+ Submit application 
+ Sign UK LLC contracts 
+ Review process 
+ Policy on AI models 
+ LPS data 
+ FAQs about LPS data 
+ AIRWAVE 
+ Datasets 
+ ALSPAC 
+ Datasets 
+ BCS70 
+ Datasets 
+ BIB 
+ Datasets 
+ BIB tips & FAQs 
+ CaPS 
+ Datasets 
+ ELSA 
+ Datasets 
+ EPICN 
+ Datasets 
+ EXCEED 
+ Datasets 
+ FENLAND 
+ Datasets 
+ GENSCOT 
+ Datasets 
+ GLAD 
+ Datasets 
+ MCS 
+ Datasets 
+ NCDS58 
+ Datasets 
+ NCDS58 tips & FAQs 
+ NEXTSTEP 
+ Datasets 
+ NICOLA 
+ Datasets 
+ NIHRBIO_COPING 
+ Datasets 
+ NSHD46 
+ Datasets 
+ SABRE 
+ Datasets 
+ TEDS 
+ Datasets 
+ TRACKC19 
+ Datasets 
+ TWINSUK 
+ Datasets 
+ UKHLS 
+ Datasets 
+ UKREACH 
+ Datasets 
+ NHS data 
+ NHS England 
+ FAQs about NHSE data 
+ Restrictions to use 
+ Temporal coverage 
+ Processing & linkage 
+ Coded variables 
+ FAQs about coding 
+ Codelists 
+ Primary care datasets 
+ GDPPR (GP) 
+ PCM (prescriptions) 
+ CSDS (community) 
+ Hospital datasets 
+ FAQs about HES datasets 
+ HESOP (outpatient) 
+ HESAPC (inpatient) 
+ HESAPC_MAT (inpatient maternity) 
+ HESAPC_ACP (inpatient critical care) 
+ HESCC (inpatient critical care) 
+ ECDS (emergency) 
+ HESAE (emergency) 
+ MSDS V2 (maternity) 
+ MSDS V1.5 (maternity) 
+ COVID-19 datasets 
+ FAQs about COVID-19 datasets 
+ COVIDSGSS (testing) 
+ IELISA (testing) 
+ NPEX (testing) 
+ CHESS (hospitalisation) 
+ CVS (vaccination) 
+ CVAR (vaccination) 
+ Registration datasets 
+ CANCER 
+ DEMOGRAPHICS 
+ MORTALITY 
+ Mental health datasets 
+ FAQs about MH datasets 
+ MHSDS (general) 
+ MHMDS (general) 
+ MHLDDS (general) 
+ IAPT V2 (talking therapies) 
+ IAPT V1.5 (talking therapies) 
+ Derived datasets 
+ NHS Wales 
+ Processing & linkage 
+ Coded variables 
+ Hospital datasets 
+ COVID-19 datasets 
+ Registration datasets 
+ Primary care dataset 
+ Other datasets 
+ NHS Scotland 
+ Northern Ireland 
+ Geographic data 
+ FAQs about place-based data 
+ Processing & linkage 
+ Population datasets 
+ Index of Multiple Deprivation (IMD) 
+ Townsend Deprivation Index (2011) 
+ Environmental datasets 
+ Neighbourhood datasets 
+ Access to Healthy Assets and Hazards (AHAH) 
+ Greenspace 
+ Met Office climate observations 
+ Property datasets 
+ Energy Performance Certificates (EPC) 
+ Pollution datasets 
+ Air pollution NO2 & PM 
+ Air pollution NOx, NO2 and O3 
+ Noise pollution 
+ Mobility datasets 
+ Public Transport Accessibility Indicators 
+ Health datasets 
+ Administrative data 
+ FAQs about admin data 
+ HM Revenue & Customs 
+ Department for Work & Pensions 
+ UK LLC-managed data 
+ FAQs about UK LLC-managed data 
+ Harmonised sociodemographic datasets 
+ Demographic (full) 
+ Demographic (reduced) 
+ Highest educational qualification 
+ DATAMIND collection 
+ UK Biobank collection 
+ NHS England reference datasets 
+ Linkage permissions 
+ Health service usage 
+ Demographics 
+ LSOA from health records 
+ Charlson comorbidity dataset 
+ TRE user guide 
+ FAQs about the TRE 
+ Logging in 
+ Getting started 
+ Available software 
+ Using Git 
+ Moving files in and out 
+ Statistical Disclosure Control 
+ Quiz on Statistical Disclosure Control 
+ Requesting an amendment 
+ Finishing your project 
+ Publishing your research 
+ User support 
+ Rules for researchers 
+ Research focus 
+ Focus on harmonisation 
+ Focus on IAPT 
+ Focus on linkage quality 
+ FAQs 
+ Repository 
+ Open issue 
+ .md 
+ .pdf 
+ UK LLC policy on use of AI models
+ UK LLC policy on use of AI models # 
+ Last modified: 21 May 2026
+ Researchers cannot bring AI models into the UK LLC Trusted Research Environment (TRE) or export them. This policy is subject to ongoing review in line with best practices within the wider TRE community. 
+ Researchers may use a range of statistical methods within the UK LLC TRE, including artificial intelligence (AI) approaches, where these are scientifically appropriate, ethically approved, and considered safe from a disclosure risk perspective. At present, pre-trained or partially trained AI models, model weights, or related training materials must not be brought into the TRE under any circumstances . Moreover, it is current UK LLC policy not to allow any AI model to be brought out of the TRE under any circumstances .
+ As AI methods evolve and risks are better understood, UK LLC will work with its partner LPS, linked data owners and UK LLC public contributors to review and likely broaden what is permitted to be brought into the TRE. UK LLC recognises that the use of AI in research may raise wider participant and public concerns in relation to data security, disclosure, and potentially unfair or biased research outcomes. UK LLC take these seriously and are thus reflected in the current cautious policy set out above. It is of paramount importance to UK LLC to ensure AI use remains safe, trustworthy and acceptable to participants and wider stakeholders. Moreover, this policy is subject to ongoing review in line with best practices within the wider TRE community, such as The AI Risk Evaluation Community Group and changes to wider governance standards regarding the use of AI models in TREs. This page will be updated accordingly.
+ If you are preparing an application to conduct a research project using AI approaches within the UK LLC TRE, you must clearly explain how the AI model will be used and how you will ensure your analyses remain within the defined scope of your proposed project. The UK LLC Applications Team reviews every application carefully and will request further information or changes to your application if they judge the use of the AI model to fall outside the scope of your proposed project.
+ If you are already working in the TRE on an approved project and would like to begin using AI approaches, you must consider if this would change the scope of your project, i.e. would it change the research questions you’ve been approved to address? If so, you must submit a ‘Change research question’ amendment via UK LLC Apply. If the UK LLC Applications Team determines that the amended/new research question(s) requires a new lay summary, you will be invited to submit a new application. It should be stressed that addition of use of AI models to an already approved project would require ethic approval under the category of novel or contentious research methods, which would ultimately require a new application. We advise that if it is likely you will want to explore using an AI model in your research project, to include this in your initial project application.
+ previous
+ How your application is reviewed
+ next
+ LPS data
+By UK LLC Data Team
+ CC BY-NC-SA The UK LLC Guidebook and materials are available publicly under open source licenses 
+ so the DOM is not blocked -->

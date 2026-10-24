@@ -204,6 +204,12 @@ def main():
     rd = lambda f: pd.read_csv(os.path.join(od, f)) if os.path.exists(os.path.join(od, f)) else None  # noqa: E731
     ut, at, sg, g1, g3, lf = (rd(f) for f in ('01_utility_long.csv', '03_attacks_long.csv', '03_subgroups_long.csv',
                                                '04_gate1.csv', '05_gate3.csv', '04_leaf_audit.csv'))
+    # this step reads only out/: take the number of sites from the targets written by step 01 (14 real hospitals for tag h14)
+    if ut is not None:
+        import re
+        n_sites = len({t for t in ut.target.unique() if re.fullmatch(r'B1_\d+', str(t))})
+        if n_sites:
+            L.set_n_sites(n_sites)
     kl = sorted({int(v) for v in at.k_lira.dropna()}) if at is not None and 'k_lira' in at else []
     ks = sorted({int(v) for v in at.k_shokri.dropna()}) if at is not None and 'k_shokri' in at else []
     md = [f'# Pilot summary — {a.dataset}', '',

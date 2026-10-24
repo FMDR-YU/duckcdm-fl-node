@@ -1,0 +1,4 @@
+seed,variant,target,n_artifacts,manifest_digest,signature_valid,data_hash_equal,split_hash_equal,versions_equal,threads_equal,abs_delta_auroc,max_abs_dp,gate3_pass
+42,xgb_krcp,A_0,1,baf710d7da84310d,True,True,True,True,True,0.0,0.0,True
+42,xgb_leaky,A_0,1,a175e0ef2b93b7bc,True,True,True,True,True,0.0,0.0,True
+42,xgb_regularized,A_0,1,89eb8a5318f81646,True,True,True,True,True,0.0,0.0,True

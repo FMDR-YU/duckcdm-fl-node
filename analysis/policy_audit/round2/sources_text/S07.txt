@@ -1,0 +1,95 @@
+Data User Code of Conduct
+
+Please click here for a downloadable .pdf version . 
+ This Data User Code of Conduct describes the terms of use for all data, analytical platforms, and other research resources made available by the All of Us Research Program and its partners and collaborators to Authorized Data Users. 
+ Definitions
+ Throughout this code of conduct: 
+ Analytical platform(s) refers to the Researcher Workbench and/or any other analytical environment provided by the All of Us Research Program for research use. 
+ Data (unless otherwise specified) and available data refer to data made available by the All of Us Research Program, its partners, and/or its collaborators for research use by Authorized Data Users. 
+ Dataset (unless otherwise specified) or available dataset refer to organized collections of related data points, curated by the All of Us Research program, its partners, and/or its collaborators, and made available for research use.  
+ Participant(s) and research participant(s) refer to participants enrolled in the All of Us Research Program and/or participants reflected in the datasets of All of Us partners and/or collaborators. 
+ Research resources (unless otherwise specified) refers collectively to data, files, software, analytical platforms, and/or other tools provided by the All of Us Research Program, its partners, and/or its collaborators to inform or conduct research.  
+ Definitions of other terminology used in this agreement may be found in the All of Us Agreements and Policy Glossary . 
+ Terms of Use
+ As an Authorized Data User:  
+ I will read and adhere to the All of Us Core Values . 
+ I will follow all laws and regulations, including laws and regulations involving human data and data privacy, that are applicable in the area where I am conducting my research. 
+ In the United States, this includes all applicable federal, Tribal, state, and local laws and regulations. 
+ Outside of the United States, other laws and regulations will apply.  
+ I will conduct research that follows all applicable policy requirements—including institutional, government, and program policies and other policies not expressly mentioned in this document—and conforms to the ethical principles upheld by the All of Us Research Program and its partners and collaborators.  
+ I will read and comply with all applicable policies and agreements pertaining to respectful research with individuals or groups who self-identify or are otherwise identified as American Indian and/or Alaska Native. 
+ Privacy and Responsible Use
+ As an Authorized Data User:  
+ I will respect the privacy of research participants at all times.  
+ I will NOT disclose participant-level information to any individual who is not an Authorized Data User, consistent with the terms of the Certificates of Confidentiality that cover the participant data. This includes in response to a request from law enforcement or during any legal, administrative, legislative, or other proceeding. 
+ I will NOT attempt to re-identify, or generate information (e.g., facial images or comparable representations) that could be used to re-identify, research participants or their relatives.  
+ If I unintentionally re-identify participants or their relatives through the process of my work, or if I become aware of any information that could identify one or more participants or their relatives:  
+ I will NOT use or disclose the information. 
+ I will NOT attempt to contact participants or their relatives. 
+ I will notify All of Us Research Support immediately by emailing support@ResearchAllofUs.org . 
+ I will NOT attempt, without explicit, documented permission, to link participant-level data from one available dataset with: 
+ Participant-level data from another, unlinked available dataset; or  
+ Participant-level data from other sources. 
+ If I wish to link available and/or external data at the participant level, I will apply for permission from the Resource Access Board (RAB) by emailing aouresourceaccess@od.nih.gov . 
+ I will NOT take screenshots of or attempt in any way to copy, download, or otherwise remove any participant-level data, including synthetic data generated using participant data, from any All of Us analytical platform. 
+ I will NOT reconstruct participant-level data outside of any All of Us analytical platform.  
+ I will NOT publish or otherwise distribute any participant-level data. 
+ I will NOT publish or otherwise distribute any data or aggregate statistics corresponding to fewer than 20 participants unless expressly permitted under the terms of the All of Us Data and Statistics Dissemination Policy . 
+ I will NOT share my login information with anyone, including another Authorized Data User. I will NOT create any group or shared accounts. 
+ I will NOT attempt to access, either directly or indirectly, more than one data tier simultaneously. 
+ I will contact All of Us Research Support by emailing support@ResearchAllofUs.org if I become aware of: 
+ Any unauthorized access, uses, exports, or disclosures of data, other research resources, or research results, or 
+ Any other access, uses, exports, or disclosures of data, other research resources, or research results that could endanger the security, privacy, or well-being of participants. 
+ This includes any accidental unauthorized access, use, exports, or disclosures by me or a member of my research team. 
+ Using the Misconduct Reporting Form , I will report if: 
+ I have been penalized in the past for one or more instances of research and/or professional misconduct ; or 
+ Subsequent to becoming an Authorized Data User, I am penalized by another entity for research and/or professional misconduct .
+ Resource Stewardship
+ As an Authorized Data User:  
+ I will renew my Authorized Data User account on at least an annual basis to maintain my access. Renewal may include and is not necessarily limited to: 
+ Retaking the Responsible Conduct of Research Training(s) and passing the evaluation(s); 
+ Reading and signing the Data User Code of Conduct; and 
+ Ensuring the accuracy of my Workspace Description(s), as appropriate. 
+ I will use the data and research resources ONLY for biomedical or health research.  
+ I will NOT use the data or other research resources or any external data, files, software, or tools that I use in or in conjunction with my Workspace(s), for research that is discriminatory or stigmatizing of individuals, families, communities, populations, and/or other groups, in accordance with the All of Us Policy on Stigmatizing Research .  
+ I will contact the All of Us Resource Access Board (RAB) by emailing aouresourceaccess@od.nih.gov for further guidance on this point as needed. 
+ I will provide a meaningful and accurate description of my research purpose for the Workspace associated with my research study.  
+ I will ONLY use the Workspace for purposes that are: 
+ Expressly allowed by applicable institutional or individual agreements;  
+ Permitted under the terms of informed participant consent;  
+ Consistent with any applicable data type- or dataset-specific rules; and  
+ Reflected in my Workspace description.  
+ I will select the most recent version of the dataset(s) available at the time I establish my Workspace. 
+ I will request, query, import, or otherwise use the minimum necessary data, data types, and/or datasets to accomplish my research objective. 
+ I will take full responsibility for any external data, files, software, or other tools that I use in or in conjunction with my Workspace(s) and the consequences thereof. 
+ I will follow all applicable laws, regulations, and policies regarding access to and use of any external data, files, software, or other tools that I use in or in conjunction with my Workspace(s). 
+ I will NOT use external data, files, software, or other tools that I use in or in conjunction with my Workspace(s) for any malicious purposes.  
+ I will NOT upload data or files containing personally identifiable information (PII) , protected health information (PHI) , or identifiable private information (IPI) into my Workspace.  
+ I will NOT use or provision research resource access, including access to any All of Us analytical platform, to any Artificial Intelligence (AI), AI-enabled, or other type of tool that could result in the export of participant-level data or other violations of the terms of this Code of Conduct.  
+ If any use of external data, files, software, or other tools in or in conjunction with my Workspace results in unforeseen consequences and/or violation(s) of the terms of this Code of Conduct, I will notify All of Us Research Support by emailing support@ResearchAllofUs.org as soon as I become aware. 
+ I will report all publications, presentations, or other work products that resulted from my use of the research resources, according to the appropriate process. 
+ Resource Fidelity
+ As an Authorized Data User:  
+ I will NOT use the available data or any of the other research resources for marketing purposes.  
+ I will NOT represent that the All of Us Research Program or its partners or collaborators endorses or approves of my research unless I am expressly provided such endorsement in writing. 
+ I will NOT download, distribute, or publish any available data or data or statistics derived therefrom with the intent of reproducing—in part, in full, or in combination—any of the available dataset(s) unless expressly permitted under the terms of the Data and Statistics Dissemination Policy .  This includes synthetic data I may generate using one or more available dataset(s). 
+ I will NOT use the ALL OF US wordmark or stylized mark in connection with my or any other person’s or entity’s product(s) or service(s). 
+ I will NOT adopt, incorporate, use, or seek to register any mark or trade name confusingly similar to or suggestive of the ALL OF US wordmark or stylized mark. 
+ Data Disclaimer
+ The All of Us Research Program and its partners and collaborators do not guarantee the accuracy or availability of data in any All of Us analytical platform; guarantee the performance of the software on any All of Us analytical platform; or warrant or endorse the research results obtained by using any All of Us analytical platform or any data or other research resources made available by the All of Us Research Program, or its partners, or its collaborators.  
+ Signature Section
+ I (Authorized Data User) have personally reviewed this Data User Code of Conduct. I agree to follow all terms of use described therein. 
+ By entering my initials next to each statement below, I acknowledge that: 
+ My work, including any external data, files, software, or tools that I use in or in conjunction with my Workspace(s), will be logged and monitored to ensure compliance.  
+ My name, affiliation, profile information, research description, and citations for work products will be made publicly available to provide participants and the public with meaningful information about the research I conduct with the research resources. 
+ My Workspace description(s) and other information related to my research will be used to assess my compliance with the terms of this Code of Conduct. 
+  The All of Us Research Program and its partners and collaborators retain the right to request revisions to or terminate my research if they assess that my project has significant potential to stigmatize or otherwise harm individuals, families, communities, populations, and/or other groups. 
+ The All of Us Research Program and its partners and collaborators retain the discretion to make decisions at any time about my access, including the provision, modification, or revocation thereof, for any reason, including but not limited to research and/or professional misconduct for which I’ve been penalized in the past or that I may commit or am found to have committed subsequent to becoming an All of Us Authorized Data User.    
+ I understand and acknowledge that failure to comply with the requirements outlined in this Data User Code of Conduct may result in termination of my All of Us account and/or other sanctions, including, but not limited to: 
+ The posting of my name and affiliation on a publicly accessible list of violators; 
+ Notification of the National Institutes of Health or other appropriate entities about my actions; and/or 
+ Financial or legal repercussions.  
+ Misuse of any All of Us analytical platform or any data or other research resources made available by the All of Us Research Program and its partners and collaborators is taken very seriously, and other sanctions may be sought. 
+ Name 
+ Authorized Data User ID 
+ Date

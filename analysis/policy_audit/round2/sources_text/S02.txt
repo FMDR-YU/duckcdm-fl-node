@@ -1,0 +1,26 @@
+Guidance on Data Downloads and Exemptions
+
+UK Biobank’s Research Analysis Platform (UKB-RAP) is a restricted, cloud-based environment designed to enable researchers to analyse one of the world’s most comprehensive biomedical datasets. It provides integrated tools, scalable compute resources, and the ability to upload custom workflows, ensuring that research is conducted efficiently.
+ UKB-RAP reflects UK Biobank’s commitment to data security, scalability, and equitable access . By centralising analysis within a restricted cloud environment, UK Biobank reduces risks of data breaches, ensures compliance with evolving governance standards, and provides researchers with modern tools for large-scale biomedical analysis.
+ Download Restrictions 
+ Researchers cannot download individual-level data from UKB-RAP. This includes bulk datasets, tabular data, and any variables generated within the platform. Only summary results files , such as aggregated statistics, graphs, or outputs that do not contain individual-level information, may be downloaded.
+ Exemptions to Download Policy 
+ While we strongly encourage that researchers  only access data via UKB-RAP, the Access Committee may grant limited, temporary exemptions for specific cases. Exemptions are considered when:
+ Required tools or specialised software are not yet integrated into UKB-RAP.
+ Cloud-based analysis costs are prohibitive.
+ Substantive compute power (e.g. GPUs) is needed beyond UKB-RAP’s current capacity.
+ Exemption requests must demonstrate:
+ Minimal data use : clear justification for why data must be accessed outside RAP.
+ Project participant identification : all researchers handling individual-level data must be listed).
+ Data security compliance: adherence to the Material Transfer Agreement and institutional security policies.
+ Importantly, Whole Exome Sequencing (WES) and Whole Genome Sequencing (WGS) data cannot be downloaded under any circumstances , even with an exemption.
+ Further information on applying for a Data Access Exemption can be found here, with UK Biobank’s Policy on exemptions available here. 
+ Use of Previously Downloaded Data 
+ Researchers who downloaded data before our transition to UKB-RAP may continue using those datasets for approved projects. However, new downloads are no longer permitted . This policy ensures consistency and security while recognising the need for continuity in ongoing research.
+ Sharing and Institutional Copies 
+ Data downloaded by another researcher at the same institute for a different project cannot be reused. Each project must have its own approved access.
+ Collaborators’ copies of downloaded data cannot be duplicated or transferred.
+ Institutional copies of data cannot be linked to new projects - access must be obtained directly through RAP.
+ These restrictions prevent unauthorised sharing and ensure that all research complies with UK Biobank’s governance framework.
+ Summary 
+ Researchers may continue using previously downloaded data but cannot initiate new downloads. Exemptions are rare, tightly controlled, and exclude WES/WGS data. All new projects must operate within UKB-RAP, ensuring standardised access to UK Biobank’s resources.

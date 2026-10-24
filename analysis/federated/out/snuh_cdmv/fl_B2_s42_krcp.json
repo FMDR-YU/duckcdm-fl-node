@@ -1,0 +1,107 @@
+{
+  "dataset": "snuh",
+  "tag": "cdmv",
+  "scenario": "B2",
+  "seed": 42,
+  "config": "krcp",
+  "rounds": 500,
+  "params": {
+    "objective": "binary:logistic",
+    "eval_metric": "auc",
+    "tree_method": "hist",
+    "max_bin": 256,
+    "nthread": 4,
+    "seed": 42,
+    "eta": 0.05,
+    "max_depth": 6,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "scale_pos_weight": 1.9913630653266332
+  },
+  "n_val": "8,179",
+  "arms": {
+    "A_x": {
+      "auroc": 0.9281630834777116,
+      "auprc": 0.8874169770489144,
+      "brier": 0.09567450684548905,
+      "logloss": 0.31924274189557406,
+      "seconds": 0.9,
+      "n_train": "19,049"
+    },
+    "B_0": {
+      "auroc": 0.9240572307421561,
+      "auprc": 0.8837764831314124,
+      "brier": 0.09763435386381353,
+      "logloss": 0.33361000255110784,
+      "seconds": 0.6,
+      "n_train": "9,470"
+    },
+    "B_1": {
+      "auroc": 0.914201717632664,
+      "auprc": 0.8556842351781332,
+      "brier": 0.10906724866370972,
+      "logloss": 0.36955609981015014,
+      "seconds": 0.5,
+      "n_train": "5,769"
+    },
+    "B_2": {
+      "auroc": 0.9220568106916182,
+      "auprc": 0.8784182021816783,
+      "brier": 0.10190427532720982,
+      "logloss": 0.37917702995045977,
+      "seconds": 0.5,
+      "n_train": "3,810"
+    },
+    "B_avg": {
+      "auroc": 0.928535639512144,
+      "auprc": 0.8838360023755554,
+      "brier": 0.09367611379390066,
+      "logloss": 0.3166606427125392
+    },
+    "F": {
+      "auroc": 0.9277065038811622,
+      "auprc": 0.8876068626469754,
+      "brier": 0.09586476815099469,
+      "logloss": 0.3201001136886121,
+      "seconds": 262.2
+    }
+  },
+  "federated": {
+    "use_federated_build": true,
+    "seconds": 262.2,
+    "model_files": 3,
+    "max_abs_pred_diff_between_sites": 0.0,
+    "reexec": {
+      "max_abs_pred_diff": 0.0,
+      "abs_delta_auroc": 0.0,
+      "seconds": 274.1
+    },
+    "delta_auroc_vs_central": {
+      "delta": -0.0004565795965494335,
+      "ci95": [
+        -0.0017138855496782624,
+        0.0009368169301726735
+      ],
+      "margin": -0.02,
+      "non_inferior": true
+    },
+    "pred_fidelity_vs_central": {
+      "pearson": 0.9906426459656055,
+      "mean_abs_diff": 0.02950093522667885,
+      "max_abs_diff": 0.418445348739624
+    },
+    "delta_auroc_vs_prediction_average": {
+      "delta": -0.0008291356309818587,
+      "ci95": [
+        -0.002508951881663349,
+        0.0009117539492810799
+      ]
+    }
+  },
+  "versions": {
+    "python": "3.12.15",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.41",
+    "xgboost": "3.2.0",
+    "nvflare": "2.9.0"
+  }
+}

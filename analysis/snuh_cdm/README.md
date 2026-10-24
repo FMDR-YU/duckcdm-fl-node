@@ -307,6 +307,17 @@ wrappers differ in text, not in logic.
 What it showed (real data, the seven DuckDBs of the `ckd` entry): identical cohorts — the same persons, start and end dates in
 every database (B1 4,449 / 4,603 / 4,508, B2 6,988 / 3,875 / 2,697, holdout 5,497; 0 persons in only one engine, 0 start-date
 differences), 0.1–0.3 s per engine and database. The generated-data smoke test (fixtures.build_synthetic → P3 → P4b) agrees too.
+
+## P4c — duckcdm cross-check of the training cohort (first-visit index) (2026-10-24)
+
+The training cohort of the pilot (published selection rules, first visit as index; `sql/v205_firstvisit_cohort_duckdb.sql`) was written as a circe
+definition (`analysis/cohort/Cohort_OHDSI_CKD_firstvisit.json`, made by `analysis/cohort/make_firstvisit_json.py`: VisitOccurrence primary event
+with limit First; the creatinine span rule as a measurement with a nested correlated creatinine measurement starting at least 730 days later,
+observation period ignored; the age, RRT and implausible-value rules of v205 unchanged). `p4b_duckcdm_cohort.py --json ... --hand-sql
+sql/v205_firstvisit_cohort_duckdb.sql --label firstvisit --out out/p4c_duckcdm_firstvisit.txt` compiled it with duckcdm 0.4.7 and compared it
+with the hand SQL on the seven site files: identical membership, start and end dates everywhere (6,356 / 6,343 / 6,350; 9,470 / 5,769 / 3,810;
+validation 8,179), 0.3–1.2 s for duckcdm and 0.1–0.2 s for the hand SQL. So both cohorts of the paper, the ATLAS definition and the cohort that
+feeds the federated arm, are compiled by duckcdm and agree with their reference SQL (internal review B2).
 So the hand translation reproduces the circe engine, and the cohort step can be run from the JSON inside a node container
 without Java or WebAPI. The `visit` entry (`v205_firstvisit_cohort_duckdb.sql`) has no circe equivalent and is not covered.
 

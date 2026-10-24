@@ -1,0 +1,11 @@
+UKB-RAP: phased data access from September 
+
+We are planning for a phased re-opening of access to the UK Biobank Research Analysis Platform (UKB-RAP) from September. In recognition of the disruption caused to research by its abrupt closure in April, all projects will be extended by 6 months, as will any compute credits.
+ ​You will not be able to download results from the platform at first. Later this year, we will introduce a manual Output Checking System (OCS) with only limited capacity to allow results to be downloaded. By early 2027, we aim to have an automated OCS that allows researchers to take all of their results off the UKB-RAP.
+ ​Access will only be granted to researchers and institutes that are fully compliant in their obligations for mandatory training, annual reports, and data deletion for projects that have ended. We will be writing to institutional leads to coordinate the process of confirming data deletion for all such projects.
+ ​Finally, please check carefully that no participant data are included before you post code on public repositories. If it happens, sanctions will be applied as it constitutes a material breach of the Material Transfer Agreement.
+ ​More information is provided in these Questions and Answers . If you have any questions then contact us through the UK Biobank Community, and our team will respond as quickly as possible. Please be assured that we're working as quickly as possible to restore your access to the UK Biobank data.
+ ​Best wishes,
+ ​Professor Sir Rory Collins, 
+ CEO and Principal Investigator, 
+ UK Biobank

@@ -69,7 +69,7 @@ D2c is the cell that the paper's argument rests on: whether any platform states 
 
 ## Document rules (unchanged from v1 where they worked)
 
-- Policy = official documents and official support-centre pages. Blogs and community posts corroborate only. Authors' own
+- Policy = official documents and official support-center pages. Blogs and community posts corroborate only. Authors' own
   contractual or operational knowledge is never evidence; NDA documents are excluded (Mayo).
 - Each document is entered in the source register before coding: id, platform, title, URL, access date, date shown on the page,
   SHA-256 of the local copy (internal, not redistributed). Cells cite document ids.

@@ -24,7 +24,8 @@ import canary_benchmark as CB  # noqa: E402
 import pilot_lib as L  # noqa: E402
 
 COHORTS = [('SynPUF (development)', 'synpuf_xgb_canary'), ('MIMIC-IV-ED', 'mimic_ed_s28k_xgb_canary'), ('eICU-CRD', 'eicu_s28k_xgb_canary'),
-           ('eICU-CRD, 3 real hospitals (largest)', 'eicu_h3a_xgb_canary'), ('eICU-CRD, 3 real hospitals (sizes apart)', 'eicu_h3b_xgb_canary')]   # the last two: real hospitals as sites (2026-10-19); cohorts without cell files are skipped
+           ('eICU-CRD, 3 largest hospitals', 'eicu_h3a_xgb_canary'), ('eICU-CRD, hospitals of unequal size', 'eicu_h3b_xgb_canary'),
+           ('SNUH CDM, virtual hospitals', 'snuh_cdmv_xgb_canary')]   # the last two: real hospitals as sites (2026-10-19); cohorts without cell files are skipped
 FIXED = ('lira_tpr1', 'lira_auc', 'shadow_auc')          # quantities whose development thresholds are applied unchanged
 
 

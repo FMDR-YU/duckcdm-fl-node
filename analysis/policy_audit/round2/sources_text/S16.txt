@@ -1,0 +1,58 @@
+Mayo Clinic Platform Connect - Mayo Clinic Platform
+URL requested: https://www.mayoclinicplatform.org/mayo-clinic-platform-connect/ (redirects to https://www.mayoclinicplatform.org/focus-areas/healthcare-providers/connect/)
+Retrieved through the built-in browser on 2026-10-20 (the site returns HTTP 403 to scripted requests); no date shown on the page.
+---
+Healthcare Providers
+Mayo Clinic Platform Connect
+
+A global health data network powering limitless innovation and next-generation care.
+
+In this program
+
+Value
+How it works
+Why join
+
+Mayo Clinic Platform Connect links healthcare innovators to a secure, diverse, and privacy-preserving global data network, unlocking richer insights, faster decisions, and more equitable patient care.
+
+Value
+
+A first-of-its-kind global data network
+Transformative data reach
+
+Securely share de-identified clinical data whether you are a health system, device-maker, or academic institution, creating a robust, global network that enhances diagnosis and treatment strategies.
+
+Diverse and inclusive insights
+
+Support more equitable and tailored healthcare solutions by tapping into clean, curated, and de-identified data sets that span complex, rare diseases and demographics from urban to rural settings.
+
+Secure by design
+
+Ensure all data remains de-identified and under your control leveraging our "Data Behind Glass" model, maximizing privacy and trust.
+
+How it works
+
+A federated data network to improve care throughout the world
+
+We have partnered with leading healthcare organizations across the globe to create a data network that represents far more diverse patient populations than what exists within Mayo Clinic alone. The network provides federated access to rich, deep multimodal data that makes discovery, diagnosis, and treatment much richer and more generalizable.
+
+Our current data network members include:
+
+Mercy
+Seoul National University Hospital
+Sheba Medical Center
+University Health Network (UHN)
+Einstein Hospital Israelita
+Aga Khan University
+
+Why join
+
+Your connection to next-generation care
+
+Power the future of healthcare innovation
+Accelerate scientific discovery, support algorithm development, and enable real-world clinical trials to generate actionable evidence.
+
+Unlock insights and drive impact
+Tap into advanced analytics and AI tools, develop new algorithms, and deploy qualified solutions at your organization.
+
+Join Mayo Clinic Platform Connect to unlock clinical insights, drive medical advancements, and enhance patient care.

@@ -31,8 +31,8 @@ sha256  17af04fe3221443428668b9f50f2df7b320012d5a3bf30c8ca337acf6345baa5
 - 2차 코딩 지시서, 발췌 워크북, 코더 시트, 확인요청: `Archive/second_coder_2026-08/`
 - PLOS ONE 투고본(단독 코딩판)과 반려 의견: `Archive/manuscript_versions/manuscript_reconstructed_from_docx_REJECT.md`, `Archive/PLOS_ONE_2026-08/REJECT/`
 - PLOS ONE S1 File(UK Biobank 사건, 국가 간 이동 절): `Archive/supplement_versions/S1_File_supplement.docx`
-- 코딩북, 출처표, κ 표(HIR판): `Supplement/S1_File_supplement.md` S3·S4
-- HIR판 Table 1: `Manuscript/manuscript.md`
+- 코딩북, 출처표, κ 표(HIR판): `Archive/manuscript_v1_egress/Supplement/S1_File_supplement.md` S3·S4
+- HIR판 Table 1: `Archive/manuscript_v1_egress/manuscript.md`
 
 ## 갱신층을 읽는 법
 

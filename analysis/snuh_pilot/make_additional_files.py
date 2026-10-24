@@ -24,11 +24,18 @@ import pilot_lib as L  # noqa: E402
 
 COHORTS = [('SynPUF (development, virtual sites)', 'synpuf_xgb', 'synpuf'),
            ('eICU-CRD, 3 largest hospitals (h3a)', 'eicu_h3a_xgb', 'eicu_h3a'),
-           ('eICU-CRD, hospitals of unequal size (h3b)', 'eicu_h3b_xgb', 'eicu_h3b')]
+           ('eICU-CRD, hospitals of unequal size (h3b)', 'eicu_h3b_xgb', 'eicu_h3b'),
+           ('eICU-CRD, all 14 hospitals (h14)', 'eicu_h14_xgb', 'eicu_h14'),
+           ('SNUH CDM, virtual hospitals (cdmv)', 'snuh_cdmv_xgb', 'snuh_cdmv')]
 VARIANT_LABEL = {'xgb_krcp': 'published', 'xgb_regularized': 'regularized', 'xgb_leaky': 'over-fitted (positive control)', 'xgb_plain': 'plain (no sampling)'}
 ROUTE_LABEL = {'A_0': 'A central', 'Aprime_0': 'A′ size control', 'B1_0': 'B1 site 1', 'B1_1': 'B1 site 2', 'B1_2': 'B1 site 3',
                'B1_comb': 'B1 averaged predictions', 'F_B1': 'F federated (B1)', 'B2_0': 'B2 site 1', 'B2_1': 'B2 site 2', 'B2_2': 'B2 site 3',
                'B2_comb': 'B2 averaged predictions', 'F_B2': 'F federated (B2)'}
+for _k in range(3, 14):     # the 14-hospital configuration (h14); absent targets are skipped
+    ROUTE_LABEL[f'B1_{_k}'] = f'B1 site {_k + 1}'
+    ROUTE_LABEL[f'B2_{_k}'] = f'B2 site {_k + 1}'
+_order = ['A_0', 'Aprime_0'] + [f'B1_{k}' for k in range(14)] + ['B1_comb', 'F_B1'] + [f'B2_{k}' for k in range(14)] + ['B2_comb', 'F_B2']
+ROUTE_LABEL = {k: ROUTE_LABEL[k] for k in _order}
 HYP_TEXT = {
     'H1': 'The audit separates an over-fitted from a regularized model: mean shadow-model AUC of the over-fitted central model above 0.55, of the regularized one at most 0.55, and the regularized AUROC not lower.',
     'H2': 'Site models are more exposed than the central model and most of the excess is training size (B1): lower bound of the seed interval of (site mean minus central shadow AUC) above 0 and (A′ minus A) / (site mean minus A) at least 0.5. B2 part: the gap is larger with unequal sites.',
@@ -71,7 +78,7 @@ def additional_file_2(out):
     md = ['# Additional file 2. Hypotheses, decision rules and verdicts per cohort', '',
           'Verdicts are computed by the analysis code (`06_summarize.py`) from the pre-specified decision rules; intervals are t-based over ten seeds. '
           'The two primary verdicts are H5 and the B1 part of H2 for the published configuration with equal-sized sites; every other row is secondary. '
-          'Each hypothesis is judged on its own; no multiplicity correction. The SNUH virtual-hospital rows are added after the federated arm is run under the amended ethics approval.', '',
+          'Each hypothesis is judged on its own; no multiplicity correction. H5, pre-specified as a primary verdict, is a verification of the implementation and of the audit equivalence. The SNUH virtual-hospital rows come from the federated arm run after the amended ethics approval (2026-10-23).', '',
           '## Hypotheses and decision rules', '']
     for h, t in HYP_TEXT.items():
         md.append(f'- **{h}.** {t}')
@@ -110,7 +117,8 @@ def additional_file_2(out):
            '| 2026-10-11 | All pre-specified analyses are reported whatever the verdict; no interim analysis; seeds are not added after results are seen; seed intervals do not include sampling variation of the cohort. | Prevents selective reporting. | no |',
            '| 2026-10-11 | Reference models for the online LiRA and RMIA raised from 64 to 256 (main setting; 64 reported as sensitivity). The shadow-model attack used for the verdict (16 models) is unchanged. | With 64 reference models the tail exposure of models of different training size was inflated (inclusion probability proportional to size); with 256 the site-minus-central TPR@1%FPR fell from +0.032 to +0.010. Verdicts H1 to H6 identical under both settings. | yes (synthetic development data) |',
            '| 2026-10-11 | Added: synthetic-canary robustness run of the 141 settings; transfer summary that applies the development thresholds unchanged; training sizes limited to 75% of the base rows. | To test whether the choice of canary determines the ground truth; a defect found on the small public demo cohort. | yes (after the flipped-label results) |',
-           '| 2026-10-19 | eICU real-hospital site configurations (three largest; largest, median and smallest among hospitals with at least 2,000 rows) fixed before the matrices were built. | Real multi-site arm independent of the ethics amendment. | no |']
+           '| 2026-10-19 | eICU real-hospital site configurations (three largest; largest, median and smallest among hospitals with at least 2,000 rows) fixed before the matrices were built. | Real multi-site arm independent of the ethics amendment. | no |',
+           "| 2026-10-24 | After internal review (no analysis re-run; aggregates recomputed from the stored attack tables and run records): patient-level bootstrap intervals of F − A reported in Table 3; H2 and the third clause of H5 restated under the LiRA TPR@1%FPR beside the shadow-model verdicts (Table 4 of the main text); the size share reported only where the site models are more exposed than the central model; the 0.55 rule named the pilot rule; the calibrated LiRA threshold applied to the study's own models at the audit's reference count. | Reviewer comments. The pre-specified verdicts are unchanged. |"]
     with open(os.path.join(out, 'additional_file_2_hypotheses_verdicts.md'), 'w', encoding='utf-8', newline='\n') as fh:
         fh.write('\n'.join(md) + '\n')
     print('wrote', os.path.join(out, 'additional_file_2_hypotheses_verdicts.md'))
@@ -134,8 +142,8 @@ def fl_seed_means(tag):
 
 def additional_file_5(out):
     md = ['# Additional file 5. Utility and exposure of every configuration and route', '',
-          'AUROC on the common validation set and the Gate 2 audit quantities (shadow-model attack AUC with 16 shadow models; online LiRA AUC and true-positive rate at 1% false-positive rate with 256 reference models on SynPUF and 64 on eICU), mean over ten seeds with t-based 95% interval (a single value where one seed was run). '
-          'Decision = prescribed release rule, shadow-model AUC at most 0.55, on the seed mean. The federated rows come from the pilot audit; the last section gives the federated-versus-central differences of every configuration from the federated runs themselves, including the plain configuration (no row or column sampling), which is deterministic (seeds give identical models; the interval collapses to the point) and under which the federated model reproduced the pooled model on the synthetic benchmark but not on the eICU hospitals at the default 256 histogram bins; the cause is the feature-quantile sketch merged from hospitals of different case mix (with 1,024 bins the models are identical, maximum prediction difference 1.2e-7; imputing missing values changes nothing; analysis/federated/out/diag_plain_identity.md).', '']
+          'AUROC on the common validation set and the Gate 2 audit quantities (shadow-model attack AUC with 16 shadow models; online LiRA AUC and true-positive rate at 1% false-positive rate with 256 reference models per target on the synthetic benchmark and 64 on eICU and on the SNUH CDM), mean over ten seeds with t-based 95% interval (a single value where one seed was run). '
+          'Decision = the pilot rule, shadow-model AUC at most 0.55, on the seed mean. The federated rows come from the pilot audit; the last section gives the federated-versus-central differences of every configuration from the federated runs themselves, including the plain configuration (no row or column sampling), which is deterministic (seeds give identical models; the interval collapses to the point) and under which the federated model reproduced the pooled model on the synthetic benchmark but not on the eICU hospitals at the default 256 histogram bins; the cause is the feature-quantile sketch merged from hospitals of different case mix (with 1,024 bins the models are identical, maximum prediction difference 1.2e-7; imputing missing values changes nothing; analysis/federated/out/diag_plain_identity.md).', '']
     for name, folder, tag in COHORTS:
         ut = pd.read_csv(os.path.join(L.OUT_ROOT, folder, '01_utility_long.csv'))
         at = pd.read_csv(os.path.join(L.OUT_ROOT, folder, '03_attacks_long.csv'))
@@ -185,7 +193,7 @@ def additional_file_1(out):
           '| D3 review mode | principal mechanism by which egress is checked | automated egress alerts; human output-checking committee; platform-controlled build and validate; statistical disclosure control rules | the single principal mechanism named |',
           '| D4 environment persistence | whether the environment persists or is decommissioned | persists; time-limited or decommissioned; workspace persists (with credits) | from explicit statements on environment or credit lifetime |',
           '| D5 cost basis | the basis of charging, not a price | access fee or credits; subscription or seat; partnership or contract; free; not stated | the charging basis the published policy states; "not stated" rather than inferred |', '',
-          'Document rule: official documentation and official support-centre pages count as policy; blogs corroborate only; the authors\' contractual or operational knowledge is not evidence; documents under non-disclosure agreement are excluded.', '',
+          'Document rule: official documentation and official support-center pages count as policy; blogs corroborate only; the authors\' contractual or operational knowledge is not evidence; documents under non-disclosure agreement are excluded.', '',
           '## Reconciled matrix with the two codings', '',
           '| platform | dimension | first coder | second coder | reconciled | confidence (second coder) | source |', '|---|---|---|---|---|---|---|']
     kr = [('단락', ' paragraph'), ('말문', ' last sentence'), ('문', ' sentence'), ('탐색 범위', 'searched'), ('확인', 'checked'), ('분석 가이드', 'analysis guide'),
@@ -246,16 +254,16 @@ PREDICTORS = [
     ('Sodium', 'sodium', 'laboratory'), ('Potassium', 'potassium', 'laboratory'), ('Calcium', 'calcium', 'laboratory'), ('Phosphorus', 'phosphorus', 'laboratory'),
     ('Bicarbonate', 'bicarbonate (total CO2)', 'laboratory'), ('Albumin', 'serum albumin', 'laboratory'), ('Total_Protein', 'total protein', 'laboratory'),
     ('Total_Bilirubin', 'total bilirubin', 'laboratory'), ('AST', 'aspartate aminotransferase', 'laboratory'), ('ALT', 'alanine aminotransferase', 'laboratory'),
-    ('GGT', 'gamma-glutamyl transferase', 'laboratory'), ('Hb', 'haemoglobin', 'laboratory'), ('HbA1c', 'glycated haemoglobin', 'laboratory'),
+    ('GGT', 'gamma-glutamyl transferase', 'laboratory'), ('Hb', 'hemoglobin', 'laboratory'), ('HbA1c', 'glycated hemoglobin', 'laboratory'),
     ('Glucose', 'glucose', 'laboratory'), ('HDL', 'HDL cholesterol', 'laboratory'), ('TG', 'triglycerides', 'laboratory'), ('Cholesterol', 'total cholesterol', 'laboratory'),
     ('UACR', 'urine albumin-to-creatinine ratio (measured or derived)', 'laboratory'), ('Urine_Microalbumin', 'urine microalbumin', 'laboratory'),
     ('Urine_Creatinine', 'urine creatinine', 'laboratory'), ('Baseline_eGFR', 'CKD-EPI 2021 from the index creatinine', 'derived'),
     ('eGFR_Slope', 'change of eGFR per year between the index creatinine and the latest creatinine at least 90 days earlier', 'derived'),
-    ('History_HTN', 'hypertension on or before index', 'condition'), ('History_DM', 'diabetes on or before index', 'condition'),
+    ('History_HTN', 'hypertension recorded on or before index (the published pipeline\'s diagnosis-name patterns applied to the source names; the extract has no ICD-10 codes)', 'condition'), ('History_DM', 'diabetes recorded on or before index (same rule)', 'condition'),
     ('Subgroup_DKD', 'diabetic kidney disease', 'condition'), ('Subgroup_GN', 'glomerulonephritis', 'condition'),
     ('BMI', 'body mass index (absent in the extract: 100% missing)', 'measurement'),
-    ('Dur_ACE_ARB_days', 'days of renin-angiotensin system inhibitor exposure in the 365 days before index', 'drug'),
-    ('Dur_Statin_days', 'days of statin exposure in the 365 days before index', 'drug'),
+    ('Dur_ACE_ARB_days', 'days covered by the union of renin-angiotensin system inhibitor prescription intervals on or before the index, whole record', 'drug'),
+    ('Dur_Statin_days', 'days covered by the union of statin prescription intervals on or before the index, whole record', 'drug'),
     ('Drug_RAASi', 'any renin-angiotensin system inhibitor before index', 'drug'), ('Drug_Statins', 'any statin before index', 'drug'),
 ]
 
@@ -275,9 +283,9 @@ def additional_file_4(out):
             parts = ln.split()
             if inside and len(parts) >= 7 and parts[1].endswith('%'):
                 miss[parts[0]] = parts[1:7]
-    md = ['# Additional file 4. Predictors of the CKD progression model on the CDM', '',
+    md = ['# Additional file 4. Predictors of the CKD progression model on the CDM, cohort characteristics and participant flow', '',
           'The 36 predictors of the published model [reference 18 of the main text], computed at the index date (first visit) inside each site file from the OMOP CDM tables '
-          '(laboratory values: nearest measurement on or before the index, LOINC-mapped; conditions: SNOMED-mapped condition occurrences on or before the index; '
+          '(laboratory values: nearest measurement on or before the index, LOINC-mapped; history flags: the published pipeline\'s diagnosis-name patterns on the source names on or before the index, because the extract carries no ICD-10 codes; subgroup flags likewise; '
           'drug exposures: RxNorm ingredients grouped by ATC class). Missing values are left missing (XGBoost handles them). Missing shares are those of the '
           'six virtual-hospital files (B1 × 3, B2 × 3), from `analysis/snuh_cdm/out/p4_site_features_visit.txt`.', '',
           '| predictor | definition | source | missing share, six site files |', '|---|---|---|---|']
@@ -291,6 +299,15 @@ def additional_file_4(out):
            '| Cholesterol | 76.1% | the published substring rule counts LDL-cholesterol as total cholesterol; the CDM mapping does not |', '',
            'All other predictors agree exactly for 96.3% to 100% of the patients present in both cohorts (27,226 of the 28,209 published patients). '
            'The 983 published patients missing from the CDM cohort were removed by the renal replacement therapy and impossible-value exclusions, which the published pipeline did not apply.']
+    cc = os.path.join(L.OUT_ROOT, 'cohort_characteristics.md')
+    if os.path.exists(cc):
+        body = open(cc, encoding='utf-8').read().split('\n', 1)[1]
+        md += ['', '## Cohort characteristics of every analysis cohort', '', body.strip(), '',
+               '## Participant flow of the SNUH cohort', '',
+               'Extract: 37,886 patient identifiers (DRB-E(I)-2025-08-01; records restricted to January 2000 to July 2025), 37,885 with a valid birth year, all of which entered the CDM. '
+               'Six site files of 5,883 to 14,805 persons and a validation file of 8,463 (patients outside the published cohort assigned to the sites at random so that every site runs the cohort itself). '
+               'ATLAS definition (first CKD diagnosis as index): 19,057 patients, 4,449 / 4,603 / 4,508 in the equal sites, 6,988 / 3,875 / 2,697 in the unequal sites, 5,497 in the validation file. '
+               'Training-cohort definition (first visit as index, published selection rules): 27,228 patients, 19,049 training (6,356 / 6,343 / 6,350; 9,470 / 5,769 / 3,810) and 8,179 validation; 27,226 of them are among the 28,209 patients of the published model.']
     with open(os.path.join(out, 'additional_file_4_predictors.md'), 'w', encoding='utf-8', newline='\n') as fh:
         fh.write('\n'.join(md) + '\n')
     print('wrote', os.path.join(out, 'additional_file_4_predictors.md'))
@@ -328,7 +345,9 @@ def additional_file_6(out):
         md.append(f'| {k} | {v["n_estimators"]} | {v["max_depth"]} | {v["learning_rate"]} | {v.get("min_child_weight", 1)} | {v.get("reg_lambda", 1)} | {v["subsample"]} | {v["colsample_bytree"]} |')
     md += ['', 'krcp = the published configuration, leaky = the over-fitted positive control, regularized = the regularized configuration of the main text; the other four span the space between them.', '']
     for name, folder in [('SynPUF (development)', 'synpuf_xgb_canary'), ('MIMIC-IV-ED', 'mimic_ed_s28k_xgb_canary'), ('eICU-CRD, random sample', 'eicu_s28k_xgb_canary'),
-                         ('eICU-CRD, 3 largest hospitals', 'eicu_h3a_xgb_canary'), ('eICU-CRD, hospitals of unequal size', 'eicu_h3b_xgb_canary')]:
+                         ('eICU-CRD, 3 largest hospitals', 'eicu_h3a_xgb_canary'), ('eICU-CRD, hospitals of unequal size', 'eicu_h3b_xgb_canary'),
+                         ('eICU-CRD, all 14 hospitals (7 named settings only)', 'eicu_h14_xgb_canary'),
+                         ('SNUH CDM, virtual hospitals', 'snuh_cdmv_xgb_canary')]:
         p = os.path.join(L.OUT_ROOT, folder, 'canary_summary.md')
         if not os.path.exists(p):
             continue
@@ -345,8 +364,9 @@ def additional_file_6(out):
             body = [ln.rstrip('\n') for ln in open(p, encoding='utf-8')]
             body = [('#' + ln) if ln.startswith('#') else ln for ln in body[1:]]
             md += [f'## {title}', ''] + body + ['']
+    text = '\n'.join(md).replace('The same prescribed rules', 'The same rules at their fixed thresholds').replace('prescribed rule', 'pilot rule').replace('Prescribed rule', 'Pilot rule').replace('prescribed', 'fixed')
     with open(os.path.join(out, 'additional_file_6_canary_benchmark.md'), 'w', encoding='utf-8', newline='\n') as fh:
-        fh.write('\n'.join(md) + '\n')
+        fh.write(text + '\n')
     print('wrote', os.path.join(out, 'additional_file_6_canary_benchmark.md'))
 
 

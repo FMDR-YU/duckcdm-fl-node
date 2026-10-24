@@ -51,9 +51,17 @@ Tests on generated data: `python analysis/snuh_cdm/tests/run_tests.py` (no restr
 - eICU-CRD v2.0 and MIMIC-IV-ED v2.2: PhysioNet, credentialed access.
 - The hospital extract cannot be shared.
 
+## Changes in v0.2 (2026-10-25)
+
+- Added the 14-hospital eICU federation (tag h14: federated run records, pilot summary, canary benchmark on the named settings) and the cross-cohort figure `fig_sites_count.py`.
+- Added the circe definition of the training cohort (`analysis/cohort/Cohort_OHDSI_CKD_firstvisit.json`, `make_firstvisit_json.py`) and the duckcdm cross-check report `analysis/snuh_cdm/out/p4c_duckcdm_firstvisit.txt`; `p4b_duckcdm_cohort.py` takes `--hand-sql` and `--label`.
+- Fixed `06_summarize.py` (the number of sites is taken from the step-01 targets; the first 14-site summary had averaged three sites) and `04_gate1_formats.py` (the native ensemble loader drops the column that the median imputer dropped at fit).
+- Added `review_c_items.py` (exposure under two attacks, patient-level bootstrap ranges, calibrated-threshold decisions), `cohort_characteristics.py` (aggregate cohort table) and `build_submission.py`; figure scripts and the additional-file generator follow the revised manuscript (tables and figures renumbered in citation order).
+- SNUH aggregate summaries remain excluded from this repository by policy; the eICU and MIMIC-IV-ED aggregates are included.
+
 ## Citation
 
-[Zenodo DOI and the paper's citation will be added here.]
+Yu H. duckcdm-fl-node: single-file OMOP CDM node with federated XGBoost and an export audit. Version 0.2. Zenodo; 2026. https://doi.org/10.5281/zenodo.23487070 (concept DOI, all versions; this version: https://doi.org/10.5281/zenodo.23487071). The paper's citation will be added when it is published.
 
 ## License
 

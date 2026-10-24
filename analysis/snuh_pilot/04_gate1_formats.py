@@ -91,10 +91,11 @@ def load_native(d):
     c = CatBoostClassifier(); c.load_model(os.path.join(d, 'cat.cbm'))
     rf = json.load(open(os.path.join(d, 'rf.json')))
     med = np.asarray(cfg['medians'])
+    keep = ~np.isnan(med)      # SimpleImputer drops a column that is all missing at fit (BMI in the SNUH extract): the members never saw it
 
     def predict(X):
-        A = np.asarray(X, float)
-        A = np.where(np.isnan(A), med, A)
+        A = np.asarray(X, float)[:, keep]
+        A = np.where(np.isnan(A), med[keep], A)
         ps = [b.predict(xgb.DMatrix(A)), g.predict(A), c.predict_proba(A)[:, 1], rf_predict_json(rf, A)]
         return np.average(ps, axis=0, weights=cfg['weights'])
     return predict, ['json', 'text', 'cbm', 'json']

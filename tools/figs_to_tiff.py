@@ -12,8 +12,9 @@ BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIGS = [('Fig1', 'Figures/v2/node/Fig1_node_architecture.png'),
         ('Fig2', 'Figures/v2/atlas/Fig_atlas_virtual_sites.png'),
         ('Fig3', 'Figures/v2/cross_cohort/Fig3_routes_cohorts.png'),
-        ('Fig4', 'Figures/v2/cross_cohort/Fig4_exposure_vs_size_cohorts.png'),
-        ('Fig5', 'Figures/v2/cross_cohort/Fig6_canary_cohorts.png')]
+        ('Fig4', 'Figures/v2/cross_cohort/Fig7_sites_count.png'),
+        ('Fig5', 'Figures/v2/cross_cohort/Fig4_exposure_vs_size_cohorts.png'),
+        ('Fig6', 'Figures/v2/cross_cohort/Fig6_canary_cohorts.png')]
 
 
 def main():

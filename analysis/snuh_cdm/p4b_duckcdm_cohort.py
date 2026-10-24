@@ -88,15 +88,17 @@ def main():
     ap.add_argument('--json', default=JSON_DEFAULT)
     ap.add_argument('--cdm-dir', default=None)
     ap.add_argument('--out', default=None, help='report file (default out/p4b_duckcdm_cohort.txt)')
+    ap.add_argument('--hand-sql', default=HAND_SQL, help='hand-written DuckDB cohort SQL to compare with (default sql/v205_cohort_duckdb.sql)')
+    ap.add_argument('--label', default='v205', help='label of the definition in the report')
     a = ap.parse_args()
     C.require_irb(a.irb)
     import duckcdm
     json_text = open(a.json, encoding='utf-8').read()
     d_sql = duckcdm_sql(json_text)
-    h_sql = hand_sql_as_temp(open(HAND_SQL, encoding='utf-8').read())
-    lines = ['p4b_duckcdm_cohort: v205 by duckcdm vs the hand DuckDB translation',
+    h_sql = hand_sql_as_temp(open(a.hand_sql, encoding='utf-8').read())
+    lines = ['p4b_duckcdm_cohort: %s by duckcdm vs the hand DuckDB translation' % a.label,
              'duckcdm %s, cohort json %s (md5 %s), hand sql md5 %s' % (getattr(duckcdm, '__version__', '?'), os.path.basename(a.json),
-                                                                      md5(a.json), md5(HAND_SQL)),
+                                                                      md5(a.json), md5(a.hand_sql)),
              'duckcdm SQL: %d statements, %d chars (md5 %s)' % (len(statements(d_sql)), len(d_sql), hashlib.md5(d_sql.encode()).hexdigest()),
              'both results are temp tables; the site databases are not modified', '']
     print('\n'.join(lines))

@@ -1,0 +1,11 @@
+Ongoing closure of the UKB-RAP
+
+Dear Colleagues
+ ​All access to UK Biobank’s Research Analysis Platform (UKB-RAP) was stopped in April due to clear breaches of the UK Biobank Material Transfer Agreement, which have shaken trust in UK Biobank and caused concern to some participants.
+ ​The UK Biobank Board has conducted a full investigation into these breaches and security around participant data. The UKB-RAP will remain closed while access controls are reviewed and enhanced.
+ ​We know that the inability to access the UKB-RAP has serious consequences for researchers, and we are working hard towards re-opening access for analyses. We expect to be able to provide a more specific timetable in early June.
+ ​We want to reassure you that you will only need to cover your costs up to and including 22 April, when the UKB-RAP was closed. Researchers will not be charged for storage costs that accrue, or for jobs that were terminated mid-run. Once the platform re-opens, we will automatically extend any compute credits and projects at no additional cost.
+ ​If you have questions, please contact us directly , or post here on the UK Biobank Community where the team will respond as quickly as possible.
+ ​
+ Professor Sir Rory Collins 
+ CEO and Principal Investigator, UK Biobank

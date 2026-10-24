@@ -24,9 +24,11 @@ import pilot_lib as L  # noqa: E402
 COHORTS = [('SynPUF, equal thirds (B1)', 'synpuf_xgb', 'B1'),
            ('SynPUF, 50/30/20 (B2)', 'synpuf_xgb', 'B2'),
            ('eICU-CRD, 3 largest hospitals', 'eicu_h3a_xgb', 'B1'),
-           ('eICU-CRD, hospitals of unequal size', 'eicu_h3b_xgb', 'B1')]
+           ('eICU-CRD, hospitals of unequal size', 'eicu_h3b_xgb', 'B1'),
+           ('SNUH CDM, equal thirds (B1)', 'snuh_cdmv_xgb', 'B1'),
+           ('SNUH CDM, 50/30/20 (B2)', 'snuh_cdmv_xgb', 'B2')]
 VARIANTS = [('xgb_krcp', 'published configuration'), ('xgb_regularized', 'regularized configuration')]
-ROWS = [('A′ size control', 's', False), ('site models (mean of 3)', '^', False), ('averaged site predictions', 'D', True), ('federated', '*', True)]
+ROWS = [('A′ size control', 's', False), ('site models (mean)', '^', False), ('averaged site predictions', 'D', True), ('federated', '*', True)]
 
 
 def rd(folder, f):
@@ -39,7 +41,8 @@ def route_deltas(ut, variant, scn):
     p = ut[ut.variant == variant].pivot_table(index='seed', columns='target', values='auroc')
     out = {}
     out[ROWS[0][0]] = p['Aprime_0'] - p['A_0'] if 'Aprime_0' in p else None
-    out[ROWS[1][0]] = p[[f'{scn}_0', f'{scn}_1', f'{scn}_2']].mean(axis=1) - p['A_0']
+    site_cols = [c for c in p.columns if c.startswith(f'{scn}_') and c[len(scn) + 1:].isdigit()]
+    out[ROWS[1][0]] = p[site_cols].mean(axis=1) - p['A_0']
     out[ROWS[2][0]] = p[f'{scn}_comb'] - p['A_0'] if f'{scn}_comb' in p else None
     out[ROWS[3][0]] = p[f'F_{scn}'] - p['A_0'] if f'F_{scn}' in p else None
     return out
@@ -74,7 +77,7 @@ def fig_routes(out):
             a.set_yticks(range(len(ROWS)))
             a.set_yticklabels([r[0] for r in ROWS], fontsize=7)
             a.tick_params(axis='x', labelsize=7)
-            a.text(-0.02, 1.02, 'abcdefgh'[i * k + j], transform=a.transAxes, fontsize=8, fontweight='bold', ha='right')
+            a.text(-0.02, 1.02, 'abcdefghijklmnop'[i * k + j], transform=a.transAxes, fontsize=8, fontweight='bold', ha='right')
     ax[0, 0].set_xlim(-0.046, 0.012)
     ax[0, 0].invert_yaxis()
     ax[-1, 0].set_xlabel('AUROC minus central model\n(dotted line: non-inferiority margin −0.02)', fontsize=7)
@@ -116,9 +119,9 @@ def fig_size(out, variant='xgb_krcp'):
         a.tick_params(labelsize=7)
         a.set_xlabel('training patients', fontsize=7)
         a.set_title(name, fontsize=7, loc='left')
-        a.text(-0.02, 1.02, 'abc'[j], transform=a.transAxes, fontsize=8, fontweight='bold', ha='right')
+        a.text(-0.02, 1.02, 'abcdefgh'[j], transform=a.transAxes, fontsize=8, fontweight='bold', ha='right')
     ax[0].set_ylabel('shadow-model attack AUC', fontsize=7)
-    ax[0].text(2100, L.GATE2_THRESHOLD + 0.003, f'release threshold {L.GATE2_THRESHOLD}', fontsize=6, va='bottom')
+    ax[0].text(2100, L.GATE2_THRESHOLD + 0.003, f'pilot rule {L.GATE2_THRESHOLD}', fontsize=6, va='bottom')
     h = [plt.Line2D([], [], color='k', lw=1, label='central model, training size varied (95% interval over seeds)'),
          plt.Line2D([], [], marker='o', color='k', ls='none', ms=5, label='A central'),
          plt.Line2D([], [], marker='s', color='k', mfc='none', ls='none', ms=5, label='A′ size control'),

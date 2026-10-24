@@ -1,0 +1,31 @@
+Exploring a Federated Approach to Data Management - Mayo Clinic Platform
+URL: https://www.mayoclinicplatform.org/2023/09/14/exploring-a-federated-approach-to-data-management/
+Retrieved through the built-in browser on 2026-10-20 (the site returns HTTP 403 to scripted requests); page date shown: September 14, 2023.
+---
+Resources
+Articles
+Exploring a Federated Approach to Data Management
+September 14, 2023
+Share
+3 minutes
+
+AI-enabled algorithms are only as good as the data they are built on. Managing that data requires a system that enables users to gain insights but at the same time keeps it private and secure.
+
+By John Halamka, M.D., President, Mayo Clinic Platform, Paul Cerrato, senior research analyst and communications specialist, Mayo Clinic Platform, and Katelyn Krakowski, Mayo Clinic Platform summer intern.
+
+Wikipedia offers a concise definition of federated learning as it applies to artificial intelligence: "Federated learning, also known as collaborative learning, is a machine learning technique that trains an algorithm via multiple independent sessions, each using its own dataset." This approach is in sharp contrast to centralized machine learning techniques, which require data sets be combined into one central location. In the former approach, rather than sending data back to the central server, each source sends back their updated model's weights or parameters to a shared virtual location, and then this central server aggregates them. This is the approach that Mayo Clinic Platform uses for the Mayo Clinic Platform_Connect data set, which we discussed in a previous blog.
+
+The federated approach is illustrated by a prediction model to predict patients' responses to chemotherapy. Data is kept at each site and its use is controlled by each participating institution. Cryptographic methods enable organizations to work together without moving data, protecting privacy. While the value of access to data across all silos and segments of healthcare is well recognized, near continuous access to raw data has to juxtaposition against the need to keep such data private to protect individual patient privacy and to meet the regulatory and institutional needs of healthcare organizations or their industry partners.
+
+Given the increasing complexity of healthcare data and the resulting questions surrounding what constitutes adequate de-identification (e.g. for genetic data, radiographic data, etc.), the realities of accessing such data have only become more complex. The optimal solution would allow for:
+
+Automated, real-time de-identification such that the most recent data is de-identified without the need for human engagement;
+Technology-based governance to mitigate the risk of individual re-identification;
+The ability for the data to be operationalized at rest to be used to train diagnostic and prediction models accurately with minimal computational overhead or additional hardware;
+The ability of such an approach to scale across any amount of data, whereever the data is located in terms of jurisdiction, or what kind of data exists (structured or unstructured).
+
+Creating the model depends on access to clinical data (available in unstructured form, extracted from the electronic health record), imaging data (computed tomography scans of the lungs, for example), and genomic data, which together would involve several hundred gigabytes to terabytes.
+
+As we have discussed in other publications, Mayo Clinic is using a federated model that includes a multi-layered defense referred to as data behind glass. The concept of data behind glass is that the de-identified data is stored in an encrypted container, always under control of Mayo Clinic Cloud. Authorized cloud sub-tenants can be granted access such that their tools can access the de-identified data for algorithm development, but no data can be taken out of the container. This prevents merging the data with other external data sources.
+
+Although there is no perfect system for giving stakeholders access to healthcare data while protecting patients' rights, a federated approach is still the best option we have.

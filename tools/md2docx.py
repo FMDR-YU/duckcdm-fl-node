@@ -304,8 +304,7 @@ def convert(src, out, embed_figs=False):
 SUBMISSION_README = """# Submission set — Healthcare Informatics Research
 
 Regenerate with `python tools/md2docx.py` (no arguments). Do not edit these; edit
-`Manuscript/manuscript.md`, `Manuscript/cover_letter.md` or
-`Supplement/S1_File_supplement.md` and rebuild.
+`Manuscript/v2/BMC_MIDM/*.md` (the old v1 set is under `Archive/manuscript_v1_egress/`) and rebuild.
 
 Upload in this order:
 

@@ -1,0 +1,288 @@
+Frequently Asked Questions
+
+Access Questions (For Researchers) Access Questions (For Signing Officials) Credits & Billing Questions Genomics Policy Questions Registration & Account Questions Workbench Tools Working with the Data 
+ Access Questions (For Researchers)
+ Do I need IRB approval from my own institution to access data through the All of Us Researcher Workbench? 
+ You should always check with your local institutional review board (IRB) to ensure compliance with local requirements for conduct of research. We have provided the following template language as a resource to use for local IRB applications.
+ “The Registered Tier and Controlled Tier data available on the Research Hub contains data from participants who have consented to be involved in the All of Us Research Program, including data from electronic health records (EHRs), surveys, and physical measurements. All data available to researchers has had direct identifiers removed and has been further modified to minimize re-identification risks. This includes removing all explicit identifiers in both EHRs and participant provided information, all free-text fields, geolocation data smaller than U.S. state level, living situations, race and ethnicity subcategories, active duty military status, cause of death, and diagnosis codes subject to public knowledge. Additionally, the select demographic fields are generalized. Also, all dates are systematically shifted backwards by a random number between 1 and 365, and data from participants over the age of 89 are removed. The All of Us Research Program data will be accessed for research strictly using the Researcher Workbench (researchallofus.org). External data can be brought into this secure environment; however, researchers are restricted from importing any individually identifiable information and from row-level linkage of the external data. Data searches, cohort building, and analysis will solely take place on the Researcher Workbench, a secure cloud-based resource with statistical analysis software available for use with All of Us data. Researchers are granted access to the Researcher Workbench after their affiliated institution signs a Data Use and Registration Agreement, and they create an account, including setting up two-factor authentication, verify their identity through Login.gov or ID.me, complete the All of Us Responsible Conduct of Research training, and sign a Data User Code of Conduct, which prohibits any re-identification of All of Us participants. For more information, please visit researchallofus.org.” 
+ Do I need my project reviewed by the All of Us IRB to access data using the All of Us Researcher Workbench? 
+ No. As noted in the All of Us Responsible Conduct of Research Training , the Researcher Workbench employs a data passport model, and registered researchers do not need IRB review for each research project.
+ Most researchers will not be conducting human subjects research with All of Us data for two reasons:
+ The research will not directly involve participants, only their data.
+ The data available in the Researcher Workbench has been carefully checked and altered to remove identifying information while preserving its scientific utility.
+ ​We still encourage you to apply the ethical principles of research with human participants to your work. Read the letter confirming the All of Us Institutional Review Board’s regulatory opinion .
+ Who do I list as my institutional signing official in the DURA request form? 
+ Institutional signing officials typically include directors of research, sponsored programs, contracting, or technology transfer.
+ If you are unsure of your institutional signing official, we recommend asking a supervisor or administrator at your institution to connect you with a higher-level administrator, who could facilitate a Data Use and Registration Agreement (DURA) on the institution’s behalf.
+ Who is the contact listed on the registered institutions page? 
+ The Registered Institutions page lists the monthly user reporting contact for each institution with a signed Data Use and Registration Agreement (DURA). This contact receives regular reports about the users within their institution who are currently registered for the All of Us Researcher Workbench.
+ How do I know the status of my DURA request? 
+ If you have completed a Data Use and Registration Agreement (DURA) request form on behalf of your institution, the All of Us Researcher Workbench access team will update you regularly via email.
+ If you have a question about the state of your institution’s DURA access
+ request, you can reach out to the access team at
+ aoudurasupport@vumc.org .
+ How will I know when my agreement is signed? 
+ The All of Us Researcher Workbench access team will email each researcher who submitted a Data Use and Registration Agreement (DURA) request form when the agreement has been signed. You will also receive registration instructions.
+ How long will it take for the DURA to be signed? 
+ Timelines for Data Use and Registration Agreement (DURA) can vary. They may take anywhere between a few business days to several months to complete. Feel free to reach out to the All of Us Researcher Workbench access team at aoudurasupport@vumc.org with questions about the status of your DURA request.
+ Can I do any research while I wait for the DURA to be completed? 
+ You are welcome to explore our publicly available data located on the All of Us Research Hub. The Data Browser includes aggregated data contributed by All of Us participants. Researchers may find this useful for planning projects because it offers a sense of how many participants may have certain conditions or may have contributed certain types of data.
+ More detailed data are only available in the All of Us Researcher Workbench.
+ After my institution’s DURA is completed, how do I register for the All of Us Researcher Workbench? 
+ First, you will create an account . You will receive an email with further instructions after you have completed your researcher profile. As part of the registration process, you will be required to complete 2-step verification, verify your identity , acknowledge the Data User Code of Conduct , and complete the Responsible Conduct of Research Training .
+ How will I know if my DURA request is denied? 
+ If the Data Use and Registration Agreement (DURA) request is denied by your institutional signing official, the All of Us Researcher Workbench access team will let you know within two business days.
+ Why is my DURA request still in the contracting process? 
+ Depending on the institution, the Data Use and Registration Agreement (DURA) can take between a week and a year to complete.
+ Since this is such a wide range, we recommend regularly contacting your signing official to demonstrate interest in the All of Us Researcher Workbench. Feel free to reach out to the Researcher Workbench access team at aoudurasupport@vumc.org if you have already completed a request form and your institution has not yet signed the DURA.
+ Can international researchers register for the All of Us Researcher Workbench? 
+ Yes, international researchers can register. To register, your institution must first have a Data Use and Registration Agreement (DURA) in place with the All of Us Research Program. This agreement must be signed by an institutional signing official.
+ The DURA process can take several months for institutions to complete. After that, researchers affiliated with registered institutions can register and begin their research using All of Us data.
+ Can commercial researchers register for the All of Us Researcher Workbench? 
+ Yes, commercial researchers can register. To register, your institution must first have a Data Use and Registration Agreement (DURA) in place with the All of Us Research Program. This agreement must be signed by an institutional signing official.
+ The DURA process can take several months for institutions to complete. After that, researchers affiliated with registered institutions can register and begin their research using All of Us data.
+ Access Questions (For Signing Officials)
+ How does All of Us verify which researchers are affiliated with my institution? 
+ After a Data Use and Registration Agreement (DURA) has been signed, you will provide the All of Us Researcher Workbench access team with a list of acceptable email domains, such as @vumc.org for Vanderbilt University Medical Center.
+ These email domains must be specific to your institution and cannot include generic email domains, such as @gmail.com. After the acceptable email domains are established, affiliated researchers will be able to register for the Researcher Workbench .
+ Can I add another acceptable email domain at any time? 
+ Yes, additional acceptable email domains can be added to your Data Use and Registration Agreement (DURA) at any time.
+ If you would like to add another acceptable email domain for your institutional DURA, please reach out to the All of Us Researcher Workbench access team at aoudurasupport@vumc.org .
+ Note: If the access team receives a request from a researcher who is affiliated with your institution but does not use an acceptable email domain, the access team will direct the researcher to contact their signing official to ask if their email domain can be approved.
+ How do I monitor researchers from my institution using the All of Us Researcher Workbench? 
+ After the Data Use and Registration Agreement (DURA) has been signed, you will be asked to complete a registration form in which you will provide the name for the contact at your institution that will receive a monthly researcher report that shows the researchers from your institution who have access to the Registered and/or Controlled Tiers (i.e., researchers who have completed all required registration steps).
+ This monthly researcher report includes the researchers’ names, email addresses, access tiers, and details of the workspaces they have created in the Researcher Workbench. The reviewer of the monthly researcher report will be able to review the list and request removal of researchers from the Researcher Workbench if needed.
+ Who is listed on the Monthly User Report? 
+ The Monthly User Report lists users from your institution who have current access to the Researcher Workbench. This means that they have completed all required registration steps. If a user has created their account but not completed all required registration steps, they will not be listed on the monthly user report. Once they complete the required registration steps, they will be listed on the next monthly user report.
+ How long will setup in the All of Us Researcher Workbench take after the DURA has been completed? 
+ After the Data Use and Registration Agreement (DURA) has been signed, your institution will have access to the Researcher Workbench within two business days. The researchers from your institution who requested access will receive an email notifying them that they can register.
+ Can All of Us data be used for commercial purposes? 
+ As long as the research being done complies with our policies , it can be used for commercial purposes.
+ Is there a cost to completing a DURA? 
+ No, there is not a cost to completing the DURA. All of Us currently makes data available at no cost to researchers, though they may incur compute costs for cloud-based analysis and storage.
+ Credits & Billing Questions
+ What is a billing pod? 
+ A billing pod connects your workspace to a Google Cloud billing account. You can create multiple billing pods (each linked to a different billing account) to fund different workspaces. You can learn more about how to set up a billing account on our User Support Hub.
+ Who can update billing information for a workspace? 
+ Billing is assigned when the workspace is created by selecting a billing pod, and it cannot be changed afterward.
+ If you need to use a different billing account, you will need to duplicate the workspace and select a different billing pod during creation.
+ What happens if I select the wrong billing pod? 
+ Once a billing pod is selected for a workspace, it cannot be changed. If you need to use a different billing account, you will need to duplicate the workspace and select the correct billing pod during creation.
+ Can I use the same billing pod across multiple workspaces? 
+ Yes. A single billing pod can be used for multiple workspaces. All compute and storage costs from those workspaces will be charged to the billing account associated with that pod.
+ Who can use a billing pod? 
+ Billing pods can be shared with collaborators. Any user who has been granted access to the pod can use it when creating workspaces, and costs will be billed to the associated billing account.
+ Are there limits on how many workspaces I can create? 
+ It depends on your billing account. Google Cloud Platform (GCP) billing accounts have a limit on the number of projects that can be created (typically around 5 by default). Each workspace in the Researcher Workbench corresponds to a GCP project, so this limit can affect how many workspaces you are able to create.
+ If you reach this limit, you may not be able to create new workspaces or billing pods until you:
+ Delete unused workspaces
+ Request a project quota increase through your GCP billing account
+ Use a different billing account
+ If you encounter errors when creating new workspaces, this may be related to project quota limits.
+ Can I move and apply my initial credits to different projects and workspaces? 
+ Initial credits are assigned to the researcher using the All of Us Researcher Workbench and apply to all projects and workspaces created by that researcher. You can create as many workspaces as you want as long as you have a credit balance or have a billing account set up.
+ However, please note that initial credits cannot be combined with credits from other researchers using the Researcher Workbench.
+ Initial credits are available through your default initial credits billing pod, which is managed by the All of Us platform. Once your initial credits have expired or been exhausted, you may link you initial credits pod to your own personal GCP billing account.
+ Can I continue using my workspace after my initial credits run out? 
+ We recommend establishing your GCP Billing Account before your initial credits run out. Once a workspace is unlinked from an active billing account, you will not be able to start new apps or run analyses unless you either link your GCP billing account to your initial credits pod or create a new billing pod connected to your own GCP billing account.
+ How much will my project cost? 
+ It's difficult to accurately predict how much a research project could cost. The total cost of a research project depends on how you use compute and storage resources in the Workbench. You can view estimates collected by our team to help inform an estimated cost for your project.
+ Can I set a spending limit on my research project? 
+ You cannot set a spending limit on a workspace, but you can set up notifications for your credit usage and remaining balance. You can also set up budget alerts with your Google Cloud Platform (GCP) billing account.
+ What if I don’t have a credit card but have purchase orders from grants? 
+ The All of Us Researcher Workbench requires a valid Google Cloud Platform (GCP) billing account to cover costs associated with a workspace . In the absence of a credit card, you can request an invoiced billing account with GCP or use GCP resellers for this purpose.
+ How can I add credits to my All of Us account? 
+ Please note that after your initial All of Us credits are exhausted, the Researcher Workbench does not operate on a "credit recharge" model. Instead, ongoing usage is billed directly through a linked Google Cloud Platform (GCP) billing account. Once your initial credits are exhausted, you will need to set up and link a Google Cloud Platform (GCP) billing account to continue your analysis. GCP offers a promotional credit for new users, but this is separate from All of Us . If you have a grant budget for credits, you should set up your billing account before your initial credits expire to avoid disruptions.
+ Where can I find my Google Cloud Platform billing details? 
+ You can find your billing details by signing in to your Google Cloud Platform (GCP) billing account . Head to the GCP Console Billing page, where you’ll see an overview of your spending, costs by project, and other billing info.
+ Can I extend my initial credits after they have expired? 
+ Initial credits cannot be extended upon request. Once they expire, you must set up a Google Cloud Platform (GCP) billing account to continue your research. For more information, refer to the ' Credits and Billing ' section on the User Support Hub.
+ Where can I find my initial credits balance? 
+ You can check your remaining initial credits and their expiration date by logging into the Researcher Workbench Lobby (https://workbench.researchallofus.org/login), clicking the navigation menu in the top left-hand corner, then click on your profile and you'll see your initial credit balance is displayed.
+ Genomics
+ Are genomic array data imputed? 
+ Our array data are not imputed, and we currently have no concrete plans to implement imputation. We recommend signing up for our quarterly e-newsletter, Research Roundup , to stay up to date on future updates.
+ Policy Questions
+ How do I cite the Researcher Workbench in my grants or publications? 
+ We ask that all researchers using the Researcher Workbench honor the contribution of those who take part in All of Us to their research project’s work.
+ This includes in all oral and written presentations, disclosures, and publications resulting from any analyses of the data. The following are examples of acknowledgement and data availability statements.
+ Example acknowledgement statement 
+“We gratefully acknowledge All of Us participants for their contributions, without whom this research would not have been possible. We also thank the National Institutes of Health’s All of Us Research Program for making available the participant data [and/or samples and/or cohort] examined in this study.”
+ Example data availability/data access statement 
+“This study used data from the All of Us Research Program’s [Registered/Controlled] Tier Dataset [version number], available to authorized users on the Researcher Workbench .”
+ Please review our All of Us Research Program Data and Statistics Dissemination Policy and All of Us Research Program Publication and Presentation Policy for further information.
+ How do I notify All of Us about my upcoming publication? 
+ Researchers are required to notify the program of any publication or presentation using All of Us Research Program data at least 2 weeks before the date of publication or conference presentation. View the checklist about the reporting process .
+ You can notify All of Us about your upcoming publication via the "Contact Us" feature under the hamburger menu ( ) in the upper left hand corner of the Researcher Workbench homepage. You can also notify us directly through the Publication and Presentation Reporting Form .
+ The information you provide will be used by the All of Us Research Program for notification and communications planning purposes, without requirement for program review or approval. This information or any manuscript you submit will not be shared or disseminated outside the program until after it is published. You should submit an electronic version of the final, peer-reviewed manuscript to PubMed Central immediately upon acceptance for publication. To see detailed instructions on how to submit a manuscript without an embargo period, please visit the NIHMS Tutorials page , and click on Deposit Files , which contains an in-depth presentation with full screenshots of the process.
+ Researchers using the Researcher Workbench must also remember to honor the contribution of those who take part in All of Us to their research project’s work. This includes all oral and written presentations, disclosures, and publications resulting from any analyses of the data.
+ Please review our All of Us Research Program Data and Statistics Dissemination Policy , All of Us Research Program Publication and Presentation Policy , and Data User Code of Conduct for further information.
+ Does All of Us have intellectual property rights over products developed from data in the Researcher Workbench? 
+ All of Us claims no intellectual property rights on products developed from research using All of Us data. All of Us supports and recommends that research products and services emerging from secondary research using All of Us data be accessible broadly.
+ What data or figures can I download in compliance with the Data User Code of Conduct? 
+ As outlined in the Data User Code of Conduct , you cannot make copies of or download any participant-level data from the All of Us Researcher Workbench. Aggregate statistics that are more granular than buckets of 20 individuals may not be distributed or published without approval from the All of Us Research Program.
+ We highly recommend that any downloaded data table, chart, or figure should have summary counts of at least 20 so you don't later violate our Data and Statistics Dissemination Policy . For example, a count of 5 or 9 should be rounded up to 20; however, a count of 35 can stay as 35. This helps us protect participants from the risk of re-identification.
+ Please review our All of Us Research Program Data and Statistics Dissemination Policy , All of Us Research Program Publication and Presentation Policy , Data User Code of Conduct , and Egress Alert Policy for further information.
+ What do I need to do before importing external data into the Researcher Workbench to make sure I don’t violate any of the All of Us policies? 
+ You can upload or import external data, codes, or files into your workspace, but it is important to remember that you are responsible for ensuring that you have the appropriate rights to anything you upload and that you have removed all of the personally identifiable information (PII) from any data or files before you upload them into your workspace. PII includes, but are not limited to: names, dates, addresses or geographic information smaller than the first three digits of the zip code, unique id numbers or codes such as Social Security Numbers, Medical Record Numbers, phone and fax numbers, biometric, photographs or comparable images, etc. When you share external data, codes, or files into your workspace, they will be available to you and other researchers collaborating on your workspace, but not generally available to other All of Us researchers.
+ Please note: By agreeing to the Data User Code of Conduct , you take full responsibility for any external data, files, or software that they import into the All of Us Researcher Workbench. It is your responsibility to only upload data you are authorized to use, in accordance with any data use restrictions in place, and to ensure that the collaborators of your workspace also follow these restrictions. You may import data into the Researcher Workbench as long as they comply with All of Us policies.
+ For additional guidance protecting participant privacy and on complying with the All of Us policies, read the “How do I comply with All of Us policies when importing data into the Researcher Workbench?” FAQ.
+ Please review our Data User Code of Conduct and Egress Alert Policy for further information.
+ How do I comply with All of Us policies when importing data into the Researcher Workbench? 
+ The Researcher Workbench allows you to import your own data or codebase into your individual workspace for analysis, however, you will need to take certain precautions before importing the data to ensure appropriate use and to protect data privacy.
+ First you should make sure that you have the appropriate clearance/access to use the data and/or share it with your collaborators who have access to your workspace, as outlined in the Data User Code of Conduct (DUCC) . The DUCC also states that you will need to remove any personally identifiable information (PII), protected health information (PHI), or identifiable private information (IPI) from your data BEFORE importing any files into your workspace.
+ Personal Identifying Information (PII) refers to information that can be used to distinguish or trace the identity of an individual (e.g., name, social security number, biometric records, etc.) either alone, or when combined with other personal or identifying information that is linked or linkable to a specific individual. Protected Health Information (PHI) refers to individually identifiable health information that is transmitted by electronic media, maintained in electronic media, or transmitted or maintained in any other form or medium. Identifiable Private Information (IPI) refers to private information where the identity of an individual is or may readily be ascertained by the investigator or associated with the information. PII generally includes PHI and IPI.
+ Removal of PII from data imported into your workspace 
+PII broadly includes any information that can be used to trace the identity of an individual. Data elements may be considered PII due to various factors, such as information that is publicly known about individuals in the database.
+ The Health Insurance Portability and Accountability Act (HIPAA)’s Privacy Rule provides a broader guidance for “de-identifying” datasets for dissemination. The Privacy Rule recommends removing 18 specific data elements that could be used to identify an individual or their relatives within the dataset. These data elements include, but are not limited to: names, dates, addresses or geographic information smaller than the first three digits of the zip code, unique id numbers or codes such as social security numbers, medical record numbers, phone and fax numbers, biometric, photographs or comparable images, etc. Datasets with these data elements removed are considered ‘de-identified’ by HIPAA, provided the dataset is not known to have any additional information that could identify individuals within the dataset.
+ To maximize protection of participant privacy, the All of Us Research Program has incorporated our own privacy methodology into our data curation processes. In the Registered Tier data, we remove all explicit identifiers and apply additional measures, such as suppressing or generalizing additional variables considered quasi-identifiers based on re-identification risk. The privacy methodology applied for All of Us Registered Tier data is summarized below:
+ All explicit identifiers that could be used to identify individuals within the dataset or their relatives are removed. These include: 
+ Names
+ All unique IDs used for any purpose outside of the Researcher Workbench (e.g., participant ID, social security number, medical record number, phone and fax numbers, etc.)
+ IP addresses and URLs that could be linked to individuals
+ All dates are shifted back by a random number between 1 and 365
+ All free-text fields in surveys and full-text clinical notes removed
+ All geo-location data smaller than US state except EHR site removed
+ Demographic details 
+ Survey question on an individual’s living situation and active duty military status removed
+ Active duty military status
+ Diagnosis codes specifying cause of death and other conditions that may be subject to public knowledge removed
+ For additional information on the All of Us Research Program’s privacy methodology or to apply similar privacy protection principles to your data, see the resources listed below.
+ How All of Us protects participant privacy 
+ Education and employment generalizations 
+ Race and ethnicity generalizations 
+ State and site generalizations 
+ Please review our Data User Code of Conduct for further information.
+ What is the Resource Access Board (RAB)? 
+ The All of Us Resource Access Board (RAB) is the board charged with protecting the data that participants share.
+ The RAB has two roles: reviewing research projects to ensure compliance with the Data User Code of Conduct (DUCC) and helping researchers with questions about program policies. The RAB is composed of members with rich expertise in clinical research, bioethics, community-engaged research, and data privacy, as well as Participant Ambassadors. The RAB also draws on outside experts when needed.
+ How the RAB reviews workspaces 
+When researchers begin a project in the Researcher Workbench, they must create a workspace description, which is publicly available in the Research Project Directory . Each workspace description contains a field where anyone may request a review of a project through the directory. The RAB is responsible for reviewing these workspaces, either upon request or as part of a routine workspace audit.
+ After a review is initiated, the RAB will examine the workspace to determine whether there are any violations of the DUCC. This includes careful consideration whether projects may potentially be discriminatory or stigmatizing to any individuals, groups, or communities .
+ If there are no violations, the research may continue. If the RAB finds a violation or has concerns about a potential future violation, then they can take a number of actions, including requesting changes to the research. For serious violations, the RAB may also recommend that the program sanction the researcher, end the project, have the researcher’s account disabled, or take other measures as needed.
+ How the RAB provides guidance 
+In addition to conducting project reviews to ensure that researchers are complying with All of Us policies, the RAB is always available to assist researchers with compliance.
+ Researchers may contact the RAB directly at AOUResourceAccess@od.nih.gov with questions about complying with the Data User Code of Conduct and accompanying policies. This may include questions about crafting a meaningful workspace description, preventing stigmatizing research , complying with the Data and Statistics Dissemination Policy , or other topics. The RAB also reviews requests for exceptions from the DSD Policy, which researchers can submit through the Data and Statistics Dissemination Policy Exception Request Form .
+ For more information on the RAB, please see this article in Research Roundup .
+ To confirm that your research products are compliant with relevant program policies, please review the All of Us Publication, Presentation, and Poster checklist .
+ What happens if I ask the Resource Access Board to review my research purpose? 
+ You will still be able to create a workspace and begin your research. The Resource Access Board (RAB) will review your research and contact you if they have clarifying questions or guidance on how to alter your research purpose so that it does not stigmatize a particular population.
+ Please review our All of Us Research Program Stigmatizing Research Policy , All of Us Research Program Ethical Conduct of Research Policy , and All of Us Research Program User Appeals Policy for further information.
+ What happens if someone requests review of my research purpose on the All of Us Research Hub? 
+ If someone requests a review of your research purpose, the request will be routed to the program’s Resource Access Board (RAB). The RAB may contact you for clarifications or adjustment of your research purpose. If they are really concerned about your research, they may ask you to pause your work while they adjudicate the concern.
+ Please review our All of Us Research Program Stigmatizing Research Policy , All of Us Research Program Ethical Conduct of Research Policy , and All of Us Research Program User Appeals Policy for further information.
+ Can I run Artificial Intelligence (AI) or Machine Learning (ML) tools on All of Us participant data? 
+ Yes, you may use Artificial Intelligence (AI) or Machine Learning (ML) tools when working with All of Us Research Program data as long as the tools comply with and the users adhere to All of Us policies, including the Data User Code of Conduct (DUCC) and the Data and Statistics Dissemination (DSD) Policy . In general, All of Us does not constrain which analytical methods or tools are allowed, as long as use of those tools complies with all policy requirements .
+ Under the terms of the DUCC, authorized users are prohibited from downloading and/or removing participant-level data from the Researcher Workbench (RW); therefore, any use of AI and ML tools on participant-level data must take place within the All of Us environment. Authorized users may download summary statistics resulting from their analyses for use with AI and ML tools. Any upload to public tools, including Large Language Models (LLMs), constitutes dissemination and must comply with the rules outlined in the DSD Policy. 
+ Many AI and ML tools have corresponding R packages that are available to researchers within the RW. When relying on these or other tools, authorized users must ensure that they run only within the RW environment (e.g., as code or software downloaded and run on a virtual machine, with no interaction with an outgoing API via the installed tool). 
+ Can I connect to external Artificial Intelligence (AI) or Machine Learning (ML) services from the Researcher Workbench? 
+ Only under limited circumstances.
+ Any data transfer out of the Researcher Workbench environment, whether to a user's device or to a third-party service such as an Artificial Intelligence (AI) or Machine Learning (ML) API, must comply with the Data User Code of Conduct (DUCC) and all other All of Us policies .
+ Take this example. You may not send individual-level data on a number of participants to the ChatGPT API and ask it to summarize their medical histories. However, if you have a collection of aggregated data that would be permissible to export and download, those summary statistics can be sent to the ChatGPT API for analysis as long as they comply with the Data and Statistics Dissemination Policy . That is, any upload to a public instance of ChatGPT may not reveal participant counts of less than 20.
+ Note: ChatGPT is used here as an example; the DUCC treats all external destinations identically, and transit of individual-level data to any external system is considered a DUCC violation, even if the data is not stored or used.
+ If I train a model in the Researcher Workbench, can I download and/or export that model for use elsewhere? 
+ At this time, you cannot export models trained on participant-level data. NIH prohibits the download and dissemination of generative AI models trained on genomic data and its derivatives (see NOT-OD-25-81 ). The program is still in the process of working with agency and departmental leadership to determine appropriate boundaries around the download and dissemination of AI/ML models trained on other types of sensitive participant data.
+ If you train your model on summary data that complies with the Data and Statistics Dissemination Policy , (i.e., data that does not reveal participant counts of less than 20), you may export your model.
+ Please email support@researchallofus.org if you have additional questions about what is allowed.
+ I’m still unsure whether my planned use of Artificial Intelligence (AI) or Machine Learning (ML) tools is compliant with the All of Us Data User Code of Conduct (DUCC) and other policies. How should I proceed? 
+ We recommend using a preinstalled tool on the Researcher Workbench when possible. When installing a different compatible Artificial Intelligence (AI) or Machine Learning (ML) tool, you are responsible for ensuring your use of the tool does not violate the Data User Code of Conduct or other All of Us policies.
+ We suggest reviewing the “Read Me” file and other available details of how the tool works to ensure it does not involve an external API or otherwise exports participant-level data out of the Researcher Workbench. Remember that uploading data to a public AI or ML tool constitutes public dissemination, and any upload of summary statistics must be compliant with the Data and Statistics Dissemination Policy .
+ If you train a model on All of Us participant-level data, you may not download or disseminate it at this time.
+ If you have questions, you may reach out to the Researcher Workbench support team for help, but you are ultimately responsible for the tools you import and any data you download from the RW.
+ What are data collection policies shown on the Researcher Workbench, and how are these different from All of Us data access and use policies? 
+ Data collections are curated datasets published in Verily Pre, the platform that powers the Researcher Workbench. There is currently one All of Us data collection available in this new Workbench: “ All of Us Registered Tier". The “ All of Us Controlled Tier” will be provided in a subsequent release. These two data collections are synonymous with the curated datasets available in the legacy Researcher Workbench. When you log in to the Researcher Workbench using your @researchallofus.org username, you will automatically be provided access to any All of Us data collections for which you have completed the associated access requirements. The same data access requirements that you are familiar with from the legacy Researcher Workbench (e.g., ID verification, Responsible Conduct of Research Training, Data User Code of Conduct attestation, etc.) are in place for gaining access to these data collections.
+ All data collections available through Verily Pre, including the All of Us Researcher Workbench data collections, come with data collection policies- that explicitly delineate built-in technical parameters to enforce data access and use restrictions. The same parameters were in place for All of Us data on the legacy Researcher Workbench, too, but they were not named or presented in the same way. These technical parameters, for which Verily Pre broadly uses the term ‘policy,’ are distinct from the All of Us data access and use policies that you are already familiar with, which outline the program’s rules for access to and use of All of Us data on the Researcher Workbench. These All of Us policies have not changed, and researchers are still responsible for reviewing and complying with them independent from the data collection policies. The full list of data use and researcher policies can be viewed on this page .
+ How do I comply with All of Us policies when using GitRepo on the Researcher Workbench? 
+ GitRepo (Git repository) is intended for tracking and managing changes of code, scripts, and documentation, enabling version control. GitRepo is hosted outside of the Researcher Workbench and could be accessible outside of the Researcher Workbench by anyone with permissions to that repository. Please note that it would be a violation of the All of Us Data User Code of Conduct and Data and Statistics Dissemination Policy to share any participant-level data or direct participant counts of fewer than 20 outside of the Researcher Workbench. Therefore, to remain in compliance with All of Us policies, researchers should ensure that no participant-level data or counts of <20 (direct or inferable) are included in the code, scripts, or documentation included in the GitRepo when using GitRepo in their workspace. This includes in the outputs of the code or embedded into the code as comments or filters. Please be sure to go over your code and clear the outputs before including in GitRepo.
+ What are considerations when it comes to downloading and disseminating allele counts? 
+ Since there are two alleles per person, allele counts of less than 40 are not to be disseminated outside of the workbench. Counts less than 40 can be represented as "<40".
+ Registration & Account Questions
+ What is included in the All of Us Responsible Conduct of Research Training? 
+ The Responsible Conduct of Research Training includes information about the All of Us Research Program, ethical requirements regarding protecting participants in research, details about research security, and more.
+ COURSE I: ALL OF US RESEARCH PROGRAM: Provides a general overview of the All of Us Research Program and the use of its data resources. Researchers will learn about key elements of data access and user requirements.
+ COURSE II: RESPONSIBLE CONDUCT OF RESEARCH: Provides an overview of ethical requirements regarding the protection of human participants in research, research misconduct and behaviors that can compromise research integrity, and requirements for safeguarding All of Us Research Program data. Researchers will learn that research about subgroups can potentially be stigmatizing. Researchers will also learn that they need to understand the populations and/or groups they choose to study well enough to identify topics that are potentially sensitive.
+ COURSE III: RESEARCH SECURITY AND PRIVACY PROTECTIONS: Provides awareness training in understanding basic principles of data security and privacy statutes and recognizing national standards to protect individuals’ medical records and other personal health information, including electronic personal health information. Researchers will learn about the importance of protecting All of Us data and data shared by participants.
+ What options do I have if I am having issues verifying my identity? 
+ All researchers who want to use the All of Us Researcher Workbench need to verify their identity through Login.gov or ID.me .
+ Researchers who live in the United States, have a social security number (SSN), and have a valid U.S. government-issued ID (e.g., U.S. territory- or state-issued ID) can use Login.gov for identity verification . Otherwise, you must use ID.me.
+ If you are attempting ID verification either via Login.gov or ID.me and are having any issues, review our support article on identity verification where we provide a step by step process of both services.
+ If you're still having issues, email the Researcher Workbench support team at support@researchallofus.org .
+ Why is my email getting an error when creating an account? 
+ As part of your institution's Data Use and Registration Agreement (DURA), your institution provides the All of Us Researcher Workbench access team with a list of accepted email domains.
+ When you create a Researcher Workbench account, you will be prompted to provide your institutional email address, which includes your institution’s unique email domain (e.g., vumc.org).
+ If you receive an error when creating your Researcher Workbench account, you will first need to check the email address that you entered (i.e., check that your email domain is unique to your institution and is spelled correctly). If so and you are still experiencing an error, email the Researcher Workbench support team at support@researchallofus.org .
+ What do I need to do to complete annual renewal for my Researcher Workbench account? 
+ Once a year, you are required to complete three steps to maintain your access to the Researcher Workbench and the All of Us dataset:
+ Complete refresher modules of the Responsible Conduct of Research Training .
+ Re-attest to the Data User Code of Conduct .
+ Update and/or confirm personal contact information and institutional affiliation.
+ How do I change which institution I’m affiliated with on my Researcher Workbench account? 
+ You may move on to study or work with other institutions while still analyzing data in the Researcher Workbench. Any researcher that needs to update their institutional affiliation in the Researcher Workbench can do so by contacting the Researcher Workbench support team.
+ Before requesting to change your institutional affiliation, please review the following steps.
+ Confirm that your research and workspace collaborators have what they need to continue their analysis.
+If simply changing institutions, workspaces can continue being shared with collaborators from other institutions. However, if you leave your institution without the intention of continuing research in the Researcher Workbench, your researcher account may be disabled by your institutional contact. If your account is disabled, the workspaces that you own will be inaccessible until you establish affiliation with another institution in the Researcher Workbench. Therefore, you should encourage your collaborators to copy the workspace(s) you own as needed, if you would like your collaborators to continue the analysis. Alternatively, prior to leaving an institution, you can work with your team to designate a co-owner of your workspaces.
+ Check if your new institution is listed on the All of Us Research Hub’s Registered Institutions page. If your new institution is not listed, you can request access on behalf of your institution via the Data Use and Registration Agreement (DURA) request form.
+You should know that if you have access to the Registered and Controlled Tiers at your former institution, it does not guarantee that you have access to both tiers at your new institution. Some institutions may require further approval prior to providing access to researchers during the registration process. Since those who want to change institutional affiliations are already registered researchers, they may be required to complete further steps for their new institution prior to regaining full access.
+ Reach out to the support team at support@researchallofus.org to change your institutional affiliation after you confirm your new institution has an existing DURA or has signed a DURA.
+The support team will need the name of the new institution, your new institutional email address, and your new role to update your account.
+ Reach out to your former institutional contact located on the Registered Institutions page and let them know that you are no longer associated with their institution in the Researcher Workbench.
+ Workbench Tools
+ What information about me is displayed publicly on the All of Us Research Hub as a researcher? 
+ In compliance with the 21st Century Cures Act and for transparency with All of Us Research Program participants, All of Us discloses the identities of researchers who have access to the All of Us data.
+ Your first and last name, institutional affiliation, role, researcher bio, and link to your professional profile, if provided, will be displayed on the Research Project Directory of the Research Hub. Aspects of your workspace description will also be displayed on the Research Projects Directory. Read about writing your workspace description .
+ Note: this information will also be posted on the National Institutes of Health’s All of Us site to comply with the 21st Century Cures Act.
+ How do I select my data access tier in the All of Us Researcher Workbench? 
+ Depending on their access level, registered researchers are able to access the Registered Tier dataset and the Controlled Tier dataset within the Researcher Workbench.
+ The Registered Tier contains individual-level data and currently includes data from electronic health records (EHRs), wearables, surveys, and physical measurements taken at the time of participant enrollment. These data have been altered to protect participant privacy.
+ The Controlled Tier requires a registered researcher to complete an additional training prior to gaining access. This additional step is required since the Controlled Tier includes genomic data, additional demographic information from EHRs, and survey answers that are suppressed or generalized in the Registered Tier, and therefore, need additional security in place to protect participant privacy.
+ Read the participant privacy protections for additional information, including the differences between what data are included, generalized, and suppressed in the Registered Tier and Controlled Tier.
+ When creating a new workspace in the Researcher Workbench, you can select which data access tier you want to access for your workspace (i.e., Registered Tier or Controlled Tier).
+ Note: Workspaces created using Controlled Tier data can only be shared with other researchers with access to the Controlled Tier dataset.
+ Read about creating a workspace for additional information on selecting your data access tier and dataset version.
+ Can I duplicate a workspace from the Registered Tier to the Controlled Tier? 
+ Because different tiers have different access rules and data features, duplicating a workspace from one tier to the other is not allowed.
+ In most cases, notebooks written using Registered Tier data will work in the Controlled Tier, but some modifications may be required.
+ What happens to my data if I delete my workspace? 
+ All data tied to your workspace will be deleted and will not be able to be recovered.
+ Note: If you delete a shared workspace, you will be deleting this workspace for everyone collaborating on the workspace.
+ Can I share my Controlled Tier workspace with someone who does not have access to the Controlled Tier? 
+ No. You can only share workspaces utilizing the Controlled Tier dataset with researchers who are approved to access the Controlled Tier dataset.
+ To gain access to the Controlled Tier dataset, the researcher’s institution needs to have provisioned access to that specific tier and the researcher must complete an additional training step.
+ Can I share bucket files between different workspaces? 
+ You are capable of copying files from one workspace notebook to another workspace’s workspace bucket. You are also able to copy files from one workspace bucket to another workspace bucket in a different workspace using gsutil.
+ Note: The workspaces must share the same data tier access level. For example, you can only access bucket files derived from Controlled Tier workspaces using another Controlled Tier workspace.
+ What is a workspace bucket? How do I access it and copy data to and from it? 
+ The All of Us Researcher Workbench is a cloud application. Each workspace has a permanent storage area called the “workspace bucket” within the Google Cloud Platform (GCP).
+ The workspace bucket is attached to your workspace, if you delete the workspace, you delete the bucket. If you share the workspace with your colleagues, you will share the workspace bucket.
+ Working with the Data
+ How do I find participant enrollment data? 
+ As a researcher, you may be interested in the date someone enrolled into the All of Us Research Program as a data contributing participant. The best data point to use is the observation_date when they granted primary consent to the program. NOTE: primary consent is different from Electronic Health Record (EHR) consent which can be granted at a later date.  Using primary_consent_date as a proxy for enrollment date, the below SQL will pull this date for all participants. You can then merge this dataframe with others using person_id as the shared variable. 
+ NOTE: Before running the code below, your environment variables (e.g., WORKSPACE_CDR) will need to be created first. Environment variables are not automatically created in the Researcher Workbench, powered by Verily Pre. Please run the notebooks found in the "Getting Started with Verily Workbench" folder within the Featured Workspaces to set up your environment variables. You can preview the Featured Workspace notebooks using the browse feature in the Researcher Workbench. 
+ Using R 
+ library(bigrquery)
+library(tidyverse)
+download_data <- function(query) {
+tb <- bq_project_query(Sys.getenv('GOOGLE_PROJECT'), query = query, default_dataset = Sys.getenv('WORKSPACE_CDR'))
+bq_table_download(tb)
+}
+DATASET <- Sys.getenv('WORKSPACE_CDR')
+df = download_data(str_glue("SELECT DISTINCT
+person_id,
+MIN(observation_date) AS primary_consent_date
+FROM `{DATASET}.concept`
+JOIN `{DATASET}.concept_ancestor` on concept_id = ancestor_concept_id
+JOIN `{DATASET}.observation` on descendant_concept_id = observation_concept_id
+WHERE concept_name = 'Consent PII' AND concept_class_id = 'Module'
+GROUP BY 1"))
+head(df) 
+ Using Python 
+ import pandas as pd
+DATASET = %env WORKSPACE_CDR
+df = pd.read_gbq(f'''
+SELECT DISTINCT person_id, MIN(observation_date) AS primary_consent_date
+FROM `{DATASET}.concept`
+JOIN `{DATASET}.concept_ancestor` on concept_id = ancestor_concept_id
+JOIN `{DATASET}.observation` on descendant_concept_id = observation_concept_id
+WHERE concept_name = 'Consent PII' AND concept_class_id = 'Module'
+GROUP BY 1''')
+df.head()

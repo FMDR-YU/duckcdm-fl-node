@@ -1,0 +1,9 @@
+seed,variant,target,max_abs_dp,label_agree,bytes_total,formats,pickle_used_on_load,files
+42,xgb_krcp,A_0,0.0,1.0,3028483,json,False,xgb.json:821466981056
+42,xgb_krcp,B1_0,0.0,1.0,1613709,json,False,xgb.json:0b6a09787e3e
+42,xgb_krcp,F_B1,0.0,1.0,3043214,json,False,xgb.json:f2894ea22266
+42,xgb_leaky,A_0,0.0,1.0,36922031,json,False,xgb.json:a8f58d4f2588
+42,xgb_leaky,B1_0,0.0,1.0,3629381,json,False,xgb.json:3e35d118ff70
+42,xgb_regularized,A_0,0.0,1.0,613812,json,False,xgb.json:1362cbf52737
+42,xgb_regularized,B1_0,0.0,1.0,524070,json,False,xgb.json:8a749a49a71d
+42,xgb_regularized,F_B1,0.0,1.0,611301,json,False,xgb.json:6a00fd2c7877

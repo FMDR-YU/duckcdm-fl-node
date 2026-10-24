@@ -2024,3 +2024,8 @@ all steps done -> analysis/snuh_pilot/out/
 done -> analysis\snuh_pilot\out\eicu_h3a_xgb\06_summary.md
 [06_summarize.py] done in 0.0 min
 all steps done -> analysis/snuh_pilot/out/
+=== run_pilot eicu tag=h3a model=xgb 2026-10-20 23:54 from 06
+[06_summarize.py] start 23:54
+done -> analysis\snuh_pilot\out\eicu_h3a_xgb\06_summary.md
+[06_summarize.py] done in 0.0 min
+all steps done -> analysis/snuh_pilot/out/
